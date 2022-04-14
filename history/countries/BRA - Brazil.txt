@@ -1,6 +1,6 @@
 capital = 10193
-government = right_wing_republic
-ideology = reactionarism
+government = right_wing_autocrat
+ideology = conservatism
 head_of_state = 34001
 head_of_government = 34001
 foreign_minister = 34003

@@ -1,6 +1,6 @@
 capital = 5315
-government = imperial
-ideology = reactionarism
+government = imperial_fascism
+ideology = generical_fascism
 head_of_state = 5001
 head_of_government = 5002
 foreign_minister = 5003

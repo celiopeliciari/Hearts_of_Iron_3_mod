@@ -1,5 +1,5 @@
 capital = 4549
-government = fascist_government
+government = regno_d_italia
 ideology = generical_fascism
 head_of_state = 3001
 head_of_government = 3002
