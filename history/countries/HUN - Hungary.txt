@@ -214,7 +214,7 @@ civil_law = legalistic_restrictions
 	oob = "HUN_1944.txt"
 }
 1944.10.15 = {
-	government = fascist_republic
+	government = fascist_government
 	ideology = generical_fascism
 	alignment = { x = 200 y = 200.0 }
 	popularity = { 

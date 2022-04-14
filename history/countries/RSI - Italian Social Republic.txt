@@ -1,5 +1,5 @@
 capital = 3559
-government = fascist_republic
+government = fascist_government
 ideology = generical_fascism
 alignment = { x = 200 y = 200.0 }
 neutrality = 0

@@ -120,9 +120,9 @@ research_specialist;Research Specialist;Chercheur;Forschungsspezialist;;Especial
 ##################################################;;;;;;;;;;;;;;x
 # Government Types;;;;;;;;;;;;;;x
 ##################################################;;;;;;;;;;;;;;x
-national_socialism;National Socialism;National-socialisme;Nationalsozialismus;;Nacionalsocialismo;;;;;;;;;x
-fascist_republic;Fascist Republic;République fasciste;Faschistische Republik;;República fascista;;;;;;;;;x
-germanic_fascist_republic;Fascist Republic;République fasciste;Faschistische Republik;;República fascista;;;;;;;;;x
+german_reich;German Reich;;;;;;;;;x
+fascist_government;Fascist Government;;;;;;;;;x
+germanic_fascist_government;German Fascist Government;;;;;;;;;x
 right_wing_autocrat;Right-Wing Autocracy;Autocratie de droite;Rechtsgerichtete Alleinherrschaft;;Autocracia de derechas;;;;;;;;;x
 right_wing_republic;Right-Wing Republic;République de droite;Rechtsgerichtete Republik;;República de derechas;;;;;;;;;x
 hungarian_right_wing_republic;Right-Wing Republic;République de droite;Rechtsgerichtete Republik;;República de derechas;;;;;;;;;x

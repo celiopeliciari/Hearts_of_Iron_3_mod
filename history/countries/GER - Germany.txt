@@ -1,5 +1,5 @@
 capital = 1861
-government = national_socialism
+government = german_reich
 ideology = nazism
 head_of_state = 1
 head_of_government = 2

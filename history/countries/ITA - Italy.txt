@@ -1,5 +1,5 @@
 capital = 4549
-government = fascist_republic
+government = fascist_government
 ideology = generical_fascism
 head_of_state = 3001
 head_of_government = 3002
