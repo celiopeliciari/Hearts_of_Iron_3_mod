@@ -1,0 +1,7 @@
+division = 	{
+	name = "80th Division La Spezia"
+	location = 5445
+	regiment = { type = paratrooper_brigade name = "125° Rgt.Fanteria (La Spezia)" historical_model = 2 }
+	regiment = { type = paratrooper_brigade name = "126° Rgt.Fanteria (La Spezia)" historical_model = 2 }
+
+		}

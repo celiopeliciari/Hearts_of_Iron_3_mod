@@ -1,0 +1,58 @@
+capital = 2372
+government = social_democracy
+ideology = social_democracy
+alignment = { x = 20 y = -76.8 }
+neutrality = 95
+national_unity = 80
+schwerpunkt = 0
+blitzkrieg = 0
+mobile_warfare = 0
+elastic_defence = 0
+operational_level_command_structure = 0
+tactical_command_structure = 0
+mechanized_offensive = 0
+delay_doctrine = 0
+integrated_support_doctrine = 0
+infantry_warfare = 1
+special_forces = 0
+assault_concentration = 1
+central_planning = 0
+mass_assault = 1
+peoples_army = 1
+large_front = 0
+guerilla_warfare = 0
+operational_level_organisation = 0
+
+popularity = { 
+	nazism = 2
+	generical_fascism = 0
+	reactionarism = 9
+	conservatism = 47
+	liberalism = 0
+	social_liberalism = 3
+	social_democracy = 33
+	marxism = 0
+	trotskyism = 6
+	stalinism = 0
+}
+
+organization = { 
+	nazism = 10
+	generical_fascism = 0
+	reactionarism = 25
+	conservatism = 70
+	liberalism = 0
+	social_liberalism = 15
+	social_democracy = 55
+	marxism = 0
+	trotskyism = 25
+	stalinism = 0
+}
+
+training_laws = basic_training
+press_laws = free_press
+industrial_policy_laws = mixed_industry
+education_investment_law = medium_large_education_investment
+economic_law = full_civilian_economy
+conscription_law = volunteer_army
+civil_law = open_society

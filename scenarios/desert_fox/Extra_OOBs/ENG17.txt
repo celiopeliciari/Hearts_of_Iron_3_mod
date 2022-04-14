@@ -1,0 +1,7 @@
+division = {
+	name = "78th (Battleaxe) Infantry Division"
+	location = 5412
+	regiment = { type = motorized_brigade name = "1st (Guards) Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "11th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "36th Infantry Brigade" historical_model = 2 }
+	}

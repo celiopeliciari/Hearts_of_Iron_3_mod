@@ -1,0 +1,18 @@
+division = {
+	name = "5th South African Infantry Brigade"
+	location = 5586
+	regiment = { type = motorized_brigade name = "5th South African Infantry Brigade" historical_model = 2 }
+		}
+division = 	{
+	name = "4th Indian Infantry Division"
+	location = 5586
+	regiment = { type = infantry_brigade name = "5th Indian Infantry Brigade" historical_model = 2 }
+	regiment = { type = infantry_brigade name = "7th Indian Infantry Brigade" historical_model = 2 }
+	regiment = { type = infantry_brigade name = "11th Indian Infantry Brigade" historical_model = 2 }
+		}
+division = {
+	name = "7th Australian Infantry Division"
+	location = 5586
+	regiment = { type = infantry_brigade name = "21st Australian Infantry Brigade" historical_model = 2 }
+	regiment = { type = infantry_brigade name = "25th Australian Infantry Brigade" historical_model = 2 }
+	}

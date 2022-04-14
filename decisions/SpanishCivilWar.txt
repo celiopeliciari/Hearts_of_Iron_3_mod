@@ -1,0 +1,345 @@
+####################
+# Republican Spain #
+####################
+diplomatic_decisions = {
+
+	# French Historical Intervention
+	spanish_civil_war_french_intervention = {
+		potential = {
+			tag = FRA
+			not = { has_country_flag = french_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPA }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			not = { government = german_reich }
+			not = { government = regno_d_italia }
+			not = { government = germanic_fascist_government }
+			not = { government = right_wing_government }
+			not = { dissent = 1 }
+			popularity = 50
+			organisation = 50
+			not = { war_with = SPR }
+			not = { war_with = SOV }
+			not = { war_with = ENG }
+			not = { war_with = USA }
+		}
+		effect = {
+			set_country_flag = french_intervention_spanish_civil_war
+			relation = { who = SPR value = 10 }
+			relation = { who = SPA value = -5 }
+			relation = { who = GER value = -2 }
+			relation = { who = ITA value = -2 }
+			relation = { who = POR value = -2 }
+			neutrality = -2
+			manpower = -2 #1 from multi-role #1 from interceptor
+			SPR = { country_event = 2007 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# French non-historical intervention
+	large_spanish_civil_war_french_intervention = {
+		potential = {
+			tag = FRA
+			has_country_flag = french_intervention_spanish_civil_war
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPA }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			not = { government = german_reich }
+			not = { government = regno_d_italia }
+			not = { government = germanic_fascist_government }
+			not = { government = right_wing_government }
+			not = { dissent = 1 }
+			popularity = 60
+			organisation = 60
+			not = { war_with = SPR }
+			not = { war_with = SOV }
+			not = { war_with = ENG }
+			not = { war_with = USA }
+		}
+		effect = {
+			set_country_flag = large_french_intervention_spanish_civil_war
+			relation = { who = SPR value = 75 }
+			relation = { who = SPA value = -50 }
+			relation = { who = GER value = -20 }
+			relation = { who = ITA value = -20 }
+			relation = { who = POR value = -20 }
+			relation = { who = SOV value = 20 }
+			neutrality = -25
+			SPR = { country_event = 20070 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Mexican Historical Intervention
+	spanish_civil_war_mexican_intervention = {
+		potential = {
+			tag = MEX
+			not = { has_country_flag = mexican_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPA }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			not = { government = german_reich }
+			not = { government = regno_d_italia }
+			not = { government = germanic_fascist_government }
+			not = { government = right_wing_government }
+			not = { dissent = 1 }
+			popularity = 50
+			organisation = 50
+			not = { war_with = SPR }
+			not = { war_with = SOV }
+			not = { war_with = FRA }
+			not = { war_with = USA }
+		}
+		effect = {
+			set_country_flag = mexican_intervention_spanish_civil_war
+			relation = { who = SPR value = 5 }
+			relation = { who = SPA value = -3 }
+			relation = { who = GER value = -1 }
+			relation = { who = ITA value = -1 }
+			relation = { who = POR value = -1 }
+			neutrality = -1
+			money = -250
+			supplies = -100
+			SPR = { country_event = 2008 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Soviet Historical Intervention
+	spanish_civil_war_russian_intervention = {
+		potential = {
+			tag = SOV
+			not = { has_country_flag = russian_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPA }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			not = { government = german_reich }
+			not = { government = regno_d_italia }
+			not = { government = germanic_fascist_government }
+			not = { government = right_wing_government }
+			not = { war_with = SPR }
+			not = { war_with = ENG }
+			not = { war_with = FRA }
+			not = { war_with = USA }
+		}
+		effect = {
+			set_country_flag = russian_intervention_spanish_civil_war
+			relation = { who = SPR value = 50 }
+			relation = { who = SPA value = -25 }
+			relation = { who = GER value = -10 }
+			relation = { who = ITA value = -10 }
+			relation = { who = POR value = -10 }
+			neutrality = -5
+			manpower = -14 # 7 from interceptors # 2,33 from tanks # 2,66 from artillery # 1,33 from engineers
+			SPR = { country_event = 2009 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Soviet non-Historical Intervention
+	large_spanish_civil_war_russian_intervention = {
+		potential = {
+			tag = SOV
+			has_country_flag = russian_intervention_spanish_civil_war
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPA }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			not = { government = german_reich }
+			not = { government = regno_d_italia }
+			not = { government = germanic_fascist_government }
+			not = { government = right_wing_government }
+			
+			not = { dissent = 1 }
+			popularity = 60
+			organisation = 60
+			not = { war_with = SPR }
+			not = { war_with = FRA }
+			not = { war_with = ENG }
+			not = { war_with = USA }
+		}
+		effect = {
+			set_country_flag = large_russian_intervention_spanish_civil_war
+			relation = { who = SPR value = 75 }
+			relation = { who = SPA value = -50 }
+			relation = { who = GER value = -20 }
+			relation = { who = ITA value = -20 }
+			relation = { who = POR value = -20 }
+			relation = { who = FRA value = 10 }
+			neutrality = -25
+			SPR = { country_event = 20195 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	#####################
+	# Nationalist Spain #
+	#####################
+	# Germany Historical Intervention
+	spanish_civil_war_german_intervention = {
+		potential = {
+			tag = GER
+			not = { has_country_flag = german_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPR }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			or = {
+				government = german_reich
+				government = regno_d_italia
+				government = germanic_fascist_government
+				government = right_wing_government
+				government = absolute_monarchy
+				government = imperial
+				government = constitutional_monarchy
+				government = social_conservatism
+				government = spanish_social_conservatism
+			}
+			not = { war_with = SPA }
+		}
+		effect = {
+			set_country_flag = german_intervention_spanish_civil_war
+			relation = { who = SPA value = 50 }
+			relation = { who = SPR value = -25 }
+			relation = { who = SOV value = -10 }
+			relation = { who = ENG value = -5 }
+			relation = { who = FRA value = -5 }
+			relation = { who = POR value = 10 }
+			relation = { who = ITA value = 10 }
+			neutrality = -5
+			supplies = -2391
+			money = -50
+			manpower = -20
+			SPA = { country_event = 2010 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Italy Historical Intervention
+	spanish_civil_war_italian_intervention = {
+		potential = {
+			tag = ITA
+			not = { has_country_flag = italian_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPR }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			or = {
+				government = german_reich
+				government = regno_d_italia
+				government = germanic_fascist_government
+				government = right_wing_government
+				government = absolute_monarchy
+				government = imperial
+				government = constitutional_monarchy
+				government = social_conservatism
+				government = spanish_social_conservatism
+			}
+			not = { war_with = SPA }
+		}
+		effect = {
+			set_country_flag = italian_intervention_spanish_civil_war
+			relation = { who = SPA value = 50 }
+			relation = { who = SPR value = -25 }
+			relation = { who = SOV value = -10 }
+			relation = { who = ENG value = -5 }
+			relation = { who = FRA value = -5 }
+			relation = { who = POR value = 10 }
+			relation = { who = GER value = 10 }
+			neutrality = -5
+			supplies = -300
+			manpower = -55 # 4 from interceptor # 3,6 from tactical bomber # 4 from transport plane # 9,99 from motorized # 1,33 from artillery # 3,33 from infantry # 28 from militia
+			SPA = { country_event = 2011 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Portugal Historical Intervention
+	spanish_civil_war_portuguese_intervention = {
+		potential = {
+			tag = POR
+			not = { has_country_flag = portuguese_intervention_spanish_civil_war }
+			exists = SPA
+			exists = SPR
+			SPA = { war_with = SPR }
+			not = { alliance_with = SPR }
+			SPR = { not = { faction = axis } }
+			SPA = { not = { faction = allies } }
+		}
+		allow = {
+			or = {
+				government = german_reich
+				government = regno_d_italia
+				government = germanic_fascist_government
+				government = right_wing_government
+				government = absolute_monarchy
+				government = imperial
+				government = constitutional_monarchy
+				government = social_conservatism
+				government = spanish_social_conservatism
+			}
+			not = { war_with = SPA }
+		}
+		effect = {
+			set_country_flag = italian_intervention_spanish_civil_war
+			relation = { who = SPA value = 50 }
+			relation = { who = SPR value = -25 }
+			relation = { who = SOV value = -10 }
+			relation = { who = ENG value = -5 }
+			relation = { who = FRA value = -5 }
+			relation = { who = ITA value = 10 }
+			relation = { who = GER value = 10 }
+			neutrality = -5
+			SPA = { country_event = 2012 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

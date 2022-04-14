@@ -1,0 +1,86 @@
+theatre = {
+	name ="OKH"
+	location = 1972
+	#leader = 
+	regiment = { type = hq_brigade name = "OKH HQ" historical_model = 0 }
+		armygroup = {
+		name ="Armeegrupp 1"
+		location = 1972
+		leader = 324 #von Manstein
+		regiment = { type = hq_brigade name = "Supreme Headquarters HQ" historical_model = 0 }
+			army = {
+			name ="1. Armee"
+			location = 1972
+			#leader = 
+			regiment = { type = hq_brigade name = "Supreme Headquarters HQ" historical_model = 0 }
+				corps = {
+				name ="Korps 1"
+				location = 1972
+				#leader = 
+				regiment = { type = hq_brigade name = "Supreme Headquarters HQ" historical_model = 0 }
+					division= {
+					name = "89. Infanterie-Division"
+					location = 1918
+					dig_in = 10
+					regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 208" historical_model = 4 }
+					regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 212" historical_model = 2 }
+					regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 226" historical_model = 2 }
+					}
+					division= {
+						name = "176. Infanterie-Division"
+						location = 1918
+						dig_in = 10
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 208" historical_model = 4 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 212" historical_model = 2 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 226" historical_model = 2 }
+					}
+					division= {
+						name = "373. Infanterie-Division"
+						location = 1918
+						dig_in = 10
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 208" historical_model = 4 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 212" historical_model = 2 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 226" historical_model = 2 }
+					}
+					division= {
+						name = "387. Infanterie-Division"
+						location = 1918
+						dig_in = 10
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 208" historical_model = 4 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 212" historical_model = 2 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 226" historical_model = 2 }
+					}
+				}
+				corps = {
+				name ="Korps 2"
+				location = 1972
+				#leader = 
+				regiment = { type = hq_brigade name = "Supreme Headquarters HQ" historical_model = 0 }
+					division= {
+						name = "306. Infanterie-Division"
+						location = 1973
+						dig_in = 10
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 208" historical_model = 4 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 212" historical_model = 2 }
+						regiment = { type = infantry_brigade experience = 50 name = "Grenadier Regiment 226" historical_model = 2 }
+					}
+					division= {
+						name = "3. Panzergrenadier-Division"
+						location = 1973
+						dig_in = 10
+						regiment = { type = light_armor_brigade experience = 80 name = "Panzer-Regiment 103" historical_model = 4 }
+						regiment = { type = mechanized_brigade experience = 80 name = "Panzergrenadier Regiment 8" historical_model = 2 }
+						regiment = { type = mechanized_brigade experience = 80 name = "Panzergrenadier Regiment 29" historical_model = 2 }
+					}
+					division= {
+						name = "4. Panzergrenadier-Division"
+						location = 1973
+						dig_in = 10
+						regiment = { type = light_armor_brigade experience = 80 name = "Panzer-Regiment 103" historical_model = 4 }
+						regiment = { type = mechanized_brigade experience = 80 name = "Panzergrenadier Regiment 8" historical_model = 2 }
+						regiment = { type = mechanized_brigade experience = 80 name = "Panzergrenadier Regiment 29" historical_model = 2 }
+					}
+				}
+			}
+		}
+	}

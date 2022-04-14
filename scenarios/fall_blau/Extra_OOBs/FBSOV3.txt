@@ -1,0 +1,190 @@
+	division= {
+			name = "87. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "187. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "199. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "49. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "231. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "296. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "147. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "181. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "184. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "87. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "192. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = light_armor_brigade historical_model = 2 }
+			}
+	division= {
+			name = "196. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "301. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "308. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = light_armor_brigade historical_model = 2 }
+			}
+	division= {
+			name = "126. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "127. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "135. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = artillery_brigade historical_model = 2 }
+			}
+	division= {
+			name = "197. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "203. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = artillery_brigade historical_model = 2 }
+			}
+	division= {
+			name = "139. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "145. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "146. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = artillery_brigade historical_model = 2 }
+			}
+	division= {
+			name = "258. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			}
+	division= {
+			name = "306. Strelkovaya Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = anti_tank_brigade historical_model = 2 }
+			}
+	division= {
+			name = "33. Gvardeyska Strelk. Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = sp_rct_artillery_brigade historical_model = 2 }
+			}
+	division= {
+			name = "14. Gvardeyska Strelk. Diviziya"
+			location = 2068 
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = sp_rct_artillery_brigade historical_model = 2 }
+			}

@@ -1,0 +1,7 @@
+	air = {
+	expeditionary_owner = GER
+	name = "ZG26"
+	base = 5445
+	location = 5445
+	wing = { type = tactical_bomber name = "Kampfgeschwader 54" historical_model = 1 }
+	}

@@ -1,0 +1,131 @@
+theatre = {
+	name = "Comando Superiore Africa"
+	location = 5445
+	leader = 6077 # Gariboldi
+	regiment = { type = hq_brigade name = "Comando Superiore Africa HQ" historical_model = 0 }
+	armygroup= {
+		name = "Gruppo d'Armata Libico"
+		location = 5506
+		leader = 6077 # Gariboldi
+		regiment = { type = hq_brigade name = "Gruppo d'Armata Libico HQ" historical_model = 0 }
+		army = {
+			expeditionary_owner = GER
+			name = "Panzergruppe 'Afrika'"
+			location = 5506
+			leader = 230 # Rommel
+			regiment = { type = hq_brigade name = "Panzergruppe 'Afrika' HQ" historical_model = 0 }
+			corps = {
+				expeditionary_owner = GER
+				name = "Deutsches Afrika-Korps"
+				location = 5506
+				leader = 43 # Crüwell
+				regiment = { type = hq_brigade name = "Deutsches Afrika-Korps HQ" historical_model = 0 }		
+				division= {
+					expeditionary_owner = GER
+					name = "15. Panzer-Division"
+					location = 5506
+					leader = 331 # von Prittwitz und Gaffron
+					regiment = { type = armor_brigade name = "Panzer Regiment 8" historical_model = 2 }
+					regiment = { type = motorized_brigade name = "Schützen Regiment 115" historical_model = 1 }
+				}
+				division= {
+					expeditionary_owner = GER
+					name = "5. Leichte-Division"
+					location = 5506
+					leader = 37 # Böttcher
+					regiment = { type = armor_brigade name = "Panzer Regiment 5" historical_model = 2 }
+					regiment = { type = motorized_brigade name = "Schützen Regiment 104" historical_model = 1 }
+				}
+			}
+			corps = {
+				name = "XXI Corpo d'Armata"
+				location = 5552
+				leader = 6267 # Navarini
+				regiment = { type = hq_brigade name = "XXI Corpo d'Armata HQ" historical_model = 0 }
+				division= {
+					name = "27a Divisione 'Brescia'"
+					location = 5552
+					leader = 6030 # Brunetti
+					regiment = { type = motorized_brigade name = "19. Rgt. di fanteria" historical_model = 1 }
+					regiment = { type = infantry_brigade name = "20. Rgt. di fanteria" historical_model = 2 }
+				}
+				division= {
+					name = "25a Divisione 'Bologna'"
+					location = 5552
+					leader = 6097 # Marghinotti
+					regiment = { type = motorized_brigade name = "39. Rgt. di fanteria" historical_model = 1 }
+					regiment = { type = infantry_brigade name = "40. Rgt. di fanteria" historical_model = 2 }
+				}
+			}
+			corps = {
+				name = "XX Corpo d'Armata"
+				location = 5506
+				leader = 6074 # Gambara
+				regiment = { type = hq_brigade name = "XX Corpo d'Armata HQ" historical_model = 0 }
+				division= {
+					name = "17a Divisione 'Pavia'"
+					location = 5506
+					regiment = { type = motorized_brigade name = "27. Rgt. di fanteria" historical_model = 1 }
+					regiment = { type = infantry_brigade name = "28. Rgt. di fanteria" historical_model = 2 }
+				}
+			}
+		} 
+		army = {
+			name = "5a Armata"
+			location = 5506 # 
+			leader = 6035 # Caracciolo di Feroleto
+			regiment = { type = hq_brigade name = "5a Armata HQ" historical_model = 0 }
+			corps = {
+				name = "X Corpo d'Armata"
+				location = 5552 # 
+				leader = 6019 # Barbieri
+				regiment = { type = hq_brigade name = "X Corpo d'Armata HQ" historical_model = 0 }
+				division= {
+					name = "55a Divisione 'Savona'"
+					location = 5552 # 
+					leader = 6240 # Giorgis
+					regiment = { type = motorized_brigade name = "15. Rgt. di fanteria" historical_model = 1 }
+					regiment = { type = infantry_brigade name = "16. Rgt. di fanteria" historical_model = 2 }
+				}
+				division= {
+				name = "132a Divisione 'Ariete'"
+				location = 5552
+				regiment = { type = light_armor_brigade name = "32nd Armoured Regiment" historical_model = 0 }
+				regiment = { type = armor_brigade name = "132nd Armoured Regiment" historical_model = 0 }
+				regiment = { type = motorized_brigade name = "8. Reg. Bersaglieri" historical_model = 1 }
+				}
+		  	}
+	}
+	division= {
+				name = "Tripolis Base Force"
+				location = 5445
+				regiment = { type = garrison_brigade name = "1st Garrison Regiment" historical_model = 0 }
+				regiment = { type = garrison_brigade name = "2nd Garrison Regiment" historical_model = 0 }
+		}
+	air = {
+	name = "1a Squadra Aerea"
+	base = 5445
+	location = 5445
+	wing = { type = interceptor name = "Stormo Caccia" historical_model = 1 }
+	wing = { type = cas name = "Stormo D'Assalto" historical_model = 1 }
+	}
+	air = {
+	name = "Comando Aereo Libico"
+	base = 5445
+	location = 5445
+	wing = { type = tactical_bomber name = "Stormo Bombardieri" historical_model = 2 }
+	wing = { type = tactical_bomber name = "Stormo Bombardieri" historical_model = 1 }
+	wing = { type = tactical_bomber name = "Stormo Bombardieri" historical_model = 1 }
+	wing = { type = tactical_bomber name = "Stormo Bombardieri" historical_model = 1 }
+	}
+	air = {
+	expeditionary_owner = GER
+	leader = 460
+	name = "Fliegerführer Afrika"
+	base = 5506
+	location = 5506
+	wing = { type = interceptor name = "Jagdgeschwader" historical_model = 3 }
+	wing = { type = cas name = "Stukageschwader" historical_model = 2 }
+	wing = { type = tactical_bomber name = "LG1" historical_model = 2 }
+	}
+}

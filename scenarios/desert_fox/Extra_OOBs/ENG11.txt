@@ -1,0 +1,7 @@
+division = {
+	name = "6th Armoured Division"
+	location = 5586
+	regiment = { type = armor_brigade name = "6th Armoured Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "38th (Irish) Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "1st (Guards) Infantry Brigade" historical_model = 2 }
+	}

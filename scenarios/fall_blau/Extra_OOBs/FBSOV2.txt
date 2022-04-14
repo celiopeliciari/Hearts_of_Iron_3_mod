@@ -1,0 +1,118 @@
+army = {
+		name = "Trans Kavk. Front"
+		location = 3254
+		regiment = { type = hq_brigade name = "Trans Kavk. Front HQ" historical_model = 0 } 
+	corps = {
+	       	name = "46ya Armiya"
+	       	location = 3254
+	       	regiment = { type = hq_brigade name = "46ya Armiya HQ" historical_model = 0 }
+			division= {
+				name = "394. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "63. Kav. Diviziya"
+				location = 3254
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+			}
+		}
+	corps = {
+	       	name = "58ya Armiya"
+	       	location = 3254
+	       	regiment = { type = hq_brigade name = "58ya Armiya HQ" historical_model = 0 }
+			division= {
+				name = "406. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "407. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "408. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "409. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "1. Kav. Diviziya"
+				location = 3254
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "23. Kav. Diviziya"
+				location = 3254
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "39. Kav. Diviziya"
+				location = 3254
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+				regiment = { type = cavalry_brigade historical_model = 2 }
+			}
+		}
+	corps = {
+	       	name = "45ya Armiya"
+	       	location = 3254
+	       	regiment = { type = hq_brigade name = "45ya Armiya HQ" historical_model = 0 }
+			division= {
+				name = "140. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "151. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "328. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "389. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+			division= {
+				name = "392. Strelkovaya Diviziya"
+				location = 3254
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+				regiment = { type = infantry_brigade historical_model = 2 }
+			}
+		}
+}

@@ -1,0 +1,6 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "Panzergrenadier-Regiment 'Afrika'"
+	location = 5445
+	regiment = { type = mechanized_brigade name = "Panzergrenadier-Regiment 'Afrika'" historical_model = 2 }
+		}

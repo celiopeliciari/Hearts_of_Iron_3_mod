@@ -1,0 +1,8 @@
+division = 	{
+	name = "101st Division Trieste"
+	location = 5445
+	regiment = { type = motorized_brigade name = "65° Rgt.Fanteria (Triest" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "66° Rgt.Fanteria (Triest)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "9° Rgt.Bersaglieri (Triest)" historical_model = 2 }
+
+		}

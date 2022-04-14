@@ -1,0 +1,97 @@
+division = 	{
+	expeditionary_owner = USA
+	name = "34th  'Red Bull' Division"
+	location = 5412
+	regiment = { type = motorized_brigade name = "133rd RCT (34th I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "135th RCT (34th I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "168th RCT (34th I.D." historical_model = 2 }
+		}
+division = 	{
+	expeditionary_owner = USA
+	name = "1st 'Big Red One' Division"
+	location = 5412
+	regiment = { type = motorized_brigade name = "16th RCT (1st I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "18th RCT (1st I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "26th RCT (1st I.D.)" historical_model = 2 }
+		}
+division = 	{
+	expeditionary_owner = USA
+	name = "3rd 'Marne' Division"
+	location = 5412
+	regiment = { type = motorized_brigade name = "7th RCT (3rd I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "15th RCT (3rd I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "30th RCT (3rd I.D.)" historical_model = 2 }
+		}
+division = 	{
+	expeditionary_owner = USA
+	name = "9th 'Old Reliables' Division"
+	location = 5412
+	regiment = { type = motorized_brigade name = "39th RCT (9th I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "47th RCT (9th I.D.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "60th RCT (9th I.D.)" historical_model = 2 }
+		}
+division = 	{
+	expeditionary_owner = USA
+	name = "1st Armored 'Old Ironsides' Division"
+	location = 5412
+	regiment = { type = armor_brigade name = "CCA (1st A.D.)" historical_model = 2 }
+	regiment = { type = armor_brigade name = "CCB (1st A.D.)" historical_model = 2 }
+	regiment = { type = armor_brigade name = "CCR (1st A.D.)" historical_model = 2 }
+		}		
+division = 	{
+	expeditionary_owner = USA
+	name = "Hell on Wheels"
+	location = 5412
+	regiment = { type = armor_brigade name = "CCA (2nd A.D.)" historical_model = 2 }
+	regiment = { type = armor_brigade name = "CCB (2nd A.D.)" historical_model = 2 }
+	regiment = { type = armor_brigade name = "CCR (2nd A.D.)" historical_model = 2 }
+		}		
+		
+air = {
+	name = "1st Fighter Group"
+	expeditionary_owner = USA
+	base = 5412
+	location = 5412
+	wing = { type = interceptor name = "1st Fighter Group" historical_model = 2 }
+	wing = { type = multi_role name = "14th Fighter Group" historical_model = 2 }
+	wing = { type = multi_role name = "27th Fighter Group" historical_model = 2 }
+	wing = { type = interceptor name = "33rd Fighter Group" historical_model = 2 }
+	}
+air = {
+	name = "2nd Bombardment Group"
+	expeditionary_owner = USA
+	base = 5412
+	location = 5412
+	wing = { type = tactical_bomber name = "2nd Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "319th Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "17th Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "97th Bombardment Group" historical_model = 2 }
+	}
+air = {
+	name = "60th Troop Carrier Group"
+	expeditionary_owner = USA
+	base = 5412
+	location = 5412
+	wing = { type = transport_plane name = "60th Troop Carrier Group" historical_model = 2 }
+	wing = { type = transport_plane name = "62nd Troop Carrier Group" historical_model = 2 }
+	}
+air = {
+	name = "52nd Fighter Group"
+	expeditionary_owner = USA
+	base = 5412
+	location = 5412
+	wing = { type = interceptor name = "52nd Fighter Group" historical_model = 2 }
+	wing = { type = multi_role name = "86th Fighter Group" historical_model = 2 }
+	wing = { type = multi_role name = "350th Fighter Group" historical_model = 2 }
+	wing = { type = interceptor name = "82nd Fighter Group" historical_model = 2 }
+	}
+air = {
+	name = "301st Bombardment Group"
+	expeditionary_owner = USA
+	base = 5412
+	location = 5412
+	wing = { type = tactical_bomber name = "301st Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "320th Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "99th Bombardment Group" historical_model = 2 }
+	wing = { type = tactical_bomber name = "2nd Bombardment Group" historical_model = 2 }
+	}

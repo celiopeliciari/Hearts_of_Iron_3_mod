@@ -1,0 +1,17 @@
+air = {
+	name = "Air Reserve 1"
+	base = 2068
+	location = 2068
+	wing = { type = multi_role name = "44. IAD" historical_model = 2 }	
+	wing = { type = interceptor name = "51. AD" historical_model = 2 }	
+	}
+	
+air = {
+	name = "Air Reserve 2"
+	base = 2068
+	location = 2068
+	wing = { type = cas name = "44. BAD" historical_model = 2 }
+	wing = { type = cas name = "47. BAD" historical_model = 2 }
+	wing = { type = cas name = "53. BAD" historical_model = 2 }
+	wing = { type = tactical_bomber name = "52. DBAD" historical_model = 2 }
+	}

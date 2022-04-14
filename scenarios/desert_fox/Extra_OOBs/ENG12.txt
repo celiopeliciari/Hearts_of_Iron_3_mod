@@ -1,0 +1,7 @@
+division = {
+	name = "46th (Midlands) Infantry Division"
+	location = 5586
+	regiment = { type = motorized_brigade name = "137th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "138th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "139th Infantry Brigade" historical_model = 2 }
+	}

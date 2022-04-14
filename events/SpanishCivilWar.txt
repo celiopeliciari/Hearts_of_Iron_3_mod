@@ -1,0 +1,2349 @@
+#######################
+# Spanish Civil War - #
+#######################
+
+######################
+# Republican Spain - #
+######################
+country_event = {
+
+	id = 2001
+
+	major = yes
+
+	trigger = {
+		tag = SPR
+		not = { exists = SPA }
+		war = no
+		date = 1936.2.16
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME2001" #Spanish Civil War (events.csv)
+	desc = "EVTDESC2001" #In early 1936 after the electoral victory of the Socialists popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ‘enemies of the people’. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2001"		# En la Defensa de la Democracia!
+		set_country_flag = spanish_civil_war
+		andalucia_region = { add_core = SPA }
+		aragon_region = { add_core = SPA }
+		asturias_region = { add_core = SPA }
+		islas_baleares_region = { add_core = SPA }
+		castilla_la_nueva_region = { add_core = SPA }
+		castilla_la_vieja_region = { add_core = SPA }
+		cataluña_region = { add_core = SPA }
+		extremadura_region = { add_core = SPA }
+		galicia_region = { add_core = SPA }
+		reino_de_leon_region = { add_core = SPA }
+		reino_de_murcia_region = { add_core = SPA }
+		navarra_region = { add_core = SPA }
+		reino_de_valencia_region = { add_core = SPA }
+		SPR_3884 = { add_core = SPA }					#Vascongadas
+		protectorado_espanol_de_marruecos_region = { add_core = SPA }
+		SPR_10729 = { add_core = SPA }					#Islas Canarias
+		sahara_espanol_region = { add_core = SPA }
+		SPR_10002 = { add_core = SPA }					#Guinea Española
+		
+		navarra_region = { secede_province = SPA }			# Navarra Nationalist Spain
+		protectorado_espanol_de_marruecos_region = { secede_province = SPA }	#Protectorado Español de Marruecos
+		SPR_10729 = { secede_province = SPA }				#Islas Canarias
+		sahara_espanol_region = { secede_province = SPA }		#Sahara Español
+		5129 = { secede_province = SPA }				#Granada
+		5097 = { secede_province = SPA }				#Jerez de la Frontera
+		5125 = { secede_province = SPA }				#Cádiz
+		5156 = { secede_province = SPA }				#Algeciras
+		4856 = { secede_province = SPA }				#Medina-Sidonia
+		5030 = { secede_province = SPA }				#Sevilla
+		4995 = { secede_province = SPA }				#Córdoba
+		4543 = { secede_province = SPA }				#Molina de Aragón
+		4413 = { secede_province = SPA }				#Sigüenza
+		4473 = { secede_province = SPA }				#Valverde del Fresno
+		4474 = { secede_province = SPA }				#Cabezuela del Valle
+		4538 = { secede_province = SPA }				#Jaraíz de la Vera
+		4592 = { secede_province = SPA }				#Valencia de Alcántara
+		4537 = { secede_province = SPA }				#Coria
+		4600 = { secede_province = SPA }				#Montalbán
+		4654 = { secede_province = SPA }				#Calamocha
+		4223 = { secede_province = SPA }				#Ejea de los Caballeros
+		4292 = { secede_province = SPA }				#Alagón
+		4353 = { secede_province = SPA }				#Zaragoza
+		4352 = { secede_province = SPA }				#Tarazona
+		4415 = { secede_province = SPA }				#Cariñena
+		4414 = { secede_province = SPA }				#Calatayud
+		4480 = { secede_province = SPA }				#Daroca
+		4159 = { secede_province = SPA }				#Jaca
+		4293 = { secede_province = SPA }				#Huesca
+		SPR_4094 = { secede_province = SPA }				#Logroño region
+		3956 = { secede_province = SPA }				#Vitoria
+		3746 = { secede_province = SPA }				#Oviedo
+		SPR_4348 = { secede_province = SPA }				#Segovia region
+		4475 = { secede_province = SPA }				#Piedrahíta
+		4346 = { secede_province = SPA }				#Arévalo
+		4410 = { secede_province = SPA }				#Ávila
+		SPR_4408 = { secede_province = SPA }				#Salamanca region
+		SPR_4351 = { secede_province = SPA }				#Soria region
+		SPR_4153 = { secede_province = SPA }				#Valladolid region
+		3954 = { secede_province = SPA }				#Herrera de Pisuerga
+		4022 = { secede_province = SPA }				#Palencia
+		4092 = { secede_province = SPA }				#Carrión de los Condes
+		4023 = { secede_province = SPA }				#Villadiego
+		4024 = { secede_province = SPA }				#Miranda de Ebro
+		4093 = { secede_province = SPA }				#Lerma
+		4155 = { secede_province = SPA }				#Burgos
+		4220 = { secede_province = SPA }				#Salas de los Infantes
+		4219 = { secede_province = SPA }				#Aranda de Duero
+		SPR_4089 = { secede_province = SPA }				#Zamora region
+		3952 = { secede_province = SPA }				#León
+		4019 = { secede_province = SPA }				#Ponferrada
+		3951 = { secede_province = SPA }				#La Bañeza
+		3881 = { secede_province = SPA }				#Astorga
+		4021 = { secede_province = SPA }				#Sahagún
+		SPR_3676 = { secede_province = SPA }				#La Coruña region
+		SPR_3878 = { secede_province = SPA }				#Orense region
+		SPR_3742 = { secede_province = SPA }				#Pontevedra region
+		3611 = { secede_province = SPA }				#Vivero
+		3744 = { secede_province = SPA }				#Lugo
+		4597 = { secede_province = SPA }				#Villalba
+		3810 = { secede_province = SPA }				#Sarria
+		3809 = { secede_province = SPA }				#Monforte de Lemos
+		4913 = { secede_province = SPA }				#Mallorca
+		5002 = { secede_province = SPA }				#Ibiza
+		head_of_state = 11033			# Azaña
+		head_of_government = 11039		# Largo Caballero
+		foreign_minister = 11034		# Barcia Trelles
+		armament_minister = 11144		# Giner de los Rios
+		minister_of_security = 11189		# Azcarate
+		minister_of_intelligence = 11217	# Balboa
+		chief_of_staff = 11007			# Miaja
+		chief_of_army = 11007			# Miaja
+		chief_of_navy = 11067			# Giral
+		chief_of_air = 11321			# Hidalgo de Cisneros
+		
+		dissent = 15
+		SPR = {	war = {	
+					target = SPA 
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = civil_war }
+					} 
+				}
+		SPA = { split_troops = 0.9 }
+
+		#Madrid x20 militia brigades
+		4540 = { militia_brigade = current }				
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }
+		4540 = { militia_brigade = current }				
+		4540 = { militia_brigade = current }				
+		4540 = { militia_brigade = current }
+
+		#Barcelona x12 militia brigades				
+		4548 = { militia_brigade = current }				
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+		4548 = { militia_brigade = current }
+
+		#Bilbao x6 militia brigades
+		3884 = { militia_brigade = current }						
+		3884 = { militia_brigade = current }
+		3884 = { militia_brigade = current }
+		3884 = { militia_brigade = current }
+		3884 = { militia_brigade = current }
+		3884 = { militia_brigade = current }
+
+		#Valencia x6 militia brigades
+		4862 = { militia_brigade = current }				
+		4862 = { militia_brigade = current }
+		4862 = { militia_brigade = current }
+		4862 = { militia_brigade = current }
+		4862 = { militia_brigade = current }
+		4862 = { militia_brigade = current }
+
+		#Malaga x6 militia brigades 
+		5128 = { militia_brigade = current }				
+		5128 = { militia_brigade = current }
+		5128 = { militia_brigade = current }
+		5128 = { militia_brigade = current }
+		5128 = { militia_brigade = current }
+		5128 = { militia_brigade = current }
+
+		#Cartagena x4 militia brigades
+		5104 = { militia_brigade = current }				
+		5104 = { militia_brigade = current }
+		5104 = { militia_brigade = current }
+		5104 = { militia_brigade = current }
+
+		#Murcia x4 militia brigades
+		5073 = { militia_brigade = current }				
+		5073 = { militia_brigade = current }
+		5073 = { militia_brigade = current }
+		5073 = { militia_brigade = current }
+
+		#Guadalajara x3 militia brigades
+		4478 = { militia_brigade = current }				
+		4478 = { militia_brigade = current }
+		4478 = { militia_brigade = current }
+
+		#Santander x4 militia brigades
+		3814 = { militia_brigade = current }				
+		3814 = { militia_brigade = current }
+		3814 = { militia_brigade = current }
+		3814 = { militia_brigade = current }
+
+		#Guernica x1 militia brigade
+		3885 = { militia_brigade = current }				
+		
+		#Alicante x2 militia brigades
+		5001 = { militia_brigade = current }				
+		5001 = { militia_brigade = current }
+
+		#Toledo x3 militia brigades
+		4651 = { militia_brigade = current }				
+		4651 = { militia_brigade = current }
+		4651 = { militia_brigade = current }
+
+		#Girona x3 militia brigades
+		4358 = { militia_brigade = current }				
+		4358 = { militia_brigade = current }
+		4358 = { militia_brigade = current }
+
+		#Elchedelasierra x2 militia brigades
+		4999 = { militia_brigade = current }				
+		4999 = { militia_brigade = current }
+
+		#Terrassa x2 militia brigades
+		4484 = { militia_brigade = current }				
+		4484 = { militia_brigade = current }
+
+		#Badajoz x2 militia brigades
+		4702 = { militia_brigade = current }				
+		4702 = { militia_brigade = current }
+
+		threat = { who = all value = -150 }
+		national_unity = 80
+		manpower = 25
+
+		SPA = {
+			set_country_flag = spanish_civil_war
+			capital = 4155						#Burgos
+			country_event = 2002
+		}
+	}
+}
+
+# First Reinforcements to Republicans #18brigades
+country_event = {
+
+	id = 21010
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism." 
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Second Reinforcements to Republicans #16brigades
+country_event = {
+
+	id = 21011
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Third Reinforcements to Republicans #14brigades
+country_event = {
+
+	id = 21012
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 90
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Fourth Reinforcements to Republicans #12brigades
+country_event = {
+
+	id = 21013
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 140
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Fifth Reinforcements to Republicans #8brigades
+country_event = {
+
+	id = 21014
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 200
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+#######################
+# Nationalist Spain - #
+#######################
+country_event = {
+
+	id = 2002
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2002" #Spanish Civil War - Fascist Nation (events.csv)
+	desc = "EVTDESC2002" #In early 1936 after the electoral victory of the Socialists, popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ‘enemies of the people’. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves, Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
+	picture = "SPA_fascist"
+
+	option = {
+		name = "EVTOPTA2002" #Anarchism and Communism must fall! (events.csv)
+		national_unity = 80
+		head_of_state = 10001
+		head_of_government = 10002
+		foreign_minister = 10003
+		armament_minister = 10004
+		minister_of_security = 10005
+		minister_of_intelligence = 10006
+		chief_of_staff = 10008
+		chief_of_army = 10008
+		chief_of_navy = 10009
+		chief_of_air = 10010
+		rare_materials = 500
+		crude_oil = 500
+		supplies = 10000
+		energy = 2000
+		metal = 1000
+		money = 100
+		government = fascist_government
+		set_country_flag = spanish_civil_war
+
+		# Relations with democrat capitalists
+			#Majors
+		relation = { who = FRA value = 20 }
+		relation = { who = ENG value = 25 }
+		relation = { who = USA value = 25 }
+			#Europe
+		relation = { who = DEN value = 25 }
+		relation = { who = EST value = 25 }
+		relation = { who = FIN value = 25 }
+		relation = { who = LAT value = 25 }
+		relation = { who = LIT value = 25 }
+		relation = { who = NOR value = 25 }
+		relation = { who = SWE value = 25 }
+		relation = { who = BEL value = 25 }
+		relation = { who = HOL value = 25 }
+		relation = { who = IRE value = 25 }
+		relation = { who = LUX value = 25 }
+		relation = { who = SCH value = 25 }
+		relation = { who = SPR value = -200 }
+		relation = { who = GRE value = 25 }
+		relation = { who = YUG value = 25 }
+			#Africa
+		relation = { who = LIB value = 25 }
+			#Oceania
+		relation = { who = AST value = 25 }
+		relation = { who = NZL value = 25 }
+			#North America
+		relation = { who = CAN value = 25 }
+		relation = { who = MEX value = 0 }
+
+		# Relations with non-democrat capitalists
+			#Majors
+		relation = { who = GER value = 100 }
+		relation = { who = ITA value = 100 }
+		relation = { who = JAP value = 85 }
+			#Europe
+		relation = { who = POR value = 100 }
+		relation = { who = AUS value = 75 }
+		relation = { who = CZE value = 75 }
+		relation = { who = HUN value = 75 }
+		relation = { who = POL value = 75 }
+		relation = { who = ROM value = 75 }
+		relation = { who = ALB value = 75 }
+		relation = { who = BUL value = 75 }
+			#Minor Asia and Middle East
+		relation = { who = AFG value = 75 }
+		relation = { who = IRQ value = 75 }
+		relation = { who = OMN value = 75 }
+		relation = { who = PER value = 75 }
+		relation = { who = SAU value = 75 }
+		relation = { who = TUR value = 75 }
+		relation = { who = YEM value = 75 }
+			#Asia
+		relation = { who = BHU value = 75 }
+		relation = { who = NEP value = 75 }
+		relation = { who = CGX value = 75 }
+		relation = { who = CHI value = 75 }
+		relation = { who = CSX value = 75 }
+		relation = { who = CXB value = 75 }
+		relation = { who = CYN value = 75 }
+		relation = { who = MAN value = 85 }
+		relation = { who = MEN value = 75 }
+		relation = { who = TIB value = 75 }
+		relation = { who = PHI value = 75 }
+		relation = { who = SIA value = 75 }
+			#Africa
+		relation = { who = ETH value = 75 }
+		relation = { who = SAF value = 75 }
+			#North America
+		relation = { who = CUB value = 75 }
+		relation = { who = COS value = 75 }
+		relation = { who = DOM value = 75 }
+		relation = { who = GUA value = 75 }
+		relation = { who = HAI value = 75 }
+		relation = { who = HON value = 75 }
+		relation = { who = PAN value = 75 }
+		relation = { who = SAL value = 75 }
+			#South America
+		relation = { who = ARG value = 75 }
+		relation = { who = BOL value = 75 }
+		relation = { who = BRA value = 75 }
+		relation = { who = CHL value = 75 }
+		relation = { who = COL value = 75 }
+		relation = { who = ECU value = 75 }
+		relation = { who = PAR value = 75 }
+		relation = { who = PRU value = 75 }
+		relation = { who = URU value = 75 }
+		relation = { who = VEN value = 75 }
+
+		# Relations with socialists
+		relation = { who = SOV value = -25 }
+		relation = { who = TAN value = -25 }
+		relation = { who = MON value = -25 }
+		relation = { who = SIK value = -25 }
+		relation = { who = CHC value = -25 }
+		
+		# Seventy thousand of gendarmes
+			# Ceuta x4
+		5289 = { police_brigade  = current } 
+		5289 = { police_brigade  = current }
+		5289 = { police_brigade  = current }
+		5289 = { police_brigade  = current }
+			# Tanger x2
+		5258 = { police_brigade  = current }
+		5258 = { police_brigade  = current }
+			# Cádiz x4
+		5125 = { police_brigade  = current }
+		5125 = { police_brigade  = current }
+		5125 = { police_brigade  = current }
+		5125 = { police_brigade  = current }
+			# Seville x6
+		5030 = { police_brigade  = current } 
+		5030 = { police_brigade  = current }
+		5030 = { police_brigade  = current }
+		5030 = { police_brigade  = current }
+		5030 = { police_brigade  = current }
+		5030 = { police_brigade  = current }
+			# Cordoba x4
+		4995 = { police_brigade  = current }
+		4995 = { police_brigade  = current }
+		4995 = { police_brigade  = current }
+		4995 = { police_brigade  = current }
+			# Salamanca x4
+		4347 = { police_brigade  = current }
+		4347 = { police_brigade  = current }
+		4347 = { police_brigade  = current }
+		4347 = { police_brigade  = current }
+			# Zaragoza x6
+		4353 = { police_brigade  = current }
+		4353 = { police_brigade  = current }
+		4353 = { police_brigade  = current }
+		4353 = { police_brigade  = current }
+		4353 = { police_brigade  = current }
+		4353 = { police_brigade  = current }
+			# Burgos x4
+		4155 = { police_brigade  = current }
+		4155 = { police_brigade  = current }
+		4155 = { police_brigade  = current }
+		4155 = { police_brigade  = current }
+			# Vitoria x2
+		3956 = { police_brigade  = current }
+		3956 = { police_brigade  = current }
+			# Pamplona x2
+		4026 = { police_brigade  = current }
+		4026 = { police_brigade  = current }
+			# Oviedo x2
+		3746 = { police_brigade  = current }
+		3746 = { police_brigade  = current }
+			# Ferrol x2
+		3776 = { police_brigade  = current }
+		3776 = { police_brigade  = current }
+			# Salamanca
+		4347 = { police_brigade  = current }		
+			# Santa Cruz de Tenerife
+		10729 = { police_brigade  = current }
+			# Tetuán
+		5319 = { police_brigade  = current }		
+			# Mallorca
+		4913 = { police_brigade  = current }
+		# Vigo
+		3877 = { police_brigade  = current }
+			# Cuellar
+		4288 = { police_brigade  = current }
+			# Alagon
+		4292 = { police_brigade  = current }
+			# Villadiego
+		4023 = { police_brigade  = current }
+			# Cariñena
+		4415 = { police_brigade  = current }
+			# Huesca
+		4293 = { police_brigade  = current }
+			# Jerez
+		5097 = { police_brigade  = current }
+			# Algeciras
+		5156 = { police_brigade  = current }
+			# Medina
+		4856 = { police_brigade  = current }
+			# Carrión
+		4092 = { police_brigade  = current }
+			# Palencia
+		4154 = { police_brigade  = current }
+			# Villardefrades
+		4153 = { police_brigade  = current }
+			# Fuenlabrada
+		4597 = { police_brigade  = current }
+			# Foz
+		3611 = { police_brigade  = current }
+			# Ferrol x2
+		3676 = { police_brigade  = current }
+		3676 = { police_brigade  = current }
+			# La Coruña x2
+		3610 = { police_brigade  = current }
+		3610 = { police_brigade  = current }
+			# Cuellar
+		4288 = { police_brigade  = current }
+			# Avila
+		4410 = { police_brigade  = current }
+			# Leon
+		3952 = { police_brigade  = current }
+			# Lugo
+		3744 = { police_brigade  = current }
+			# Granada
+		5129 = { police_brigade  = current }
+			# Larache
+		5318 = { police_brigade  = current }
+	}
+}
+
+# First Reinforcements to Fascists #32brigades
+country_event = {
+
+	id = 20020
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Second Reinforcements to Fascists #30brigades
+country_event = {
+
+	id = 20021
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Third Reinforcements to Fascists #28brigades
+country_event = {
+
+	id = 20012
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 80
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Fourth Reinforcements to Fascists #22brigades
+country_event = {
+
+	id = 20013
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 120
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Fifth Reinforcements to Fascists #14brigades
+country_event = {
+
+	id = 20014
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 170
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Sixth Reinforcements to Fascists #12brigades
+country_event = {
+
+	id = 20015
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 230
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Seventh Reinforcements to Fascists #10brigades
+country_event = {
+
+	id = 20016
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 300
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Eighth Reinforcements to Fascists #8brigades
+country_event = {
+
+	id = 20017
+
+	trigger = {
+		tag = SPA
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 380
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains communism and anarchism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+##################################
+# Troops defect to Republicans - #
+##################################
+country_event = {
+
+	id = 2006
+
+	trigger = {
+		exists = SPA
+		exists = SPR
+		tag = SPR
+		SPA = { war_with = SPR }	
+	}
+
+	mean_time_to_happen = {
+		months = 4
+	}
+	fire_only_once = no
+
+	title = "EVTNAME2006" #Troops Defect (events.csv)
+	desc = "EVTDESC2006" #According to our minister of intelligence, some brigades have defected to the our side. Even more troops are about to follow their example. (events.csv)
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2006" #Just in time! (events.csv)
+		SPA = { split_troops = 0.05 }
+	}
+}
+######################################
+# Interventions - Republican Side - #
+######################################
+# Spanish Civil War - French Historical Intervention
+country_event = {
+
+	id = 2007
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "EVTNAME2007" #Spanish Civil War - French Intervention (gold.csv)
+	desc = "EVTDESC2007" #On 1 August 1936, a pro-Republican rally of 20,000 people confronted Blum, demanding that he send aircraft to the Republicans, at the same time as right-wing politicians attacked Blum for supporting the Republic and being responsible for provoking Italian intervention on the side of Franco. Germany informed the French ambassador in Berlin that Germany would hold France responsible if it supported "the manoeuvres of Moscow" by supporting the Republicans. On 21 August 1936, France signed the Non-Intervention Agreement. However, the Blum government provided aircraft to the Republicans covertly with Potez 540 bomber aircraft (nicknamed the "Flying Coffin" by Spanish Republican pilots), Dewoitine aircraft, and Loire 46 fighter aircraft being sent from 7 August 1936 to December of that year to Republican forces. France, through the favor of pro-communist air minister Pierre Cot also sent a group of trained fighter pilots and engineers to help the Republicans. Also, until 8 September 1936, aircraft could freely pass from France into Spain if they were bought in other countries (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2007" #We need all the help we can get (gold.csv)
+		capital_scope = {
+			multi_role = current
+			interceptor = current
+		}
+		SPR = { military_access = FRA }
+	}
+}
+
+# French non-Historical Intervention
+country_event = {
+
+	id = 20070
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
+	desc = "EVTDESC20070" #Frenchs are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2007" #We need all the help we can get (gold.csv)
+		FRA = {	split_troops = 0.2 }
+		set_country_flag = large_french_intervention
+	}
+}
+
+# French non-Historical Intervention Resources for Spain
+country_event = {
+
+	id = 20071
+
+	trigger = {
+		tag = SPR
+		has_country_flag = large_french_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = no
+
+	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
+	desc = "EVTDESC20070" #Frenchs are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
+	picture = "SCW"
+		option = { 
+			name = "We need all help."
+			money = 200
+			supplies = 200
+			fuel = 50
+			relation = { who = FRA value = 2 }
+			FRA = { country_event = 20072 }
+		}
+}
+
+# French non-Historical Intervention Resources by France
+country_event = {
+
+	id = 20072
+
+	is_triggered_only = yes
+
+	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
+	desc = "EVTDESC20071" #We are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
+	picture = "SCW"
+	option = {
+		name = "Support has its cost."
+		money = -200
+		supplies = -200
+		fuel = -50
+	}
+}
+
+
+# Mexican Historical Intervention
+country_event = {
+
+	id = 2008
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2008" #Spanish Civil War - Mexican Intervention (gold.csv)
+	desc = "EVTDESC2008" #Mexico's most important contributions to the Spanish Republic was its diplomatic help, as well as the sanctuary the nation arranged for Republican refugees, including Spanish intellectuals and orphaned children from Republican families. Some 50,000 took refuge, primarily in Mexico City and Morelia, accompanied by 300 million dollars in various treasures still owned by the Left (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2007" #We need all the help we can get (gold.csv)
+		money = 250
+		supplies = 100
+	}
+}
+
+# Soviet Historical Intervention
+	# Soviet support to Republicans
+		# Between 634 and 806 aircraft (Polikarpov I-15 and I-16)
+		# Between 331 and 362 tanks (T-26 and BT-5)
+		# Between 1,034 and 1,895 artillery pieces
+		# Between 2000 and 3000 military advisers
+		# Fewer 500 soldiers
+		# Almost 18 billion dollars in 1936 values
+country_event = {
+
+	id = 2009
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC2009" #Comrades, on behalf of the Soviet working class we promise to support you in this war against the fascists. We are organizing support and they will be arriving soon. Death to the fascists! (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "The Soviets will support us."
+		set_country_flag = urss_intervention
+	}
+}
+
+# First Soviet Intervention
+country_event = {
+
+	id = 20090
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+	mean_time_to_happen = {	
+		days = 20 
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "We have air support!"
+		capital_scope = {
+			interceptor = current
+		}
+		relation = { who = SOV value = 5 }
+		stalinism = {
+			popularity = 1
+			organisation = 2
+		}
+	}
+}
+
+# Second Soviet Intervention
+country_event = {
+
+	id = 20091
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {	
+		days = 40 
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We need all help."
+		capital_scope = {
+			engineer_brigade = current 
+			artillery_brigade = current  
+			interceptor = current 
+		}
+		relation = { who = SOV value = 10 }
+		stalinism = {
+			popularity = 1
+			organisation = 2
+		}
+	}
+}
+
+# Third Soviet Intervention
+country_event = {
+
+	id = 20092
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {	
+		days = 60 
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We need all help."
+		capital_scope = {
+			light_armor_brigade = current 
+			artillery_brigade = current  
+			interceptor = current 
+		}
+		relation = { who = SOV value = 10 }
+		stalinism = {
+			popularity = 1
+			organisation = 2
+		}
+	}
+}
+
+# Fourth Soviet Intervention
+country_event = {
+
+	id = 20093
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {	
+		days = 70 
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We need all help."
+		capital_scope = {  
+			interceptor = current
+			interceptor = current 
+		}
+		relation = { who = SOV value = 10 }
+		stalinism = {
+			popularity = 1
+			organisation = 2
+		}
+	}
+}
+
+# Fifth Soviet Intervention
+country_event = {
+
+	id = 20094
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {	
+		days = 80 
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We need all help."
+		capital_scope = {  
+			interceptor = current
+			interceptor = current 
+		}
+		relation = { who = SOV value = 10 }
+		stalinism = {
+			popularity = 1
+			organisation = 2
+		}
+	}
+}
+
+# Soviet Intervention Resources for Spain
+country_event = {
+
+	id = 20095
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = no
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+		option = { 
+			name = "We need all help."
+			money = 500
+			supplies = 250
+			fuel = 50
+			relation = { who = SOV value = 2 }
+			SOV = { country_event = 20096 }
+		}
+}
+
+# Soviet Intervention Resources by Soviet Union
+country_event = {
+
+	id = 20096
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2009" #Spanish Civil War - Soviet Intervention (gold.csv)
+	desc = "EVTDESC20090" #The Soviet Union, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to republicans. They sent approximately two thousand of civilian volunteers, three hundred armored cars, seven hundred tanks, seven hundred pieces of artillery and sevend hundred of pilots. Also, they sent a large number of supplies, money, guns, ammunition, technicians, military advisers and call all Communist Partys in the world to support the fight against the fascists. (gold.csv)
+	picture = "SCW"
+	option = {
+		name = "Support has its cost."
+		money = -500
+		supplies = -250
+		fuel = -50
+	}
+}
+
+# First Communist International Support
+country_event = {
+
+	id = 20190
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20190" #The Communist International Support (gold.csv)
+	desc = "EVTDESC20190" #Around sixty thousand braves volutiers engage in Spanish civil war. Glory to revolution! (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "Comrades!"
+		capital_scope = {			
+			militia_brigade = current  
+			militia_brigade = current  
+			militia_brigade = current 
+			militia_brigade = current
+		}
+		relation = { who = SOV value = 3 }
+		relation = { who = TAN value = 1 }
+		relation = { who = MON value = 1 }
+		relation = { who = SIK value = 1 }
+		relation = { who = CHC value = 1 }
+	}
+}
+
+# Second Communist International Support
+country_event = {
+
+	id = 20191
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20190"
+	desc = "EVTDESC20190"
+	picture = "SCW"
+
+	option = { 
+		name = "Comrades!"
+		capital_scope = {			
+			militia_brigade = current  
+			militia_brigade = current  
+			militia_brigade = current 
+			militia_brigade = current
+		}
+		relation = { who = SOV value = 3 }
+		relation = { who = TAN value = 1 }
+		relation = { who = MON value = 1 }
+		relation = { who = SIK value = 1 }
+		relation = { who = CHC value = 1 }
+	}
+}
+
+# Third Communist International Support
+country_event = {
+
+	id = 20192
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+	}
+
+	mean_time_to_happen = {
+		days = 90
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20190"
+	desc = "EVTDESC20190"
+	picture = "SCW"
+
+	option = { 
+		name = "Comrades!"
+		capital_scope = {			
+			militia_brigade = current  
+			militia_brigade = current  
+			militia_brigade = current 
+			militia_brigade = current
+		}
+		relation = { who = SOV value = 3 }
+		relation = { who = TAN value = 1 }
+		relation = { who = MON value = 1 }
+		relation = { who = SIK value = 1 }
+		relation = { who = CHC value = 1 }
+	}
+}
+
+# Fourth Communist International Support
+country_event = {
+
+	id = 20193
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20190"
+	desc = "EVTDESC20190"
+	picture = "SCW"
+
+	option = { 
+		name = "Comrades!"
+		capital_scope = {			
+			militia_brigade = current  
+			militia_brigade = current  
+			militia_brigade = current 
+			militia_brigade = current
+		}
+		relation = { who = SOV value = 3 }
+		relation = { who = TAN value = 1 }
+		relation = { who = MON value = 1 }
+		relation = { who = SIK value = 1 }
+		relation = { who = CHC value = 1 }
+	}
+}
+
+# Fifth Communist International Support
+country_event = {
+
+	id = 20194
+
+	trigger = {
+		tag = SPR
+		has_country_flag = urss_intervention
+	}
+
+	mean_time_to_happen = {
+		days = 150
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20190"
+	desc = "EVTDESC20190"
+	picture = "SCW"
+
+	option = { 
+		name = "Comrades!"
+		capital_scope = {			
+			militia_brigade = current  
+			militia_brigade = current  
+			militia_brigade = current 
+			militia_brigade = current
+		}
+		relation = { who = SOV value = 3 }
+		relation = { who = TAN value = 1 }
+		relation = { who = MON value = 1 }
+		relation = { who = SIK value = 1 }
+		relation = { who = CHC value = 1 }
+	}
+}
+
+# Soviet non-Historical Intervention
+country_event = {
+
+	id = 20195
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "EVTNAME20195"
+	desc = "EVTDESC20195"
+	picture = "SCW"
+
+	option = {
+		name = "EVTOPTA2007"
+		SOV = {	split_troops = 0.15 }
+		set_country_flag = large_soviet_intervention
+	}
+}
+
+##################################
+# Interventions - Fascist Side - #
+##################################
+
+# Germany Historical Intervention
+country_event = {
+
+	id = 2010
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC2010" #Let it be known that the German people are hopeful with your movement. We will support you in this war against the communists. The reinforcements will be arriving soon. Death to the communists! (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "The Germans will fight with us."
+		set_country_flag = german_intervention
+	}
+}
+
+# First Germany Historical Intervention
+	# German support to Fascists
+		# Approximately 10000 German citizens at any one time. By the end of 1936, 7,000 Germans were in Spain.
+		# Approximately 215 million dollars in 1939 price
+		# August German delivery 255 tons of supplies
+		# Setember German delivery 86 tons of supplies and 40 Panzer I
+		# November German delivery 2000 tons of supplies
+		# Condor Legion: 3 Ju 52 (bombers) and , Heinkel He 51 (fighters), FLak 88, 106 Panzer I
+		# Approximately 732 combat aircraft
+country_event = {
+
+	id = 20100
+
+	trigger = {
+		tag = SPA
+		has_country_flag = german_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC20100" #The German goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was a great support to fascists side. A total of approximately sixteen thousand German citizens fought in the war, but the most notably support were the Junkers Ju 87, a German dive-bomber and ground-attack aircraft. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have international support."
+		capital_scope = {		
+			militia_brigade = current
+			tactical_bomber = current
+		}
+		money = 10
+		relation = { who = GER value = 6 }		
+	}
+}
+
+# Second Germany Historical Intervention
+country_event = {
+
+	id = 20101
+
+	trigger = {
+		tag = SPA
+		has_country_flag = german_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC20100" #The German goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was a great support to fascists side. A total of approximately sixteen thousand German citizens fought in the war, but the most notably support were the Junkers Ju 87, a German dive-bomber and ground-attack aircraft. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have international support."
+		capital_scope = {		
+			interceptor = current
+			transport_plane = current
+		}
+		money = 10
+		relation = { who = GER value = 7 }		
+	}
+}
+
+# Third Germany Historical Intervention
+country_event = {
+
+	id = 20102
+
+	trigger = {
+		tag = SPA
+		has_country_flag = german_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 90
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC20100" #The German goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was a great support to fascists side. A total of approximately sixteen thousand German citizens fought in the war, but the most notably support were the Junkers Ju 87, a German dive-bomber and ground-attack aircraft. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have international support."
+		capital_scope = {	
+			anti_air_brigade = current
+			interceptor = current
+			cas = current
+		}
+		money = 10
+		supplies = 255	
+		relation = { who = GER value = 12 }	
+	}
+}
+
+# Fourth Germany Historical Intervention
+country_event = {
+
+	id = 20103
+
+	trigger = {
+		tag = SPA
+		has_country_flag = german_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 120
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC20100" #The German goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was a great support to fascists side. A total of approximately sixteen thousand German citizens fought in the war, but the most notably support were the Junkers Ju 87, a German dive-bomber and ground-attack aircraft. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have international support."
+		capital_scope = {
+			militia_brigade = current
+			light_armor_brigade = current
+			tactical_bomber = current
+		}
+		supplies = 86	
+		money = 10
+		relation = { who = GER value = 12 }	
+	}
+}
+
+# Fifth Germany Historical Intervention
+country_event = {
+
+	id = 20104
+
+	trigger = {
+		tag = SPA
+		has_country_flag = german_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 150
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2010" #Spanish Civil War - German Intervention (gold.csv)
+	desc = "EVTDESC20100" #The German goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was a great support to fascists side. A total of approximately sixteen thousand German citizens fought in the war, but the most notably support were the Junkers Ju 87, a German dive-bomber and ground-attack aircraft. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have international support."
+		capital_scope = {
+			militia_brigade = current
+			interceptor = current
+		}
+		supplies = 2000	
+		money = 10
+		relation = { who = GER value = 10 }	
+	}
+}
+
+# Italy Historical Intervention
+	#In total, Italy provided the Nationalists with 660 planes, 150 tanks, 800 artillery pieces and 44 thousand volunteers
+country_event = {
+
+	id = 2011
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2011" #Spanish Civil War - Italian Intervention (gold.csv)
+	desc = "EVTDESC2011" #Let it be known that the Italian people are hopeful with your movement. We will support you in this war against the communists. The reinforcements will be arriving soon. Death to the communists! (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "The Italians will fight with us."
+		set_country_flag = italian_intervention
+	}
+}
+
+# First Italy Historical Intervention
+country_event = {
+
+	id = 20110
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 15
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2011" #Spanish Civil War - Italian Intervention (gold.csv)
+	desc = "EVTDESC20110" #The Italian goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to fascists. In total, Italy provided the Nationalists with fify hundred soldiers, six hundred and sixty aircrafts, one hundred and fifty tanks, eight hundred artillery pieces and a lot of guns (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have air support."
+		capital_scope = {			
+			interceptor = current
+		}
+		supplies = 50
+		relation = { who = ITA value = 5 }	
+	}		
+}
+
+# Second Italy Historical Intervention
+country_event = {
+
+	id = 20111
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2011" #Spanish Civil War - Italian Intervention (gold.csv)
+	desc = "EVTDESC20110" #The Italian goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to fascists. In total, Italy provided the Nationalists with fify hundred soldiers, six hundred and sixty aircrafts, one hundred and fifty tanks, eight hundred artillery pieces and a lot of guns (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have air support."
+		capital_scope = {			
+			interceptor = current
+			tactical_bomber = current
+			transport_plane = current
+			artillery_brigade = current
+		}
+		supplies = 50
+		relation = { who = ITA value = 16 }	
+	}		
+}
+
+# Third Italy Historical Intervention
+country_event = {
+
+	id = 20112
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_intervention
+	}	
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME2011" #Spanish Civil War - Italian Intervention (gold.csv)
+	desc = "EVTDESC20110" #The Italian goverment, despite having signed an agreement with twenty-six other nations to do not intervene in the Spanish civil war, was the most important international support to fascists. In total, Italy provided the Nationalists with fify hundred soldiers, six hundred and sixty aircrafts, one hundred and fifty tanks, eight hundred artillery pieces and a lot of guns (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "We have air support."
+		capital_scope = {			
+			interceptor = current
+			interceptor = current
+			tactical_bomber = current
+		}
+		supplies = 50
+		relation = { who = ITA value = 15 }	
+	}		
+}
+
+# Italy Historical Intervention - Army Mission
+country_event = {
+
+	id = 20113
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_intervention
+		date = 1936.12.23
+	}	
+
+	
+	fire_only_once = yes
+
+	title = "EVTNAME20113" #Italian Army Mission (gold.csv)
+	desc = "EVTDESC20113" #After the failure of Franco's offensive on Madrid, Mussolini decided to send regular army forces to Spain. Mussolini made that decision after he had consulted Italian Minister of Foreign Affairs Galeazzo Ciano and General Mario Roatta, who were then two of the most influential men in Italy. he first formation of 3,000 troops landed in Cadiz and was called the "Italian Army Mission". (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "Italian army mission"
+		5125 = { secede_province = SPA }	
+		5125 = { infantry_brigade = current }
+		supplies = 50
+		relation = { who = ITA value = 2 }	
+		set_country_flag = italian_army_mission
+	}		
+}
+
+# Italy Historical Intervention - Corps of Volunteer Troops
+country_event = {
+
+	id = 20114
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_army_mission
+	}	
+
+	mean_time_to_happen = {
+		days = 20
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20114" #Corps of Volunteer Troops (gold.csv)
+	desc = "EVTDESC20114" #By then, approximately 44,000 regular Italian army soldiers and members of the Fascist paramilitary (Blackshirts) were in Spain. In late February, the "expeditionary force" was renamed the "Corps of Volunteer Troops" (Corpo Truppe Volontarie, or CTV). The CTV was organised into four divisions. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "Corps of Volunteer Troops"
+		random_owned = {	
+			motorized_brigade = current
+			motorized_brigade = current
+			motorized_brigade = current
+		}
+		random_owned = {	
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {	
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {	
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+		}
+		supplies = 50
+		relation = { who = ITA value = 20 }	
+	}		
+}
+
+# Italy Historical Intervention - Corps of Volunteer Troops plus
+country_event = {
+
+	id = 20115
+
+	trigger = {
+		tag = SPA
+		has_country_flag = italian_army_mission
+	}	
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+
+	title = "EVTNAME20114" #Corps of Volunteer Troops (gold.csv)
+	desc = "EVTDESC20115" #The Corps of Volunteer Troops now numbered over 50,000 troops. (gold.csv)
+	picture = "SCW"
+
+	option = { 
+		name = "Corps of Volunteer Troops"
+		random_owned = {	
+			militia_brigade = current
+			militia_brigade = current
+		}
+		supplies = 50
+		relation = { who = ITA value = 2 }	
+	}		
+}
+
+# Portugal Historical Intervention
+	#Supplies and Transit Rights
+country_event = {
+
+	id = 2012
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister António de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	picture = "SCW"
+
+	option = {
+		name = "The Portuguese will support us."
+		set_country_flag = portuguese_intervention
+		SPA = { military_access = POR }
+	}
+}
+
+# Portugal Historical Intervention Resources for Spain
+country_event = {
+
+	id = 20120 
+
+	trigger = {
+		tag = SPR
+		has_country_flag = portuguese_intervention
+		has_country_flag = spanish_civil_war
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = no
+
+	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister António de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	picture = "SCW"
+		option = { 
+			name = "We need all help."
+			supplies = 50
+			fuel = 20
+			relation = { who = POR value = 1 }
+			POR = { country_event = 20121 }
+		}
+}
+
+# Portugal Historical Intervention Resources by Portugal
+country_event = {
+
+	id = 20121
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister António de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	picture = "SCW"
+	option = {
+		name = "Support has its cost."
+		supplies = -50
+		fuel = -20
+	}
+}
+
+###########################
+# Conclusion of the War - #
+###########################
+
+# Fascist Victory
+country_event = {
+	
+	id = 505
+	
+	trigger = {
+		tag = SPA
+		SPR = { exists = no }
+		NOT = { has_country_flag = spanish_civil_war_over }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "SCWVIC"
+	desc = "SCWVICDESC"
+	picture = "SPA_Victory"
+
+	option = {
+		name = "EVTOPTA1406"
+		capital = 4540
+		andalucia_region = { add_core = SPA }
+		aragon_region = { add_core = SPA }
+		asturias_region = { add_core = SPA }
+		islas_baleares_region = { add_core = SPA }
+		castilla_la_nueva_region = { add_core = SPA }
+		castilla_la_vieja_region = { add_core = SPA }
+		cataluña_region = { add_core = SPA }
+		extremadura_region = { add_core = SPA }
+		galicia_region = { add_core = SPA }
+		reino_de_leon_region = { add_core = SPA }
+		reino_de_murcia_region = { add_core = SPA }
+		navarra_region = { add_core = SPA }
+		reino_de_valencia_region = { add_core = SPA }
+		SPR_3884 = { add_core = SPA }					#Vascongadas
+		protectorado_espanol_de_marruecos_region = { add_core = SPA }
+		SPR_10729 = { add_core = SPA }					#Islas Canarias
+		sahara_espanol_region = { add_core = SPA }
+		SPR_10002 = { add_core = SPA }					#Guinea Española
+		andalucia_region = { remove_core = SPR }
+		aragon_region = { remove_core = SPR }
+		asturias_region = { remove_core = SPR }
+		islas_baleares_region = { remove_core = SPR }
+		castilla_la_nueva_region = { remove_core = SPR }
+		castilla_la_vieja_region = { remove_core = SPR }
+		cataluña_region = { remove_core = SPR }
+		extremadura_region = { remove_core = SPR }
+		galicia_region = { remove_core = SPR }
+		reino_de_leon_region = { remove_core = SPR }
+		reino_de_murcia_region = { remove_core = SPR }
+		navarra_region = { remove_core = SPR }
+		reino_de_valencia_region = { remove_core = SPR }
+		SPR_3884 = { remove_core = SPR }				#Vascongadas
+		protectorado_espanol_de_marruecos_region = { remove_core = SPR }
+		SPR_10729 = { remove_core = SPR }				#Islas Canarias
+		sahara_espanol_region = { remove_core = SPR }
+		SPR_10002 = { remove_core = SPR }				#Guinea Española
+		set_country_flag = spanish_civil_war_over
+	}
+}
+
+# Republican Victory
+country_event = {
+	
+	id = 506
+	
+	trigger = {
+		tag = SPR
+		SPA = { exists = no }
+		NOT = { has_country_flag = spanish_civil_war_over }
+		date = 1937.1.1
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	title = "SCWVIC"
+	desc = "SCWVICDESC2"
+	picture = "SPA_Victory" #PRECISA MUDAR
+
+	option = {
+		name = "Fascists will not pass"
+		set_country_flag = spanish_civil_war_over
+	}
+}

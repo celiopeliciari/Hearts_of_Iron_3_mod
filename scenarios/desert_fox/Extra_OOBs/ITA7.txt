@@ -1,0 +1,7 @@
+division = 	{
+	name = "16th Division Pistoia"
+	location = 5445
+	regiment = { type = infantry_brigade name = "35° Rgt.Fanteria (Pistoia)" historical_model = 2 }
+	regiment = { type = infantry_brigade name = "36° Rgt.Fanteria (Pistoia)" historical_model = 2 }
+
+		}

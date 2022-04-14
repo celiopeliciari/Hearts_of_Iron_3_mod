@@ -1,0 +1,9 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "10. Panzer Division"
+	location = 5445
+	regiment = { type = heavy_armor name = "7. Panzerregiment" historical_model = 3 }
+	regiment = { type = motorized_brigade name = "69. Infanterie-Regiment (mot.)" historical_model = 3 }
+	regiment = { type = motorized_brigade name = "86. Infanterie-Regiment (mot.)" historical_model = 3 }
+	regiment = { type = mechanized_brigade name = "Sturm-Regiment 'Hermann Göring'" historical_model = 3 }
+		}

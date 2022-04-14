@@ -1,0 +1,7 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "Division z.b.V. Afrika"
+	location = 5445
+	regiment = { type = motorized_brigade name = "200. Infanterie-Regiment (mot.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "361. Infanterie-Regiment (mot.)" historical_model = 2 }
+		}

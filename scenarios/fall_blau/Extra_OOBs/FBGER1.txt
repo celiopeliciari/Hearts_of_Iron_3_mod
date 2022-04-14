@@ -1,0 +1,27 @@
+corps = {
+				name = "OKH Reserve"
+				location = 2223
+				regiment = { type = hq_brigade name = "OKH Reserve HQ" historical_model = 0 }
+				division= {
+					name = "Infanterie-Division 'Brandenburg'"
+					location = 2223
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+					regiment = { type = engineer_brigade experience = 70 historical_model = 2 }
+				}
+				division= {
+					name = "18. Infanterie-Division"
+					location = 2223
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+					regiment = { type = motorized_brigade experience = 70 name = "Infanterie Regiment" historical_model = 2 }
+				}
+				division= {
+					name = "6. Panzer-Division"
+					location = 2223
+					regiment = { type = armor_brigade experience = 80 name = "Panzer Regiment" historical_model = 2 }
+					regiment = { type = motorized_brigade experience = 80 name = "Schützen Regiment" historical_model = 1 }
+					regiment = { type = motorized_brigade experience = 80 name = "Schützen Regiment" historical_model = 1 }
+				}
+			}

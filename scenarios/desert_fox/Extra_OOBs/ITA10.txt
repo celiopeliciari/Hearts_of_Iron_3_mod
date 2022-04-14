@@ -1,0 +1,6 @@
+	air = {
+	name = "14° Stormo Caccia 'Rex'"
+	base = 5445
+	location = 5445
+	wing = { type = interceptor name = "14° Stormo Caccia 'Rex'" historical_model = 1 }
+	}

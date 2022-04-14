@@ -1,0 +1,7 @@
+division = 	{
+	name = "102a Divisione Fanteria Trento"
+	location = 5445
+	regiment = { type = motorized_brigade name = "61° Rgt.Fanteria  (Trento)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "62° Rgt.Fanteria  (Trento)" historical_model = 2 }
+
+		}

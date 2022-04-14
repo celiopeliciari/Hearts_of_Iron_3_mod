@@ -1,0 +1,10 @@
+division = {
+	name = "22nd Armoured Brigade"
+	location = 5586
+	regiment = { type = armor_brigade name = "22nd Armoured Brigade" historical_model = 2 }
+	}
+division = {
+	name = "131st Motorised Brigade"
+	location = 5586
+	regiment = { type = motorized_brigade name = "131st Motorised Brigade" historical_model = 2 }
+	}

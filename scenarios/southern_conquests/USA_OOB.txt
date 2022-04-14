@@ -1,0 +1,200 @@
+	army = {
+		expeditionary_owner = PHI
+		name = "Philippine Army" 
+		location = 6142 # Manilla
+		regiment = { type = hq_brigade name = "Philippine Army HQ" historical_model = 0 }
+		corps = {
+			expeditionary_owner = PHI
+			name = "North Luzon Force"
+			location = 6124 # Clark Field
+			regiment = { type = hq_brigade name = "North Luzon Force HQ" historical_model = 0 }
+			division= {
+				expeditionary_owner = PHI
+				name = "11th Division"
+				location = 6124 # Clark Field
+				regiment = { type = militia_brigade name = "11th Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "12th Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "13th Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "21st Division"
+				location = 6124 # Clark Field
+				regiment = { type = militia_brigade name = "21st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "22nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "23rd Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "31st Division"
+				location = 6124 # Clark Field
+				regiment = { type = militia_brigade name = "31st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "32nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "33rd Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "26th Cavalry 'Philippine Scouts'"
+				location = 6124 # Clark Field
+				regiment = { type = motorized_brigade name = "26th Cavalry 'Philippine Scouts'" historical_model = 0 }
+				regiment = { type = light_armor_brigade name = "1st (Provisional) Group" historical_model = 0 }
+			}
+		}
+		corps = {
+			expeditionary_owner = PHI
+			name = "South Luzon Force"
+			location = 6142 # Manilla
+			regiment = { type = hq_brigade name = "South Luzon Force HQ" historical_model = 0 }
+			division= {
+				expeditionary_owner = PHI
+				name = "1st Division"
+				location = 6142 # Manilla
+				regiment = { type = infantry_brigade name = "1st Infantry Regiment" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "2nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "3rd Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "41st Division"
+				location = 6154 # Polilio
+				regiment = { type = militia_brigade name = "41st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "42nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "43rd Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "51st Division"
+				location = 6181 # Legaspi
+				regiment = { type = militia_brigade name = "51st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "52nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "53rd Infantry Regiment" historical_model = 0 }
+			}
+			division= {
+				expeditionary_owner = PHI
+				name = "71st Division"
+				location = 6142 # Manilla
+				regiment = { type = militia_brigade name = "71st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "72nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "73rd Infantry Regiment" historical_model = 0 }
+			}
+		}
+		corps = {
+			expeditionary_owner = PHI
+			name = "Visayan-Mindanao Force"
+			location = 6254 # Cebu
+			regiment = { type = hq_brigade name = "Visayan-Mindanao Force HQ" historical_model = 0 }
+			division= {
+				expeditionary_owner = PHI
+				name = "61st Division"
+				location = 6254 # Cebu
+				regiment = { type = militia_brigade name = "61st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "62nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "63rd Infantry Regiment" historical_model = 0 }
+				}
+			division= {
+				expeditionary_owner = PHI
+				name = "81st Division"
+				location = 6326 # Davao
+				regiment = { type = militia_brigade name = "81st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "82nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "83rd Infantry Regiment" historical_model = 0 }
+				}
+			division= {
+				expeditionary_owner = PHI
+				name = "101st Division"
+				location = 6326 # Davao
+				regiment = { type = militia_brigade name = "101st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "102nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "103rd Infantry Regiment" historical_model = 0 }
+				}
+			}
+		corps = {
+			expeditionary_owner = PHI
+			name = "Reserve Force"
+			location = 6142 # Manilla
+			regiment = { type = hq_brigade name = "Reserve Force HQ" historical_model = 0 }
+			division= {
+				expeditionary_owner = PHI
+				name = "91st Division"
+				location = 6142 # Manilla
+				regiment = { type = militia_brigade name = "91st Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "92nd Infantry Regiment" historical_model = 0 }
+				regiment = { type = militia_brigade name = "93rd Infantry Regiment" historical_model = 0 }
+			}
+		}
+	}
+	division = {
+		name = "Fleet Marine Force (Philippines Detachment)"
+		location = 6131
+		regiment = { type = marine_brigade name = "4th Marine Regiment 'The Oldest and the Proudest'" historical_model = 1 }
+	}
+	army = {
+		name = "U.S. Army Forces in the Far East"
+		location = 6142
+		leader = 60250 # MacArthur
+		regiment = { type = hq_brigade name = "U.S. Army Forces in the Far East HQ" historical_model = 0 }
+		division = {
+			name = "Phillippine Force"
+			location = 6142
+			regiment = { type = infantry_brigade name = "31st Infantry Regiment" historical_model = 1 }
+			regiment = { type = infantry_brigade name = "45st Infantry Regiment" historical_model = 1 }
+			regiment = { type = infantry_brigade name = "57th Infantry Regiment" historical_model = 1 }
+		}
+	}
+	
+
+division= {
+	name = "Phoenix Island Division"
+	location = 10670
+	regiment = { type = garrison_brigade name = "Phoenix Island Infantry Regiment" historical_model = 0 }
+}
+air = {
+	name = "Far East Air Force"
+	base = 6142
+	location = 6142
+	leader = 60489 #Brereton
+	wing = { type = strategic_bomber name = "V Bomber Command" historical_model = 1 }
+	wing = { type = interceptor name = "V Interceptor Command" historical_model = 2 }
+}
+
+air = {
+	name = "Asiatic Patrol Division"
+	base = 6142 
+	location = 6142
+	wing = { type = naval_bomber name = "Asiatic Patrol Wings" historical_model = 0 }
+}
+
+navy = {
+	name = "Asiatic Submarine Squadron 20"
+	base = 6142
+	location = 6142 # Luzon
+	ship = { type = submarine name = "21st Submarine Division" historical_model = 1 }
+	ship = { type = submarine name = "22nd Submarine Division" historical_model = 1 }
+	ship = { type = submarine name = "201st Submarine Division" historical_model = 1 }
+	ship = { type = submarine name = "202nd Submarine Division" historical_model = 1 }
+	ship = { type = submarine name = "203rd Submarine Division" historical_model = 1 }
+}
+navy = {
+	name = "Asiatic Cruiser Division"
+	base = 6142
+	location = 6142
+	ship = { type = heavy_cruiser name = "USS Huston" historical_model = 0 }
+	ship = { type = light_cruiser name = "USS Marbelhead" historical_model = 0 }
+}
+navy = {
+	name = "Destroyer Squadron 29" # Asiatic Fleet
+	base = 6142
+	location = 6142 #Manila
+	ship = { type = destroyer name = "57th Destroyer Division" historical_model = 1 }
+	ship = { type = destroyer name = "58th Destroyer Division" historical_model = 1 }
+	ship = { type = destroyer name = "59th Destroyer Division" historical_model = 1 }
+}
+
+navy = {
+	name = "Pacific Transport Fleet"
+	base = 6326
+	location = 6326
+	ship = { type = transport_ship name = "Charles Goodyear Flotilla" historical_model = 0 }
+	ship = { type = transport_ship name = "Anthony Wayne Flotilla" historical_model = 0 }
+	ship = { type = transport_ship name = "John Hancock Flotilla" historical_model = 0 }
+}

@@ -1,0 +1,7 @@
+division = 	{
+	name = "185th Division Folgore"
+	location = 5445
+	regiment = { type = paratrooper_brigade name = "186° Rgt.Fanteria (Folgore)" historical_model = 2 }
+	regiment = { type = paratrooper_brigade name = "187° Rgt.Fanteria (Folgore)" historical_model = 2 }
+
+		}

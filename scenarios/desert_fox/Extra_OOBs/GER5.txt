@@ -1,0 +1,7 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "999. leichte Division"
+	location = 5445
+	regiment = { type = motorized_brigade name = "961 Afrika-schützen-Regiment (mot.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "962 Afrika-schützen-Regiment (mot.)" historical_model = 2 }
+		}

@@ -1,0 +1,7 @@
+division = 	{
+	name = "134 Division Centauro"
+	location = 5445
+	regiment = { type = light_armor name = "31° Rgt.Carri(Centauro)" historical_model = 2 }
+	regiment = { type = armour_brigade name = "131° Rgt.Carri(Centauro)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "5th Bersaglieri Rgt.(Centauro)" historical_model = 2 }
+		}

@@ -1,0 +1,6 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "Fallschirm Brigade 'Ramcke'"
+	location = 5445
+	regiment = { type = paratrooper_brigade name = "Fallschirm Brigade 'Ramcke'" historical_model = 2 }
+		}

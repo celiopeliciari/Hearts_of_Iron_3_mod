@@ -1,0 +1,6 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "5. Panzer Regiment"
+	location = 5445
+	regiment = { type = armor_brigade name = "5. Panzer Regiment" historical_model = 3 }
+		}

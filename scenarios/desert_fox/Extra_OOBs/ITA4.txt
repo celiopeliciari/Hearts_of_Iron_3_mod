@@ -1,0 +1,6 @@
+division = 	{
+	name = "136th Division Giovani Fascisti"
+	location = 5445
+	regiment = { type = armor_brigade name = "Giovani Fascisti Rgt.Carri" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "Giovani Fascisti Rgt.Bersaglieri" historical_model = 2 }
+		}

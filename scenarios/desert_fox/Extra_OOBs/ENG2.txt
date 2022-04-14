@@ -1,0 +1,7 @@
+division = {
+	name = "50th (Northumbrian) Infantry Division"
+	location = 5586
+	regiment = { type = motorized_brigade name = "69th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "150th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "151st Infantry Brigade" historical_model = 2 }
+	}

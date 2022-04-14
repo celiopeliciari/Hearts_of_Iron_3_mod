@@ -1,0 +1,8 @@
+division = 	{
+	expeditionary_owner = GER
+	name = "164. leichte Division"
+	location = 5445
+	regiment = { type = motorized_brigade name = "125. Infanterie-Regiment (mot.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "382. Infanterie-Regiment (mot.)" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "433. Infanterie-Regiment (mot.)" historical_model = 2 }
+		}

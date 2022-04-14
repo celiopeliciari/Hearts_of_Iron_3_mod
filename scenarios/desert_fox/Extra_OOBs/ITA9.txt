@@ -1,0 +1,6 @@
+division = 	{
+	name = "1st Division Superga"
+	location = 5445
+	regiment = { type = infantry_brigade name = "91° Rgt.Fanteria (Pistoia)" historical_model = 2 }
+	regiment = { type = infantry_brigade name = "92° Rgt.Fanteria (Pistoia)" historical_model = 2 }
+		}

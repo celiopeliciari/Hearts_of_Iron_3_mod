@@ -1,0 +1,7 @@
+division = {
+	name = "44th (Home Counties) Infantry Division"
+	location = 5586
+	regiment = { type = motorized_brigade name = "131st Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "132nd Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "133rd Infantry Brigadee" historical_model = 2 }
+	}

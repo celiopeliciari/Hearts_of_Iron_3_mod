@@ -1,0 +1,94 @@
+corps = {
+       	name = "5ya Tankovaya Armiya"
+       	location = 2068
+       	regiment = { type = hq_brigade name = "5ya Tankovaya Armiya HQ" historical_model = 0 }
+		division= {
+			name = "2. Tankovyj Korps"
+			location = 2068
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "7. Tankovyj Korps"
+			location = 2068
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "11. Tankovyj Korps"
+			location = 2068
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "340. Strelkovaya Diviziya"
+			location = 2068
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+		}
+	} 
+	
+corps = {
+       	name = "4ya Tankovaya Armiya"
+       	location = 2857
+       	regiment = { type = hq_brigade name = "4ya Tankovaya Armiya HQ" historical_model = 0 }
+		division= {
+			name = "22. Tankovyj Korps"
+			location = 2857
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "23. Tankovyj Korps"
+			location = 2857
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "18. Strelkovaya Diviziya"
+			location = 2857
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+		}
+	} 
+
+corps = {
+       	name = "1ya Tankovaya Armiya"
+       	location = 1960
+       	regiment = { type = hq_brigade name = "1ya Tankovaya Armiya HQ" historical_model = 0 }
+		division= {
+			name = "13. Tankovyj Korps"
+			location = 1960
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "28. Tankovyj Korps"
+			location = 1960
+			regiment = { type = armor_brigade name = "Tank Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+			regiment = { type = motorized_brigade name = "Motorized Regiment" historical_model = 2}
+		}
+		division= {
+			name = "131. Strelkovaya Diviziya"
+			location = 1960
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+		}
+		division= {
+			name = "399. Strelkovaya Diviziya"
+			location = 1960
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+			regiment = { type = infantry_brigade historical_model = 2 }
+		}
+	} 

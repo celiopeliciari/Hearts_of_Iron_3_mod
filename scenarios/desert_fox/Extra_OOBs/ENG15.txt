@@ -1,0 +1,6 @@
+division = {
+	name = "56th (London) Infantry Division"
+	location = 5586
+	regiment = { type = motorized_brigade name = "167th (London) Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "169th (London) Infantry Brigade" historical_model = 2 }
+	}

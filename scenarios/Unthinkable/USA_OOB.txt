@@ -1,0 +1,629 @@
+theatre = {
+	name = "Supreme Headquarters Allied Expeditionary Force"
+	location = 3017
+	leader = 60145 #Eisenhower
+	regiment = { type = hq_brigade name = "Supreme Headquarters Allied Expeditionary Force" historical_model = 0 }
+	armygroup = {
+	name = "12th Army Group"
+	location = 2087
+	leader = 60057 #Bradley
+	regiment = { type = hq_brigade name = "12th Army Group HQ" historical_model = 0 }
+	army = {
+			
+			name = "1st Army"
+			location = 2087
+			leader = 60217 #Hodges
+			regiment = { type = hq_brigade name = "1st United States Army" historical_model = 2 }
+			division= {
+				
+				name = "28th 'Keystone' Division"
+				location = 2030
+				leader = 60067 #Brown
+				regiment = { type = motorized_brigade name = "109th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "110th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "112th Infantry Regiment" historical_model = 3 }
+			}
+			corps = {
+				
+				name = "5th Army Corps"
+				location = 2087
+				leader = 60220 #Huebner
+				regiment = { type = hq_brigade name = "5th Army Corps HQ" historical_model = 0 }
+				division= {
+					
+					name = "1st 'Big Red One' Division"
+					location = 2030
+					leader = 60012 #Andrus where 60220 #Huebner
+					regiment = { type = mechanized_brigade name = "16th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "18th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "26th Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "2nd 'Indianhead' Division"
+					location = 2030
+					leader = 60007 #Almond
+					regiment = { type = mechanized_brigade name = "9th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "23rd Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "38th Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "2nd Armored 'Hell On Wheels' Division"
+					location = 2030
+					leader = 60567 #White
+					regiment = { type = light_armor_brigade name = "66th Armoured Regiment" historical_model = 3 }
+					regiment = { type = light_armor_brigade name = "67th Armoured Regiment" historical_model = 3 }
+					regiment = { type = mechanized_brigade name = "9th Infantry Regiment" historical_model = 2 }
+				}
+			}
+			corps = {
+				
+				name = "7th Army Corps"
+				location = 2088
+				leader = 60105 #Collins J.L
+				regiment = { type = hq_brigade name = "7th Army Corps HQ" historical_model = 0 }	
+				division= {
+					
+					name = "4th 'Ivy' Division"
+					location = 2146
+					leader = 60039 #Blakeley
+					regiment = { type = mechanized_brigade name = "8th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "12th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "22nd Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "9th 'Old Reliables' Division"
+					location = 2146
+					leader = 60154 #Ferenbaugh where 60142 #Eddy
+					regiment = { type = mechanized_brigade name = "39th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "47th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "60th Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "79th 'Cross of Lorraine' Division"
+					location = 2146
+					leader = 60377 #Wyche
+					regiment = { type = mechanized_brigade name = "313th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "314th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "315th Infantry Regiment" historical_model = 2 }
+				}
+			}
+			corps = {
+				
+				name = "8th Army Corps"
+				location = 2088
+				leader = 60368
+				regiment = { type = hq_brigade name = "8th Army Corps HQ" historical_model = 0 }
+				division= {
+					
+					name = "82nd Airborne 'All American' Division"
+					location = 2204
+					leader = 60167 #Gavin
+					regiment = { type = paratrooper_brigade name = "325th Infantry Regiment" historical_model = 2 }
+					regiment = { type = paratrooper_brigade name = "504th Infantry Regiment" historical_model = 2 }
+					regiment = { type = paratrooper_brigade name = "505th Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "101st US Air. 'Screaming Eagles Div."
+					location = 2204
+					leader = 60348 #Taylor
+					regiment = { type = paratrooper_brigade name = "327th Glider Regiment" historical_model = 2 }
+					regiment = { type = paratrooper_brigade name = "501st Parachute Regiment" historical_model = 2 }
+					regiment = { type = paratrooper_brigade name = "502th Parachute Regiment" historical_model = 2 }
+				}
+				division= {
+					
+					name = "83rd 'Thunderbolts' Division"
+					location = 2204
+					leader = 60251 #Macon
+					regiment = { type = motorized_brigade name = "329th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "330th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "331st Infantry Regiment" historical_model = 3 }
+				}
+				division= {
+					
+					name = "90th 'Tough Ombres' Division"
+					location = 2204
+					leader = 60141 #Earnest
+					regiment = { type = mechanized_brigade name = "357th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "358th Infantry Regiment" historical_model = 2 }
+					regiment = { type = mechanized_brigade name = "359th Infantry Regiment" historical_model = 2 }
+				}
+			}
+			corps = {
+				
+				name = "19th Army Corps"
+				location = 2145
+				leader = 60109 #Corlett
+				regiment = { type = hq_brigade name = "19th Army. Corps HQ" historical_model = 0 }
+				division= {
+					
+					name = "29th 'Blue and Gray' NG Division"
+					location = 2260
+					leader = 60170 #Gerhardt
+					regiment = { type = motorized_brigade name = "115th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "116th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "175th Infantry Regiment" historical_model = 3 }
+				}
+				division= {
+					
+					name = "30th 'Old Hickory' NG Division"
+					location = 2260
+					leader = 60214 #Hobbs
+					regiment = { type = motorized_brigade name = "117th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "119th Infantry Regiment" historical_model = 3 }
+					regiment = { type = motorized_brigade name = "120th Infantry Regiment" historical_model = 3 }
+				}
+				division= {
+					
+					name = "3rd Armored 'Spearhead' Division"
+					location = 2260
+					leader = 60364 #Watson
+					regiment = { type = armor_brigade name = "32nd Armoured Regiment" historical_model = 3 }
+					regiment = { type = armor_brigade name = "33rd Armoured Regiment" historical_model = 3 }
+					regiment = { type = mechanized_brigade name = "36th Armoured Infantry Regiment" historical_model = 3 }
+				}
+			}
+		}
+		army = {
+		name = "3rd US Army"
+		location = 2374
+		leader = 60352 # truscott
+		regiment = { type = hq_brigade name = "3rd US Army HQ" historical_model = 2 }
+		corps = {
+			
+			name = "XV. Corps"
+			location = 2434
+			leader = 60091 #Cates
+			regiment = { type = hq_brigade name = "IX. Corps HQ" historical_model = 0 }
+			division= {
+				
+				name = "4th Armored 'Name Enough' Division"
+				location = 2318
+				leader = 60301 #Prickett
+				regiment = { type = armor_brigade name = "34th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "37th Tank Regiment" historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "51st Armored Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				
+				name = "35th 'Santa Fe' Division"
+				location = 2318
+				leader = 60018 #Baade
+				regiment = { type = mechanized_brigade name = "134th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "137th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "320th Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				
+				name = "5th 'Red Devils' Division"
+				location = 2318
+				leader = 60067 #Brown
+				regiment = { type = mechanized_brigade name = "2nd Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "10th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "11th Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				
+				name = "8th 'Pathfinder' Division"
+				location = 2318
+				leader = 60342 #Stroh
+				regiment = { type = mechanized_brigade name = "13th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "28th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "121st Infantry Regiment" historical_model = 2 }
+			}
+		}
+		corps = {
+			
+			name = "XII. Corps"
+			location = 2434
+			leader = 60586 #Irwin
+			regiment = { type = hq_brigade name = "XIII. Corps HQ" historical_model = 0 }
+			division= {
+				
+				name = "80th 'Blue Ridge Division'"
+				location = 2376
+				leader = 60281
+				regiment = { type = motorized_brigade name = "317th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "318th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "319th Infantry Regiment" historical_model = 3 }
+			}
+			division= {
+				
+				name = "5th 'V' Armored Division"
+				location = 2376
+				leader = 60287 #Oliver
+				regiment = { type = armor_brigade name = "10th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "34th Tank Regiment" historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "46th Armored Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+			expeditionary_owner = ENG
+				name = "53rd 'Welsh' Motorized Div."
+				location = 2376
+				regiment = { type = motorized_brigade name = "71st Infantry Brigade" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "158th Infantry Brigade" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "160th Infantry Brigade" historical_model = 3 }
+			}
+		}
+		
+	corps = {
+		
+		name = "XX. Army Corps"
+		location = 2435
+		leader = 60261 #McBride
+		regiment = { type = hq_brigade name = "XX. Army Corps HQ" historical_model = 0 }
+		division= {
+			
+			name = "6th Armored 'Super Sixth' Div."
+			location = 2435
+			leader = 60184 #Grow
+			regiment = { type = armor_brigade name = "68th Armoured Regiment" historical_model = 3 }
+			regiment = { type = armor_brigade name = "68th Armoured Regiment" historical_model = 3 }
+			regiment = { type = mechanized_brigade name = "50th Armoured Infantry Regiment" historical_model = 2 }
+			}
+		division = {
+		
+			name = "7th Armored 'Lucky Seventh' Division"
+			location = 2435
+			leader = 60330 #Silvester
+			regiment = { type = armor_brigade name = "31st Armored Regiment" historical_model = 3 }
+			regiment = { type = armor_brigade name = "40th Armored Regiment" historical_model = 3 }
+			regiment = { type = mechanized_brigade name = "48th Armored Infantry Regiment" historical_model = 2 }
+			}
+		}
+	}
+	}
+	armygroup = {
+		name = "6th Army Group"
+		location = 2558
+		leader = 60128 #Devers
+		regiment = { type = hq_brigade name = "6th Army Group HQ" historical_model = 0 }
+	army = {
+		name = "French 1st Army"
+		location = 2558
+		leader = 24114 #Tassigny
+		expeditionary_owner = FRA
+		regiment = { type = hq_brigade name = "French 1st Army HQ" historical_model = 0 }
+			corps = {
+			name = "I Corps"
+			location = 2496
+			expeditionary_owner = FRA
+			regiment = { type = hq_brigade name = "I Corps HQ" historical_model = 0 }
+				division= {
+				expeditionary_owner = FRA
+				name = "1st Free French Division"
+				location = 2436
+				regiment = { type = motorized_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division = {
+				expeditionary_owner = FRA
+				name = "2ème Division Blindée"
+				location = 2435
+				leader = 24116 #Leclerc de Hauteclocque
+				regiment = { type = armor_brigade name = "501éme Régt. de Chars de Combat" historical_model = 3 }
+				regiment = { type = light_armor_brigade name = "12ème Régt. de Cuirassiers" historical_model = 2 }
+				regiment = { type = light_armor_brigade name = "12ème Regt. de Chasseurs d'Afrique" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "Régiment du Tchad" historical_model = 2 }
+				}
+			}
+			corps = {
+			name = "II Corps"
+			location = 2496
+			expeditionary_owner = FRA
+			regiment = { type = hq_brigade name = "II Corps HQ" historical_model = 0 }
+				division= {
+				expeditionary_owner = FRA
+				name = "2nd Moroccan Infantry Division"
+				location = 2436
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division= {
+				expeditionary_owner = FRA
+				name = "3rd Algerian Infantry Division"
+				location = 2436
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division= {
+				expeditionary_owner = FRA
+				name = "4th Moroccan Infantry Division"
+				location = 2436
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division= {
+				expeditionary_owner = FRA
+				name = "3rd Colonial Infantry Division"
+				location = 2436
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+			}
+			corps = {
+			name = "III Corps"
+			location = 2496
+			expeditionary_owner = FRA
+			regiment = { type = hq_brigade name = "III Corps HQ" historical_model = 0 }
+				division= {
+				expeditionary_owner = FRA
+				name = "1st Armoured Division"
+				location = 2559
+				regiment = { type = armor_brigade name = "Armored Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "Armored Regiment" historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "Armored Infantry Regiment" historical_model = 2 }
+				}
+				division= {
+				expeditionary_owner = FRA
+				name = "5th Armoured Division"
+				location = 2559
+				regiment = { type = armor_brigade name = "Armored Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "Armored Regiment" historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "Armored Infantry Regiment" historical_model = 2 }
+				}
+			}
+		}
+	army = {
+		name = "7th Army"
+		location = 2558
+		leader = 60190 #Haislip
+		regiment = { type = hq_brigade name = "7th Army HQ" historical_model = 0 }
+			corps = {
+			name = "6th Corps"
+			location = 2624
+			leader = 60065 #Brooks
+			regiment = { type = hq_brigade name = "6th Corps HQ" historical_model = 0 }
+				division= {
+				name = "3rd 'Marne' Division"
+				location = 2690
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division= {
+				name = "42nd 'Rainbow' Division"
+				location = 2690
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+				division= {
+				name = "45th 'Thunderbird' Division"
+				location = 2690
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				regiment = { type = infantry_brigade name = "Infantry Brigade" historical_model = 3 }
+				}
+			}
+		}
+		army = {
+		name = "9th Army"
+		location = 2952
+		leader = 60331 #Simpson
+		regiment = { type = hq_brigade name = "9th Army HQ" historical_model = 2 }
+		corps = {
+		name = "XXI. Army Corps"
+		location = 2887
+		regiment = { type = hq_brigade name = " HQ" historical_model = 2 }
+			division= {
+				name = "26th 'Yankee' NG Division"
+				location = 2756
+				regiment = { type = mechanized_brigade name = "101st Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "104th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "328th Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				name = "44th Infantry NG Division"
+				location = 2756
+				regiment = { type = mechanized_brigade name = "71st Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "114th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "324th Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				name = "84th 'Railsplitters' Division"
+				location = 2756
+				regiment = { type = mechanized_brigade name = "333rd Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "334th Infantry Regiment" historical_model = 2 }
+				regiment = { type = mechanized_brigade name = "335th Infantry Regiment" historical_model = 2 }
+			}
+			division= {
+				name = "94th 'Neuf Quatres' Division"
+				location = 2756
+				regiment = { type = motorized_brigade name = "301st Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "302nd Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "376th Infantry Regiment" historical_model = 3 }
+			}
+		}
+		corps = {
+		name = "XIX. Army Corps"
+		location = 2887
+		regiment = { type = hq_brigade name = " HQ" historical_model = 2 }
+			division= {
+				name = "95th 'Victory' Division"
+				location = 2821
+				regiment = { type = motorized_brigade name = "377th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "378th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "379th Infantry Regiment" historical_model = 3 }
+			}
+			division= {
+				name = "102nd 'Ozarks' Division"
+				location = 2821
+				regiment = { type = motorized_brigade name = "405th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "406th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "407th Infantry Regiment" historical_model = 3 }
+			}
+			division= {
+				name = "99th 'Checkerboard' Division"
+				location = 2821
+				regiment = { type = motorized_brigade name = "393rd Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "394th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "395th Infantry Regiment" historical_model = 3 }
+			}
+			division= {
+				name = "8th Armored 'Thundering Herd' Div."
+				location = 2821
+				regiment = { type = armor_brigade name = "18th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "36th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "80th Tank Regiment" historical_model = 3 }
+			}
+			division= {
+				name = "9th Armored 'Phantom' Div."
+				location = 2821
+				regiment = { type = armor_brigade name = "2nd Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "14th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "19th Tank Regiment" historical_model = 3 }
+			}
+		}
+		corps = {
+		name = "XXII. Army Corps"
+		location = 2887
+		regiment = { type = hq_brigade name = " HQ" historical_model = 2 }
+			division= {
+				name = "10th Armored 'Tiger' Div."
+				location = 2888
+				regiment = { type = armor_brigade name = "3rd Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "11th Tank Regiment" historical_model = 3 }
+				regiment = { type = armor_brigade name = "21st Tank Regiment" historical_model = 3 }
+			}
+			division = {
+				name = "78. 'Lighting' Infantry Division"
+				location = 2888
+				regiment = { type = motorized_brigade name = "309th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "310th Infantry Regiment" historical_model = 3 }
+				regiment = { type = motorized_brigade name = "311th Infantry Regiment" historical_model = 3 }
+			}
+			division = {
+				name = "17. Airborne 'Golden Talons' Division"
+				location = 2888
+				regiment = { type = paratrooper_brigade name = "507th Parachute Regiment" historical_model = 2 }
+				regiment = { type = paratrooper_brigade name = "513th Parachute Regiment" historical_model = 2 }
+				regiment = { type = paratrooper_brigade name = "517th Parachute Regiment" historical_model = 2 }
+			}
+		}
+	corps = {
+		is_reserve = yes
+		name = "Reserve Corps"
+		location = 2495
+		regiment = { type = hq_brigade name = "East Coast Reserves HQ" historical_model = 0 }
+		division= {
+			is_reserve = yes
+			name = "89th 'The Rolling W' Division"
+			location = 2495
+			regiment = { type = motorized_brigade name = "353rd Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "354th Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "355th Infantry Regiment" historical_model = 3 }
+		}
+		division= {
+			is_reserve = yes
+			name = "92nd 'Buffalo Soldiers' Division"
+			location = 2495
+			regiment = { type = motorized_brigade name = "365th Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "370th Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "371st Infantry Regiment" historical_model = 3 }
+		}
+		division= {
+			is_reserve = yes
+			name = "97th 'Trident' Division"
+			location = 2495
+			regiment = { type = mechanized_brigade name = "303rd Infantry Regiment" historical_model = 2 }
+			regiment = { type = mechanized_brigade name = "386th Infantry Regiment" historical_model = 2 }
+			regiment = { type = mechanized_brigade name = "387th Infantry Regiment" historical_model = 2 }
+		}
+		division= {
+			is_reserve = yes
+			name = "87th 'Golden Acorns' Division"
+			location = 2495
+			regiment = { type = motorized_brigade name = "345th Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "346th Infantry Regiment" historical_model = 3 }
+			regiment = { type = motorized_brigade name = "347th Infantry Regiment" historical_model = 3 }
+		}
+		division= {
+			is_reserve = yes
+			name = "86th 'Blackhawk' Division"
+			location = 2495
+			regiment = { type = mechanized_brigade name = "345st Infantry Regiment" historical_model = 2 }
+			regiment = { type = mechanized_brigade name = "342nd Infantry Regiment" historical_model = 2 }
+			regiment = { type = mechanized_brigade name = "343rd Infantry Regiment" historical_model = 2 }
+		}
+	}
+	}
+}
+
+air = { 
+	name = "IX Bomber Command"
+	base = 2550
+	location = 2550
+	wing = { type = tactical_bomber name = "97th Combat Bombardment Wing" historical_model = 2 }
+	wing = { type = tactical_bomber name = "98th Combat Bombardment Wing" historical_model = 2 }
+	wing = { type = tactical_bomber name = "99th Combat Bombardment Wing" historical_model = 2 }
+	wing = { type = multi_role name = "70th Fighter Wing" historical_model = 2 }
+}
+air = { 
+	name = "IX Tactical Air Command"
+	base = 2618
+	location = 2618
+	wing = { type = multi_role name = "71st Fighter Wing" historical_model = 2 }
+	wing = { type = multi_role name = "84th Fighter Wing" historical_model = 2 }
+}
+air = { 
+	name = "XIX Tactical Air Command"
+	base = 2618
+	location = 2618
+	wing = { type = multi_role name = "303rd Fighter Wing" historical_model = 2 }
+	wing = { type = multi_role name = "100th Fighter Wing" historical_model = 2 }
+}
+air = { 
+	name = "RAF Group No.85"
+	expeditionary_owner = ENG
+	base = 2613
+	location = 2613
+	wing = { type = multi_role name = "34th Reconnaissance Wing" historical_model = 2 }
+	wing = { type = multi_role name = "141st Wing" historical_model = 2 }
+	wing = { type = multi_role name = "142nd Wing" historical_model = 2 }
+	wing = { type = multi_role name = "149th Wing" historical_model = 2 }
+	wing = { type = multi_role name = "150th Wing" historical_model = 2 }
+}
+air = { 
+	name = "RAF Group No.2"
+	expeditionary_owner = ENG
+	base = 2311
+	location = 2311
+	wing = { type = tactical_bomber name = "137th Wing" historical_model = 2 }
+	wing = { type = tactical_bomber name = "138th Wing" historical_model = 2 }
+	wing = { type = tactical_bomber name = "139th Wing" historical_model = 2 }
+	wing = { type = tactical_bomber name = "140th Wing" historical_model = 2 }
+}
+air = { 
+	name = "RAF Group No.83"
+	expeditionary_owner = ENG
+	base = 2311
+	location = 2311
+	wing = { type = multi_role name = "39th Reconnaissance Wing" historical_model = 2 }
+	wing = { type = interceptor name = "121st Wing" historical_model = 2 }
+	wing = { type = multi_role name = "122nd Wing" historical_model = 2 }
+	wing = { type = interceptor name = "124th Wing" historical_model = 2 }
+	wing = { type = multi_role name = "125th Wing" historical_model = 2 }
+}
+air = { 
+	name = "RAF Group No.84"
+	expeditionary_owner = ENG
+	base = 2197
+	location = 2197
+	wing = { type = multi_role name = "35th Reconnaissance Wing" historical_model = 2 }
+	wing = { type = interceptor name = "123rd Wing" historical_model = 2 }
+	wing = { type = multi_role name = "131st Wing" historical_model = 2 }
+	wing = { type = multi_role name = "132rd Wing" historical_model = 2 }
+	wing = { type = multi_role name = "133rd Wing" historical_model = 2 }
+}
+}

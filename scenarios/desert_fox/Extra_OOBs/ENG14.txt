@@ -1,0 +1,7 @@
+division = {
+	name = "4th Infantry Division"
+	location = 5586
+	regiment = { type = motorized_brigade name = "10th Infantry Brigade" historical_model = 2 }
+	regiment = { type = motorized_brigade name = "12th Infantry Brigade" historical_model = 2 }
+	regiment = { type = armor_brigade name = "21st Tank Brigade" historical_model = 2 }
+	}

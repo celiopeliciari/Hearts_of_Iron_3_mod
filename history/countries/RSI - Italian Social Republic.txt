@@ -1,0 +1,71 @@
+capital = 3559
+government = fascist_republic
+ideology = generical_fascism
+alignment = { x = 200 y = 200.0 }
+neutrality = 0
+national_unity = 40
+schwerpunkt = 0
+blitzkrieg = 0
+mobile_warfare = 0
+elastic_defence = 0
+operational_level_command_structure = 0
+tactical_command_structure = 0
+mechanized_offensive = 0
+delay_doctrine = 0
+integrated_support_doctrine = 0
+infantry_warfare = 1
+special_forces = 0
+assault_concentration = 1
+central_planning = 0
+mass_assault = 1
+peoples_army = 1
+large_front = 0
+guerilla_warfare = 0
+operational_level_organisation = 0
+
+popularity = { 
+	nazism = 0
+	generical_fascism = 45
+	reactionarism = 7
+	conservatism = 22
+	liberalism = 0
+	social_liberalism = 8
+	social_democracy = 8
+	marxism = 10
+	trotskyism = 0
+	stalinism = 0
+}
+
+organization = { 
+	nazism = 0
+	generical_fascism = 95
+	reactionarism = 20
+	conservatism = 40
+	liberalism = 0
+	social_liberalism = 30
+	social_democracy = 30
+	marxism = 30
+	trotskyism = 0
+	stalinism = 0
+}
+
+training_laws = advanced_training
+press_laws = propaganda_press
+industrial_policy_laws = mixed_industry
+education_investment_law = medium_large_education_investment
+economic_law = full_mobilisation
+conscription_law = volunteer_army
+civil_law = totalitarian_system
+1943.9.23 = { join_faction = axis }
+1944.6.20 = {
+	head_of_state = 508001
+	head_of_government = 508001
+	foreign_minister = 508001
+	armament_minister = 508008
+	minister_of_security = 508005
+	minister_of_intelligence = 508005
+	chief_of_army = 508008
+	chief_of_navy = 508009
+	chief_of_air = 508010
+	oob = "RSI_1944.txt"
+}

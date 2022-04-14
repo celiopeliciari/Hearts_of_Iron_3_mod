@@ -1,0 +1,11 @@
+owner = FIN
+controller = FIN
+add_core = FIN
+
+infra = 2
+terrain = arctic
+1945.06.07 = {
+	controller = SOV
+
+	owner = SOV
+}

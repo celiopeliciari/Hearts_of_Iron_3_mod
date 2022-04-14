@@ -1,0 +1,409 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new forms of governemnts, make sure they are uniquely named.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+national_socialism = {
+	#acceptable ideologies
+	
+	nazism = yes
+	generical_fascism = yes
+	reactionarism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = no
+	armament_minister = no
+	minister_of_security = no
+	minister_of_intelligence = no
+	chief_of_staff = no
+	chief_of_army = no
+	chief_of_navy = no
+	chief_of_air = no	
+	
+	election = no
+}
+
+fascist_republic = {
+
+	#acceptable ideologies
+
+	nazism = yes
+	generical_fascism = yes
+	reactionarism = yes	
+	
+	# positions changed by elections
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+germanic_fascist_republic = {
+
+	#acceptable ideologies
+
+	nazism = yes
+	generical_fascism = yes
+	reactionarism = yes	
+	
+	# positions changed by elections
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+right_wing_republic = {
+	
+	#acceptable ideologies
+	
+	reactionarism = yes
+	generical_fascism = yes
+	conservatism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+hungarian_right_wing_republic = {
+	
+	#acceptable ideologies
+	
+	reactionarism = yes
+	generical_fascism = yes
+	conservatism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+
+right_wing_autocrat = {
+	
+	#acceptable ideologies
+	
+	reactionarism = yes
+	generical_fascism = yes
+	conservatism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+absolute_monarchy = {
+	
+	#acceptable ideologies
+	
+	reactionarism = yes
+	generical_fascism = yes
+	conservatism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+imperial = {
+	
+	#acceptable ideologies
+	
+	reactionarism = yes
+	generical_fascism = yes
+	nazism = yes
+
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = no
+}
+
+social_conservatism = {
+
+	#acceptable ideologies
+	
+	reactionarism = yes
+	conservatism = yes
+	liberalism = yes
+	
+	# positions changed by elections
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+constitutional_monarchy = {
+
+	#acceptable ideologies
+	
+	reactionarism = yes
+	conservatism = yes
+	liberalism = yes
+	
+	# positions changed by elections
+	head_of_state = no
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+spanish_social_conservatism = {
+
+	#acceptable ideologies
+	
+	reactionarism = yes
+	conservatism = yes
+	liberalism = yes
+	
+	# positions changed by elections
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+
+liberalism = {
+
+	#acceptable ideologies
+
+	liberalism = yes
+	social_liberalism = yes
+	social_democracy = yes
+
+	# positions changed by elections
+
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+social_democracy = {
+	
+	#acceptable ideologies
+	
+	social_liberalism = yes
+	social_democracy = yes
+	marxism = yes
+	
+	# positions changed by elections
+
+	head_of_state = no
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+social_liberalism = {
+
+	#acceptable ideologies
+
+	liberalism = yes
+	social_liberalism = yes
+	social_democracy = yes
+
+	# positions changed by elections
+
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+marxisms = {
+
+	#acceptable ideologies
+
+	social_democracy = yes
+	marxism = yes
+	trotskyism = yes
+	
+	# positions changed by elections
+
+	head_of_state = yes
+	head_of_government = yes
+	foreign_minister = yes
+	armament_minister = yes
+	minister_of_security = yes
+	minister_of_intelligence = yes
+	chief_of_staff = yes
+	chief_of_army = yes
+	chief_of_navy = yes
+	chief_of_air = yes
+	
+	election = yes
+	duration = 48
+}
+
+socialist_republic = {
+
+	#acceptable ideologies
+
+	marxism = yes
+	trotskyism = yes
+	stalinism = yes
+
+	# positions changed by elections
+
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = no
+	armament_minister = no
+	minister_of_security = no
+	minister_of_intelligence = no
+	chief_of_staff = no
+	chief_of_army = no
+	chief_of_navy = no
+	chief_of_air = no
+	
+	election = no
+}
+
+federal_socialist_republic = {
+
+	#acceptable ideologies
+	
+	marxism = yes
+	trotskyism = yes
+	stalinism = yes
+
+	# positions changed by elections
+
+	head_of_state = no
+	head_of_government = no
+	foreign_minister = no
+	armament_minister = no
+	minister_of_security = no
+	minister_of_intelligence = no
+	chief_of_staff = no
+	chief_of_army = no
+	chief_of_navy = no
+	chief_of_air = no
+	
+	election = no
+}
