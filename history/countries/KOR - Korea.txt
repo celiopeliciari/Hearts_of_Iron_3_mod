@@ -1,5 +1,5 @@
 capital = 5116
-government = absolute_monarchy
+government = right_wing_republic
 ideology = reactionarism
 alignment = { x = 60 y = 61.6 }
 neutrality = 70

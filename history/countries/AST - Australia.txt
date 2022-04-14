@@ -1,5 +1,5 @@
 capital = 8007
-government = social_conservatism
+government = constitutional_monarchy
 ideology = conservatism
 head_of_state = 56001
 head_of_government = 56002

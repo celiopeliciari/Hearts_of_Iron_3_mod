@@ -1,5 +1,5 @@
 capital = 1928
-government = social_conservatism
+government = presidentialism
 ideology = reactionarism
 head_of_state = 13001
 head_of_government = 13002

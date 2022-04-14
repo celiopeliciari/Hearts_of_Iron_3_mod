@@ -1,5 +1,5 @@
 capital = 8070
-government = social_democracy
+government = constitutional_monarchy
 ideology = social_democracy
 head_of_state = 55001
 head_of_government = 55002

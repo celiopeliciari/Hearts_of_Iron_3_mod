@@ -1,6 +1,9 @@
 color = { 138  163  117 }
 graphical_culture = German
 
+last_election = 1935.4.7
+duration = 48
+
 default_templates = {
 	binary_infantry = {
 		infantry_brigade

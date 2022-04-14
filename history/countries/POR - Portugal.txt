@@ -1,5 +1,5 @@
 capital = 4644
-government = right_wing_republic
+government = right_wing_autocrat
 ideology = reactionarism
 head_of_state = 9001
 head_of_government = 9002
