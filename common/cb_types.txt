@@ -27,9 +27,9 @@ peace_order = {
 	restore_france
 	conquer
 	install_communism 
-	liberate_as_democracy 
-	liberate_as_communist 
-	install_democracy 
+	liberate_as_capitalist 
+	liberate_as_communist
+	install_capitalism
 	puppet
 }
 
@@ -127,29 +127,29 @@ aquire_all_cores = {
 	war_name = AQUIRE_CORE_NAME
 }
 
-#liberate_as_democracy = {
-#	sprite_index = 3
-#	is_triggered_only = yes
-#
-#	always = no
-#	
-#	is_valid = {
-#		this = { 
-#			faction = allies 
-#		}
-#		
-#		# non allies only
-#		not = { ideology = conservatism }
-#		not = { ideology = liberalism }
-#		not = { ideology = social_democracy }
-#	}
-#	
-#	po_change_government = yes
-#	
-#	war_name = WAR_LIBERATE_DEMOCRACY
-#}
+liberate_as_capitalist = {
+	sprite_index = 3
+	is_triggered_only = yes
 
-install_democracy = {
+	always = no
+	
+	is_valid = {
+		this = { 
+			faction = allies 
+		}
+		
+		# non allies only
+		not = { ideology = conservatism }
+		not = { ideology = liberalism }
+		not = { ideology = social_democracy }
+	}
+	
+	po_change_government = yes
+	
+	war_name = WAR_LIBERATE_DEMOCRACY
+}
+
+install_capitalism = {
 	sprite_index = 7
 	is_triggered_only = yes
 
@@ -184,27 +184,27 @@ install_democracy = {
 	war_name = WAR_INSTALL_DEMOCRACY
 }
 
-#liberate_as_communist = {
-#	sprite_index = 2
-#	is_triggered_only = yes
-#
-#	always = no
-#	
-#	is_valid = {
-#		this = { 
-#			faction = comintern 
-#		}
-#		
-#		# non communists only
-#		not = { ideology = marxism }
-#		not = { ideology = trotskyism }
-#		not = { ideology = stalinism }
-#	}
-#	
-#	po_change_government = yes
-#	
-#	war_name = WAR_LIBERATE_COMMUNIST
-#}
+liberate_as_communist = {
+	sprite_index = 2
+	is_triggered_only = yes
+
+	always = no
+	
+	is_valid = {
+		this = { 
+			faction = comintern 
+		}
+		
+		# non communists only
+		not = { ideology = marxism }
+		not = { ideology = trotskyism }
+		not = { ideology = stalinism }
+	}
+	
+	po_change_government = yes
+	
+	war_name = WAR_LIBERATE_COMMUNIST
+}
 
 install_communism = {
 	sprite_index = 7

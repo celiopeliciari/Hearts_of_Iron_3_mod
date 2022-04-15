@@ -19,7 +19,7 @@ diplomatic_decisions = {
 			not = { government = german_reich }
 			not = { government = regno_d_italia }
 			not = { government = germanic_fascist_government }
-			not = { government = right_wing_government }
+			not = { government = right_wing_republic }
 			not = { dissent = 1 }
 			popularity = 50
 			organisation = 50
@@ -60,7 +60,7 @@ diplomatic_decisions = {
 			not = { government = german_reich }
 			not = { government = regno_d_italia }
 			not = { government = germanic_fascist_government }
-			not = { government = right_wing_government }
+			not = { government = right_wing_republic }
 			not = { dissent = 1 }
 			popularity = 60
 			organisation = 60
@@ -101,7 +101,7 @@ diplomatic_decisions = {
 			not = { government = german_reich }
 			not = { government = regno_d_italia }
 			not = { government = germanic_fascist_government }
-			not = { government = right_wing_government }
+			not = { government = right_wing_republic }
 			not = { dissent = 1 }
 			popularity = 50
 			organisation = 50
@@ -143,7 +143,7 @@ diplomatic_decisions = {
 			not = { government = german_reich }
 			not = { government = regno_d_italia }
 			not = { government = germanic_fascist_government }
-			not = { government = right_wing_government }
+			not = { government = right_wing_republic }
 			not = { war_with = SPR }
 			not = { war_with = ENG }
 			not = { war_with = FRA }
@@ -181,7 +181,7 @@ diplomatic_decisions = {
 			not = { government = german_reich }
 			not = { government = regno_d_italia }
 			not = { government = germanic_fascist_government }
-			not = { government = right_wing_government }
+			not = { government = right_wing_republic }
 			
 			not = { dissent = 1 }
 			popularity = 60
@@ -225,11 +225,11 @@ diplomatic_decisions = {
 				government = german_reich
 				government = regno_d_italia
 				government = germanic_fascist_government
-				government = right_wing_government
+				government = right_wing_republic
 				government = absolute_monarchy
 				government = imperial
 				government = constitutional_monarchy
-				government = social_conservatism
+				government = presidential
 				government = spanish_social_conservatism
 			}
 			not = { war_with = SPA }
@@ -271,11 +271,11 @@ diplomatic_decisions = {
 				government = german_reich
 				government = regno_d_italia
 				government = germanic_fascist_government
-				government = right_wing_government
+				government = right_wing_republic
 				government = absolute_monarchy
 				government = imperial
 				government = constitutional_monarchy
-				government = social_conservatism
+				government = presidential
 				government = spanish_social_conservatism
 			}
 			not = { war_with = SPA }
@@ -316,11 +316,11 @@ diplomatic_decisions = {
 				government = german_reich
 				government = regno_d_italia
 				government = germanic_fascist_government
-				government = right_wing_government
+				government = right_wing_republic
 				government = absolute_monarchy
 				government = imperial
 				government = constitutional_monarchy
-				government = social_conservatism
+				government = presidential
 				government = spanish_social_conservatism
 			}
 			not = { war_with = SPA }

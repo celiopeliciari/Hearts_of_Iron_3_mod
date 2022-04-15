@@ -1,5 +1,5 @@
 capital = 7576
-government = liberalism
+government = parliamentary
 ideology = liberalism
 head_of_state = 33001
 head_of_government = 33002

@@ -1,5 +1,5 @@
 capital = 9896
-government = liberalism
+government = parliamentary
 ideology = liberalism
 alignment = { x = 20 y = -24.9 }
 neutrality = 80

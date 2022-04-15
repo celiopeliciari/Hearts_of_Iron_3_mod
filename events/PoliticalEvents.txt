@@ -43,9 +43,9 @@ country_event = {
 	trigger = {
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		war = no
@@ -85,9 +85,9 @@ country_event = {
 	trigger = {
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		war = no
@@ -168,9 +168,9 @@ country_event = {
 
 	trigger = {
 		not = { government = market_liberalism }
-		not = { government = social_democracy }
+		not = { government = parliamentary }
 		not = { government = social_liberalism }
-		not = { government = social_conservatism }
+		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 	}
 
@@ -255,9 +255,9 @@ country_event = {
 		not = { organisation = 70 }
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		not = { has_country_flag = rogue_politician }
@@ -302,20 +302,20 @@ country_event = {
 	trigger = {
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		organisation = 70
 		not = {
-			leninist = {
+			trotskyism = {
 				organisation = 50
 				popularity = 50
 			}
 		}
 		not = {
-			stalinist = {
+			stalinism = {
 				organisation = 50
 				popularity = 50
 			}
@@ -339,11 +339,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA5009"			# Give your support
 		set_country_flag = outlaw_communist_parties
-		stalinist = {
+		stalinism = {
 			organisation = -10
 			popularity = -5
 		}
-		leninist = {
+		trotskyism = {
 			organisation = -10
 			popularity = -5
 		}
@@ -365,20 +365,20 @@ country_event = {
 	trigger = {
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		organisation = 70
 		not = {
-			national_socialist = {
+			nazism = {
 				organisation = 50
 				popularity = 50
 			}
 		}
 		not = {
-			fascistic = {
+			generical_fascism = {
 				organisation = 50
 				popularity = 50
 			}
@@ -402,11 +402,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA5010"			# Give your support
 		set_country_flag = outlaw_fascist_parties
-		national_socialist = {
+		nazism = {
 			organisation = -10
 			popularity = -5
 		}		
-		fascistic = {
+		generical_fascism = {
 			organisation = -10
 			popularity = -5
 		}
@@ -427,21 +427,21 @@ country_event = {
 
 	trigger = {
 		or = {
-			national_socialist = {
+			nazism = {
 				organisation = 50
 				popularity = 50
 			}
-			fascistic = {
+			generical_fascism = {
 				organisation = 50
 				popularity = 50
 			}
 		}
 		or = {
-			leninist = {
+			trotskyism = {
 				organisation = 50
 				popularity = 50
 			}
-			stalinist = {
+			stalinism = {
 				organisation = 50
 				popularity = 50
 			}
@@ -488,8 +488,8 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = national_socialism
-			government = fascist_republic
+			government = german_reich
+			government = fascist_government
 			government = socialist_republic
 			government = federal_socialist_republic
 		}
@@ -579,18 +579,18 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = social_conservatism
+			government = presidential
 			government = market_liberalism
 			government = social_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = constitutional_monarchy
 		}
 		or = {
-			national_socialist = {
+			nazism = {
 				organisation = 50
 				popularity = 50
 			}
-			fascistic = {
+			generical_fascism = {
 				organisation = 50
 				popularity = 50
 			}
@@ -679,13 +679,13 @@ country_event = {
 		
 		and = {
 			or = {
-				government = social_conservatism
+				government = presidential
 				government = market_liberalism
-				government = social_democracy
+				government = parliamentary
 				government = social_liberalism
 				government = constitutional_monarchy
 			}
-			ideology = national_socialist
+			ideology = nazism
 			organisation = 50
 		}
 		not = { has_country_flag = anti_terrorist_measures }
@@ -707,7 +707,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA5017"			# Good
 		set_country_flag = anti_terrorist_measures
-		government = national_socialism
+		government = german_reich
 	}
 }
 
@@ -722,14 +722,14 @@ country_event = {
 		or = {
 			or = {
 				government = absolute_monarchy
-				government = left_wing_radicals
+				government = war_socialism
 			}
 			and = {
 				or = {
 					government = socialist_republic
 					government = federal_socialist_republic
-					government = national_socialism
-					government = fascist_republic
+					government = german_reich
+					government = fascist_government
 				}
 				not = { year = 1937 }
 			}
@@ -813,11 +813,11 @@ country_event = {
 
 	trigger = {
 		not = { national_unity = 50 }
-		not = { ideology = left_wing_radical }
-		not = { ideology = leninist }
-		not = { ideology = stalinist }
+		not = { ideology = marxism }
+		not = { ideology = trotskyism }
+		not = { ideology = stalinism }
 		not = { has_country_flag = assassination_attempt_of_minister }
-		not = { government = left_wing_radicals }
+		not = { government = war_socialism }
 		not = { government = socialist_republic }
 		not = { government = federal_socialist_republic }
 	}
@@ -851,11 +851,11 @@ country_event = {
 
 	trigger = {
 		not = { national_unity = 50 }
-		not = { ideology = national_socialist }
-		not = { ideology = fascistic }
-		not = { ideology = paternal_autocrat }
-		not = { government = national_socialism }
-		not = { government = fascist_republic }
+		not = { ideology = nazism }
+		not = { ideology = generical_fascism }
+		not = { ideology = reactionarism }
+		not = { government = german_reich }
+		not = { government = fascist_government }
 		not = { government = absolute_monarchy }
 		not = { has_country_flag = assassination_attempt_of_minister }
 	}
@@ -893,9 +893,9 @@ country_event = {
 
 	trigger = {
 		not = { government = market_liberalism }
-		not = { government = social_democracy }
+		not = { government = parliamentary }
 		not = { government = social_liberalism }
-		not = { government = social_conservatism }
+		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 		not = { has_country_flag = illegal_printing_discovered }
 	}
@@ -942,9 +942,9 @@ country_event = {
 	trigger = {
 		is_threatend = 50
 		not = { government = market_liberalism }
-		not = { government = social_democracy }
+		not = { government = parliamentary }
 		not = { government = social_liberalism }
-		not = { government = social_conservatism }
+		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 		not = { has_country_flag = intelligence_network }
 	}
@@ -987,9 +987,9 @@ country_event = {
 	trigger = {
 		or = {
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
-			government = social_conservatism
+			government = presidential
 			government = constitutional_monarchy
 		}
 		dissent = 7
@@ -1036,8 +1036,8 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = national_socialism
-			government = fascist_republic
+			government = german_reich
+			government = fascist_government
 		}
 		dissent = 5
 		year = 1940
@@ -1089,15 +1089,15 @@ country_event = {
 		or = {
 			and = {
 				or = {
-					government = national_socialism
-					government = fascist_republic
+					government = german_reich
+					government = fascist_government
 				}
 				or = {
-					leninist = {
+					trotskyism = {
 						organisation = 50
 						popularity = 40
 					}
-					stalinist = {
+					stalinism = {
 						organisation = 50
 						popularity = 40
 					}
@@ -1109,11 +1109,11 @@ country_event = {
 					government = federal_socialist_republic
 				}
 				or = {
-					national_socialist = {
+					nazism = {
 						organisation = 50
 						popularity = 40
 					}
-					fascistic = {
+					generical_fascism = {
 						organisation = 50
 						popularity = 40
 					}
@@ -1328,8 +1328,8 @@ country_event = {
 	trigger = {
 		not = { year = 1938 }
 		or = {
-			government = national_socialism
-			government = fascist_republic
+			government = german_reich
+			government = fascist_government
 			government = socialist_republic
 			government = federal_socialist_republic
 		}
@@ -1374,9 +1374,9 @@ country_event = {
 		not = { organisation = 50 }
 		not = { popularity = 50 }
 		or = {
-			government = social_conservatism
+			government = presidential
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
 			government = constitutional_monarchy
 		}
@@ -1422,8 +1422,8 @@ country_event = {
 	id = 5033
 
 	trigger = {
-		not = { government = national_socialism }
-		not = { government = fascist_republic }
+		not = { government = german_reich }
+		not = { government = fascist_government }
 		not = { government = socialist_republic }
 		not = { government = federal_socialist_republic }
 		not = { has_country_flag = weapons_transport }
@@ -1471,9 +1471,9 @@ country_event = {
 	trigger = {
 		not = { has_country_flag = bribed_minister }
 		or = {
-			government = social_conservatism
+			government = presidential
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
 			government = constitutional_monarchy
 		}
@@ -1523,9 +1523,9 @@ country_event = {
 		war = no
 		not = { popularity = 50 }
 		or = {
-			government = social_conservatism
+			government = presidential
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
 			government = constitutional_monarchy
 		}
@@ -1603,17 +1603,17 @@ country_event = {
 	trigger = {
 		war = no
 		or = {
-			government = social_conservatism
+			government = presidential
 			government = market_liberalism
-			government = social_democracy
+			government = parliamentary
 			government = social_liberalism
 			government = constitutional_monarchy
 		}
 		is_in_any_faction = no
 		any_neighbor_country = {
 			or = {
-				government = national_socialism
-				government = fascist_republic
+				government = german_reich
+				government = fascist_government
 				government = socialist_republic
 				government = federal_socialist_republic
 			}
@@ -1656,13 +1656,13 @@ country_event = {
 		
 		and = {
 			or = {
-				government = social_conservatism
+				government = presidential
 				government = market_liberalism
-				government = social_democracy
+				government = parliamentary
 				government = social_liberalism
 				government = constitutional_monarchy
 			}
-			ideology = fascistic
+			ideology = generical_fascism
 			organisation = 50
 		}
 		not = { has_country_flag = anti_terrorist_measures }
@@ -1684,7 +1684,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA5017"			# Good
 		set_country_flag = anti_terrorist_measures
-		government = fascist_republic
+		government = fascist_government
 	}
 }
 

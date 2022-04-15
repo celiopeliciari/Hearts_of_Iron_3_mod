@@ -1,6 +1,6 @@
 capital = 4530
-government = social_liberalism
-ideology = social_liberalism
+government = presidencial_white_democracy
+ideology = liberalism
 head_of_state = 6001
 head_of_government = 6002
 foreign_minister = 6003

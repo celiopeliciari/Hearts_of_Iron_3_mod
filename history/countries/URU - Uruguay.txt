@@ -1,5 +1,5 @@
 capital = 7893
-government = social_liberalism
+government = parliamentary
 ideology = reactionarism
 head_of_state = 41001
 head_of_government = 41001

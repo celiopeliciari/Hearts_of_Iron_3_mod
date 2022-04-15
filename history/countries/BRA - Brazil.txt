@@ -12,7 +12,7 @@ chief_of_army = 34008
 chief_of_navy = 34009
 chief_of_air = 34010
 alignment = { x = 80 y = 61.6 }
-neutrality = 80
+neutrality = 90
 national_unity = 70
 
 oob = "BRA_1936.txt"
@@ -94,29 +94,29 @@ operational_level_organisation = 0
 
 
 popularity = { 
-	nazism = 0
-	generical_fascism = 15
-	reactionarism = 75
-	conservatism = 0
-	liberalism = 0
+	nazism = 1
+	generical_fascism = 4
+	reactionarism = 1
+	conservatism = 69
+	liberalism = 5
 	social_liberalism = 0
-	social_democracy = 0
-	marxism = 10
+	social_democracy = 15
+	marxism = 0
 	trotskyism = 0
-	stalinism = 0
+	stalinism = 5
 }
 
 organization = { 
-	nazism = 0
+	nazism = 10
 	generical_fascism = 50
-	reactionarism = 80
-	conservatism = 0
-	liberalism = 0
+	reactionarism = 60
+	conservatism = 80
+	liberalism = 30
 	social_liberalism = 0
-	social_democracy = 0
-	marxism = 35
-	trotskyism = 0
-	stalinism = 0
+	social_democracy = 60
+	marxism = 5
+	trotskyism = 10
+	stalinism = 30
 }
 
 training_laws = minimal_training

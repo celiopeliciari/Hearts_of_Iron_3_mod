@@ -1,5 +1,5 @@
 capital = 2613
-government = social_liberalism
+government = presidential
 ideology = social_liberalism
 head_of_state = 2001
 head_of_government = 2002

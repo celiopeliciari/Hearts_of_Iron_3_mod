@@ -345,12 +345,12 @@ conquer;Conquer;;Erobern;;;;;;;;;;x;x
 conquer_setup;Conquer $RECIPIENT$;;Erobern Sie $RECIPIENT$;;;;;;;;;;x;x
 puppet;Puppet;;Marionettenstaat;;;;;;;;;;x;x
 puppet_setup;Install a loyal government in $RECIPIENT$;;Installieren Sie in $RECIPIENT$ eine loyale Regierung;;;;;;;;;;x;x
-liberate_as_capitalism;Liberate;;Befreien;;;;;;;;;;x;x
-liberate_as_capitalism_setup;Liberate some guy from $RECIPIENT$;;Befreien Sie eine Person aus $RECIPIENT$;;;;;;;;;;x;x
+liberate_as_capitalist;Liberate;;Befreien;;;;;;;;;;x;x
+liberate_as_capitalist_setup;Liberate some guy from $RECIPIENT$;;Befreien Sie eine Person aus $RECIPIENT$;;;;;;;;;;x;x
 install_capitalism;Install Capitalism;;Demokratie einführen;;;;;;;;;;x;x
 install_capitalism_setup;Capitalism in $RECIPIENT$!;;Demokratie in $RECIPIENT$!;;;;;;;;;;x;x
-liberate_as_communism;Liberate;;Befreien;;;;;;;;;;x;x
-liberate_as_communism_setup;Liberate some guy from $RECIPIENT$;;Befreien Sie eine Person aus $RECIPIENT$;;;;;;;;;;x;x
+liberate_as_communist;Liberate;;Befreien;;;;;;;;;;x;x
+liberate_as_communist_setup;Liberate some guy from $RECIPIENT$;;Befreien Sie eine Person aus $RECIPIENT$;;;;;;;;;;x;x
 install_communism;Install Communism;;Kommunismus einführen;;;;;;;;;;x;x
 install_communism_setup;Spread the people's revolution to $RECIPIENT$;;Weiten Sie die Volksrevolution nach $RECIPIENT$ aus;;;;;;;;;;x;x
 civil_war_setup;Crush the separatists of $RECIPIENT$!;;Vernichten Sie die Separatisten von $RECIPIENT$!;;;;;;;;;;x;x

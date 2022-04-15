@@ -1,5 +1,5 @@
 capital = 9604
-government = social_democracy
+government = parliamentary
 ideology = social_democracy
 head_of_state = 36001
 head_of_government = 36001

@@ -1,6 +1,6 @@
 capital = 5567
-government = left_wing_radicals
-ideology = marxism
+government = parliamentary
+ideology = liberalism
 alignment = { x = -60 y = 61.6 }
 neutrality = 70
 national_unity = 70

@@ -1,5 +1,5 @@
 capital = 9406
-government = social_democracy
+government = parliamentary
 ideology = social_democracy
 alignment = { x = -60 y = -7.6 }
 neutrality = 80

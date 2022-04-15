@@ -1,5 +1,5 @@
 capital = 7721
-government = presidentialism
+government = presidential
 ideology = conservatism
 head_of_state = 47001
 head_of_government = 47002

@@ -1,5 +1,5 @@
 capital = 9714
-government = presidentialism
+government = presidential
 ideology = reactionarism
 head_of_state = 79001
 head_of_government = 79002

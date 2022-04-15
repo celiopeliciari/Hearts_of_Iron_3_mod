@@ -1,5 +1,5 @@
 capital = 7417
-government = socialist_republic
+government = war_socialism
 ideology = stalinism
 head_of_state = 51001
 head_of_government = 51001

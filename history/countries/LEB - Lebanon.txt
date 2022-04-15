@@ -1,5 +1,5 @@
 capital = 5299
-government = presidentialism
+government = presidential
 ideology = conservatism
 alignment = { x = 60 y = -7.6 }
 neutrality = 80

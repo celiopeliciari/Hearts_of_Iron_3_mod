@@ -1,5 +1,5 @@
 capital = 10336
-government = social_liberalism
+government = parliamentary
 ideology = social_liberalism
 head_of_state = 44001
 head_of_government = 44002

@@ -1,5 +1,5 @@
 capital = 8955
-government = left_wing_radicals
+government = socialist_republic
 ideology = marxism
 head_of_state = 72001
 head_of_government = 72002
