@@ -1,16 +1,16 @@
 capital = 10193
 government = right_wing_autocrat
 ideology = conservatism
-head_of_state = 34001
-head_of_government = 34001
-foreign_minister = 34003
-armament_minister = 34004
-minister_of_security = 34005
-minister_of_intelligence = 34006
-chief_of_staff = 34007
-chief_of_army = 34008
-chief_of_navy = 34009
-chief_of_air = 34010
+head_of_state = 34001 #Getúlio Vargas
+head_of_government = 34001 #Getúlio Vargas
+foreign_minister = 34003 #José Carlos de Macedo Soares
+armament_minister = 34209 #João Gomes Ribeiro Filho
+minister_of_security = 34200 #Vicente Rao
+minister_of_intelligence = 34006 #Filinto Muller
+chief_of_staff = 34001 #Getúlio Vargas
+chief_of_army = 34007 #Gaspar Dutra
+chief_of_navy = 34210 #Henrique Aristides Guilhem
+chief_of_air = 34007 #Gaspar Dutra
 alignment = { x = 80 y = 61.6 }
 neutrality = 90
 national_unity = 70

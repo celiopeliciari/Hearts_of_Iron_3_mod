@@ -160,18 +160,19 @@ unit_names = {
 
 ministers = {
 	34001 = {
-		name = "Getulio Vargas"
+		name = "Getúlio Vargas"
 		ideology = conservatism
 		loyalty = 1.00
 		picture = M34001
-		head_of_state = autocratic_charmer
+		head_of_state = die_hard_reformer
+		head_of_state = man_of_the_people
 		head_of_government = naive_optimist
 		armament_minister = administrative_genius
-		head_of_state = die_hard_reformer
+		chief_of_staff = political_specialist
 		start_date = 1936.1.1
 	}
 	34003 = {
-		name = "José de Macedo Soares"
+		name = "José Carlos de Macedo Soares"
 		ideology = conservatism
 		loyalty = 0.75
 		picture = M34003
@@ -182,7 +183,7 @@ ministers = {
 	}
 	34004 = {
 		name = "Café Filho"
-		ideology = conservatism
+		ideology = liberalism
 		loyalty = 0.50
 		picture = M34004
 		armament_minister = military_entrepreneur
@@ -199,10 +200,10 @@ ministers = {
 	}
 	34006 = {
 		name = "Filinto Muller"
-		ideology = social_democracy
+		ideology = conservatism
 		loyalty = 1.00
 		picture = M34006
-		minister_of_intelligence = political_specialist
+		minister_of_intelligence = efficient_sociopath
 		start_date = 1936.1.1
 	}
 	34007 = {
@@ -215,7 +216,7 @@ ministers = {
 		head_of_government = old_general
 		chief_of_staff = school_of_mass_combat
 		chief_of_army = static_defence_doctrine
-		chief_of_army = static_defence_doctrine
+		chief_of_air = army_aviation_doctrine
 		start_date = 1936.1.1
 	}
 	34008 = {
@@ -298,7 +299,7 @@ ministers = {
 	}
 	34076 = {
 		name = "Oswaldo Aranha"
-		ideology = marxism
+		ideology = liberalism
 		loyalty = 0.75
 		picture = M34076
 		foreign_minister = biased_intellectual
@@ -801,11 +802,12 @@ ministers = {
 		start_date = 1936.1.1
 	}
 	34200 = {
-		name = "Vicente Raõ"
+		name = "Vicente Rao"
 		ideology = conservatism
 		loyalty = 0.75
 		picture = M34200
 		armament_minister = laissez_faires_capitalist
+		minister_of_security = prince_of_terror
 		start_date = 1951.1.1
 	}
 	34201 = {
@@ -848,5 +850,21 @@ ministers = {
 		picture = L31078
 		chief_of_air = air_superiority_doctrine
 		start_date = 1945.1.1
+	}
+	34209 = {
+		name = "João Gomes Ribeiro Filho"
+		ideology = conservatism
+		loyalty = 0.5
+		picture = M_BRA_01_mod
+		armament_minister = old_general
+		start_date = 1935.5.7
+	}
+	34210 = {
+		name = "Henrique Aristides Guilhem"
+		ideology = conservatism
+		loyalty = 0.5
+		picture = M_BRA_02_mod
+		chief_of_navy = base_control_doctrine
+		start_date = 1935.11.19
 	}
 }
