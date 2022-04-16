@@ -165,8 +165,8 @@ education_investment_law;Education Investment Laws;Droit du dév. de l'éducation;
 industrial_policy_laws;Industrial Policy Laws;Politique industrielle;Industrierecht;;Ley de política industrial;;;;;;;;;x,
 press_laws;Press Laws;Droit de la presse;Presserecht;;Ley de prensa;;;;;;;;;x,
 training_laws;Training Laws;Service militaire;Ausbildungsrecht;;Ley de instrucción;;;;;;;;;x,
-open_society;Open Society;Société ouverte;Offene Gesellschaft;;Sociedad abierta;;;;;;;;;x,
-open_society_desc;Aim towards the creation of an open, non-authoritarian society based upon political freedom and human rights.;Aspire à la création d'une société ouverte et non autoritaire, fondée sur la liberté politique et les droits de l'homme.;Das Ziel ist die Schaffung einer offenen, nicht-autoritären Gesellschaft, die auf politischer Freiheit und Menschenrechten basiert.;;Apunta a la creación de una sociedad abierta, no autoritaria, basada en la libertad política y los derechos humanos.;;;;;;;;;x
+no_specific_restrictions;No Specific Restrictions;;;;;;;;;x,
+no_specific_restrictions_desc;Aim towards the creation of an open, non-authoritarian society based upon political freedom and human rights.;;;;;;;;;x
 limited_restrictions;Limited Restrictions;Restrictions limitées;Beschränkte Auflagen;;Restricciones limitadas;;;;;;;;;x,
 limited_restrictions_desc;Maintain the idea of a rather open society, but impose certain restrictions.;Conserve l'idée d'une société plutôt ouverte mais impose certaines restrictions.;Behalten Sie die Idee einer eher offenen Gesellschaft bei, machen Sie jedoch bestimmte Auflagen.;;Mantiene la idea de una sociedad más bien abierta, pero impone ciertas restricciones.;;;;;;;;;x
 legalistic_restrictions;Legalistic Restrictions;Restrictions légalistes;Legalistische Beschränkungen;;Restricciones legales;;;;;;;;;x,

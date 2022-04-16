@@ -243,7 +243,7 @@ industrial_policy_laws = mixed_industry
 education_investment_law = medium_large_education_investment
 economic_law = full_civilian_economy
 conscription_law = two_year_draft
-civil_law = open_society
+civil_law = no_specific_restrictions
 
 1936.5.3 = {
 	decision = popular_front

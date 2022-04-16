@@ -129,7 +129,7 @@ industrial_policy_laws = mixed_industry
 education_investment_law = medium_large_education_investment
 economic_law = full_civilian_economy
 conscription_law = volunteer_army
-civil_law = open_society
+civil_law = no_specific_restrictions
 
 1938.9.1 = {
 	head_of_state = 29043

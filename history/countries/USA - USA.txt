@@ -228,7 +228,7 @@ industrial_policy_laws = mixed_industry
 education_investment_law = big_education_investment
 economic_law = full_civilian_economy
 conscription_law = volunteer_army
-civil_law = open_society
+civil_law = no_specific_restrictions
 
 
 1936.1.1 = { decision = new_deal }
