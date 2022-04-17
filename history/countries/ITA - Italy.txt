@@ -226,7 +226,7 @@ industrial_policy_laws = mixed_industry
 education_investment_law = medium_large_education_investment
 economic_law = basic_mobilisation
 conscription_law = one_year_draft
-civil_law = totalitarian_system
+civil_law = widespread_repression
 
 1936.7.20 = { neutrality = 50 set_country_flag = italian_intervention_spanish_civil_war } # Spanish civil war - Italian intervention
 1937.11.6 = {

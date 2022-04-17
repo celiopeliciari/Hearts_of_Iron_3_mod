@@ -1,6 +1,6 @@
 capital = 8054
-government = parliamentary
-ideology = liberalism
+government = parliamentary_white_democracy
+ideology = reactionarism
 head_of_state = 70001
 head_of_government = 70002
 foreign_minister = 70002
@@ -13,7 +13,7 @@ chief_of_navy = 70009
 chief_of_air = 70007
 alignment = { x = 20 y = -42.2 }
 neutrality = 70
-national_unity = 80
+national_unity = 20
 
 infantry_theory = 10
 infantry_practical = 5
@@ -144,7 +144,7 @@ industrial_policy_laws = consumer_product_orientation
 education_investment_law = minimal_education_investment
 economic_law = full_civilian_economy
 conscription_law = volunteer_army
-civil_law = legalistic_restrictions
+civil_law = apartheid
 
 1938.9.1 = {
 	head_of_state = 70023

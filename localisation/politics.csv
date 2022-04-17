@@ -131,12 +131,13 @@ hungarian_right_wing_republic;Hungarian Right-Wing Republic;;;;;;;;;x
 absolute_monarchy;Absolute Monarchy;Monarchie absolue;Absolute Monarchie;;Monarquía absolutista;;;;;;;;;x
 imperial;Imperial;Impérial;Kaiserlich;;Imperial;;;;;;;;;x
 presidencial_white_democracy;Presidencial White Democracy;;;;;;;;;x
+parliamentary_white_democracy;Parliamentary White Democracy;;;;;;;;;x
 presidential;Presidential;;;;;;;;;x
 spanish_social_conservatism;Social Conservatism;Conservatisme social;Sozialkonservatismus;;Conservadurismo social;;;;;;;;;x
 market_liberalism;Market Liberalism;Libéralisme;Marktliberalismus;;Liberalismo de mercado;;;;;;;;;x
 parliamentary;Parliamentary;;;;;;;;;x
 social_liberalism;Social Liberalism;Libéralisme social;Sozialliberalismus;;Liberalismo social;;;;;;;;;x
-left_wing_radicals;Left-Wing Radicalism;Radicalisme de gauche;Linkgerichteter Radikalismus;;Radicalismo de izquierdas;;;;;;;;;x
+war_socialism;War Socialism;;;;;;;;;x
 socialist_republic;Socialist Republic;République socialiste;Sozialistische Republik;;República socialista;;;;;;;;;x
 federal_socialist_republic;Federal Socialist Republic;République socialiste fédérale;Sozialistische Bundesrepublik;;República federal socialista;;;;;;;;;x
 absolute_monarchy_ruler;King;Roi;König;;Rey;;;;;;;;;x
@@ -166,15 +167,19 @@ industrial_policy_laws;Industrial Policy Laws;Politique industrielle;Industriere
 press_laws;Press Laws;Droit de la presse;Presserecht;;Ley de prensa;;;;;;;;;x,
 training_laws;Training Laws;Service militaire;Ausbildungsrecht;;Ley de instrucción;;;;;;;;;x,
 no_specific_restrictions;No Specific Restrictions;;;;;;;;;x,
-no_specific_restrictions_desc;Aim towards the creation of an open, non-authoritarian society based upon political freedom and human rights.;;;;;;;;;x
-limited_restrictions;Limited Restrictions;Restrictions limitées;Beschränkte Auflagen;;Restricciones limitadas;;;;;;;;;x,
-limited_restrictions_desc;Maintain the idea of a rather open society, but impose certain restrictions.;Conserve l'idée d'une société plutôt ouverte mais impose certaines restrictions.;Behalten Sie die Idee einer eher offenen Gesellschaft bei, machen Sie jedoch bestimmte Auflagen.;;Mantiene la idea de una sociedad más bien abierta, pero impone ciertas restricciones.;;;;;;;;;x
-legalistic_restrictions;Legalistic Restrictions;Restrictions légalistes;Legalistische Beschränkungen;;Restricciones legales;;;;;;;;;x,
-legalistic_restrictions_desc;Strive towards the establishment of a society based upon legalistic restrictions and rigid control over who can participate in political life.;Cherche à établir une société fondée sur des contraintes légalistes et sur un contrôle strict des personnes étant autorisées à participer à la vie politique.;Streben Sie nach der Schaffung einer auf legalistischen Beschränkungen basierenden Gesellschaft, in der das Mitwirken im politischen Leben streng reglementiert ist.;;Se decanta hacia el establecimiento de una sociedad basada en restricciones legales y un rígido control sobre quién puede participar en la vida legal.;;;;;;;;;x,
-repression;Repression;Répression;Unterdrückung;;Represión;;;;;;;;;x,
-repression_desc;Repress any political or cultural opposition against the current regime, and restrict the liberties of the state's citizens. ;Réprime toute opposition politique ou culturelle au régime actuel et restreint les libertés des citoyens.;Unterdrücken Sie jegliche politische oder kulturelle Opposition gegen das aktuelle Regime, schränken Sie die Freiheiten der Bürger ein.;;Reprime cualquier oposición política o cultural contra el Régimen, y restringe las libertades de los ciudadanos del Estado. ;;;;;;;;;x
-totalitarian_system;Totalitarian System;Système totalitaire;Totalitäres System;;Sistema totalitarista;;;;;;;;;x,
-totalitarian_system_desc;Restrict all aspects of the citizens' lives, and allow the current political authority to exercise absolute control over the state.;Restreint tous les aspects de la vie des citoyens et permet à l'autorité politique en place d'exercer un contrôle absolu sur l'État.;Schränken Sie alle Aspekte des bürgerlichen Lebens ein, ermöglichen Sie den aktuellen Machthabern, absolute Kontrolle über den Staat auszuüben.;;Restringe todos los aspectos de las vidas de los ciudadanos, y permite a la autoridad política ejercer un control absoluto sobre el Estado.;;;;;;;;;x
+no_specific_restrictions_desc;There are no specific restrictions against parties or social groups.;;;;;;;;;x
+limited_restrictions;Limited Restrictions;;;;;;;;;x,
+limited_restrictions_desc;Some legal restrictions are installed against oppositions parties and social minorities.;;;;;;;;;x
+wide_restrictions;Wide Restrictions;;;;;;;;;x,
+wide_restrictions_desc;Strive towards the establishment of a society based upon legalistic restrictions and rigid control over who can participate in political life.;;;;;;;;;x,
+widespread_repression;Widespread repression;;;;;;;;;x,
+widespread_repression_desc;Repress any political or cultural opposition against the current regime, and restrict the liberties of the state's citizens.;;;;;;;;;x
+ethnic_cleansing;Ethnic cleansing;;;;;;;;;x,
+ethnic_cleansing_desc;It tries to control all aspects of social life and carries out an ethnic cleansing in the country.;;;;;;;;;x
+apartheid;Apartheid;;;;;;;;;x
+apartheid_desc;Laws of segregation and racial repression.;;;;;;;;;x
+jim_crow_laws;Jim Crow Laws;;;;;;;;;x
+jim_crow_laws_desc;Jim Crow was the name of the racial caste system which operated primarily, but not exclusively in southern and border states, between 1877 and the mid-1960s.;;;;;;;;;x
 volunteer_army;Volunteer Army;Armée volontaire;Freiwilligenarmee;;Ejército voluntario;;;;;;;;;x,
 volunteer_army_desc;Build up the army by introducing the concept of voluntary military service.;Crée une armée en introduisant le concept de service militaire volontaire.;Bauen Sie die Armee durch die Einführung des Konzepts des freiwilligen Militärdiensts auf.;;Nutre el ejército introduciendo el concepto de servicio militar voluntario.;;;;;;;;;x,
 one_year_draft;One-Year Draft;Incorporation d'un an;Einjährige Wehrpflicht;;Servicio militar anual;;;;;;;;;x,

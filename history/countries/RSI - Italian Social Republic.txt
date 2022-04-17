@@ -55,7 +55,8 @@ industrial_policy_laws = mixed_industry
 education_investment_law = medium_large_education_investment
 economic_law = full_mobilisation
 conscription_law = volunteer_army
-civil_law = totalitarian_system
+civil_law = ethnic_cleansing
+
 1943.9.23 = { join_faction = axis }
 1944.6.20 = {
 	head_of_state = 508001

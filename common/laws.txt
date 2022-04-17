@@ -4,18 +4,24 @@ civil_law = {
         allow = {
             OR = {
                 AND = {
-                ideology_group = capitalism
-                NOT = { war = yes }
+                    ideology_group = capitalism
+                    NOT = { war = yes }
+                    OR = {
+                        government = presidential
+                        government = constitutional_monarchy
+                        government = parliamentary
+                    }
                 }
                 AND = {
-                ideology_group = communism
-                NOT = { war = yes }
+                    ideology_group = communism
+                    NOT = { war = yes }
+                    NOT = { government = war_socialism }
                 }
             }
         }
-        counter_intelligence = -0.5
-        peace_consumer_goods_demand = 0.1
-        global_money = 0.1
+        counter_intelligence = -0.4
+        peace_consumer_goods_demand = 0.15
+        global_money = 0.15
         partisan_efficiency = -1
     }
 
@@ -23,71 +29,184 @@ civil_law = {
         cost = 0.5
         allow = {
             OR = {
-        AND = {
-                    war = yes
-                    popularity = 50
-        }     
                 AND = {
-                NOT = { ideology_group = capitalism }
-                        national_unity = 50
+                    ideology_group = capitalism
+                    OR = {
+                        popularity = 30
+                        war = yes    
+                    }
+                    NOT = { government = parliamentary_white_democracy }
+                    NOT = { government = presidencial_white_democracy }
                 }
+                AND = {
+                    ideology_group = communism
+                    OR = {
+                        popularity = 30
+                        war = yes    
+                    }
+                }
+                government = war_socialism
+                ideology = reactionarism
             }
         }
-        war_consumer_goods_demand = -0.01
-        counter_intelligence = -0.10
+        counter_intelligence = -0.2
+        peace_consumer_goods_demand = 0.05
+        global_money = 0.05
+    }
+
+    wide_restrictions = {
+    	cost = 0.5
+        allow = {
+            OR = {
+                AND = {
+                    ideology_group = capitalism
+                    OR = {
+                        popularity = 40
+                        war = yes    
+                    }
+                    NOT = { government = parliamentary_white_democracy }
+                    NOT = { government = presidencial_white_democracy }
+                }
+                AND = {
+                    ideology_group = communism
+                    OR = {
+                        popularity = 40
+                        war = yes    
+                    }
+                }
+                AND = { 
+                    OR = {
+                        government = war_socialism
+                        ideology = reactionarism
+                    }
+                    OR = {
+                        popularity = 30
+                        war = yes
+                    }
+                }                
+                ideology = generical_fascism    
+            }
+        }
+        counter_intelligence = 0.2
+        war_consumer_goods_demand = -0.05
+        global_money = -0.05
         partisan_efficiency = 1
     }
 
-    legalistic_restrictions = {
+    widespread_repression = {
     	cost = 0.5
         allow = {
             OR = {
-		AND = {
-                	war = yes
-                	popularity = 55
-		}
-		AND = {
-			NOT = { ideology_group = capitalism }
-			national_unity = 60
-		}
+                AND = {
+                    ideology_group = capitalism
+                    OR = {
+                        popularity = 50
+                        war = yes    
+                    }
+                    NOT = { government = parliamentary_white_democracy }
+                    NOT = { government = presidencial_white_democracy }
+                }
+                AND = {
+                    ideology_group = communism
+                    OR = {
+                        popularity = 50
+                        war = yes    
+                    }
+                }
+                AND = { 
+                    OR = {
+                        government = war_socialism
+                        ideology = reactionarism
+                    }
+                    OR = {
+                        popularity = 40
+                        war = yes
+                    }
+                } 
+                AND = {
+                    ideology = generical_fascism
+                    OR = {
+                        popularity = 30
+                        war = yes
+                    }  
+                } 
             }
         }
-        war_consumer_goods_demand = -0.02
+        counter_intelligence = 0.4
+        war_consumer_goods_demand = -0.15
+        global_money = -0.15
         partisan_efficiency = 2
     }
 
-    repression = {
-    	cost = 0.5
-        allow = {
-            OR = {
-		AND = {
-			NOT = { ideology_group = capitalism }
-			national_unity = 70
-		}
-                AND = {
-                    popularity = 70
-                    war = yes
-                }
-            }
-        }
-        war_consumer_goods_demand = -0.03
-        counter_intelligence = 0.1
-        partisan_efficiency = 3
-        ruling_party_support = 0.1
-    }
-
-    totalitarian_system = {
+    ethnic_cleansing = {
     	cost = 0.5
       	allow = {
             OR = {
-                ideology = stalinism
+                AND = {
+                    ideology_group = capitalism
+                    OR = {
+                        popularity = 55
+                        war = yes
+                    }
+                    NOT = { government = social_liberalism }
+                    NOT = { government = social_democracy }
+                }
+                AND = { 
+                    ideology = reactionarism
+                    OR = {
+                        popularity = 50
+                        war = yes
+                    }
+                }
+                AND = {
+                    ideology = generical_fascism
+                    OR = {
+                        popularity = 40
+                        war = yes
+                    }  
+                }
                 ideology = nazism
-            } 
+            }
         }
-        war_consumer_goods_demand = -0.04
-        counter_intelligence = 0.25
+        counter_intelligence = 0.4
+        global_money = -0.3
         partisan_efficiency = 4
-        ruling_party_support = 0.3
+    }
+
+    apartheid = {
+        cost = 0.5
+        allow = {
+            OR = {
+                AND = {
+                    OR = {
+                        ideology_group = capitalism
+                        ideology_group = fascism
+                    }
+                government = parliamentary_white_democracy   
+                }
+            }
+        }
+        national_unity_effect = -0.8
+        global_money = -0.8
+        partisan_efficiency = 3
+    }
+
+    jim_crow_laws = {
+        cost = 0.5
+        allow = {
+            OR = {
+                AND = {
+                    OR = {
+                        ideology_group = capitalism
+                        ideology_group = fascism
+                    }
+                government = parliamentary_white_democracy   
+                }
+            }
+        }
+        national_unity_effect = -0.1
+        global_money = -0.1
+        partisan_efficiency = 2
     }
 }
 

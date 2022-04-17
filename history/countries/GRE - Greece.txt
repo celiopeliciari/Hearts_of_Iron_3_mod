@@ -154,7 +154,7 @@ civil_law = no_specific_restrictions
 		stalinism = 0
 	}
 	press_laws = censored_press
-	civil_law = legalistic_restrictions
+	civil_law = wide_restrictions
 }
 1938.9.1 = { 
 	oob = "GRE_1938.txt"

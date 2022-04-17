@@ -1,6 +1,6 @@
 capital = 4885
-government = right_wing_autocrat
-ideology = reactionarism
+government = fascist_government
+ideology = generical_fascism
 alignment = { x = 160 y = 165.4 }
 neutrality = 70
 national_unity = 75
@@ -61,7 +61,7 @@ industrial_policy_laws = consumer_product_orientation
 education_investment_law = minimal_education_investment
 economic_law = full_civilian_economy
 conscription_law = volunteer_army
-civil_law = totalitarian_system
+civil_law = widespread_repression
 
 1936.11.25 = {
 	join_faction = axis
