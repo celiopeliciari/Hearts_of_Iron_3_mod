@@ -42,9 +42,7 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = market_liberalism
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -84,9 +82,7 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = market_liberalism
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -167,9 +163,7 @@ country_event = {
 	id = 5005
 
 	trigger = {
-		not = { government = market_liberalism }
 		not = { government = parliamentary }
-		not = { government = social_liberalism }
 		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 	}
@@ -254,9 +248,7 @@ country_event = {
 	trigger = {
 		not = { organisation = 70 }
 		or = {
-			government = market_liberalism
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -301,9 +293,7 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = market_liberalism
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -364,9 +354,7 @@ country_event = {
 
 	trigger = {
 		or = {
-			government = market_liberalism
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -580,8 +568,6 @@ country_event = {
 	trigger = {
 		or = {
 			government = presidential
-			government = market_liberalism
-			government = social_liberalism
 			government = parliamentary
 			government = constitutional_monarchy
 		}
@@ -679,10 +665,8 @@ country_event = {
 		
 		and = {
 			or = {
-				government = presidential
-				government = market_liberalism
-				government = parliamentary
-				government = social_liberalism
+				government = presidential				
+				government = parliamentary	
 				government = constitutional_monarchy
 			}
 			ideology = nazism
@@ -892,9 +876,7 @@ country_event = {
 	id = 5022
 
 	trigger = {
-		not = { government = market_liberalism }
 		not = { government = parliamentary }
-		not = { government = social_liberalism }
 		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 		not = { has_country_flag = illegal_printing_discovered }
@@ -941,9 +923,7 @@ country_event = {
 
 	trigger = {
 		is_threatend = 50
-		not = { government = market_liberalism }
 		not = { government = parliamentary }
-		not = { government = social_liberalism }
 		not = { government = presidential }
 		not = { government = constitutional_monarchy }
 		not = { has_country_flag = intelligence_network }
@@ -985,10 +965,8 @@ country_event = {
 	id = 5024
 
 	trigger = {
-		or = {
-			government = market_liberalism
+		or = {			
 			government = parliamentary
-			government = social_liberalism
 			government = presidential
 			government = constitutional_monarchy
 		}
@@ -1374,10 +1352,8 @@ country_event = {
 		not = { organisation = 50 }
 		not = { popularity = 50 }
 		or = {
-			government = presidential
-			government = market_liberalism
+			government = presidential			
 			government = parliamentary
-			government = social_liberalism
 			government = constitutional_monarchy
 		}
 		not = { has_country_flag = assassination_attempt_of_opposition_leader }
@@ -1471,10 +1447,8 @@ country_event = {
 	trigger = {
 		not = { has_country_flag = bribed_minister }
 		or = {
-			government = presidential
-			government = market_liberalism
+			government = presidential			
 			government = parliamentary
-			government = social_liberalism
 			government = constitutional_monarchy
 		}
 		not = { organisation = 50 }
@@ -1523,10 +1497,8 @@ country_event = {
 		war = no
 		not = { popularity = 50 }
 		or = {
-			government = presidential
-			government = market_liberalism
+			government = presidential			
 			government = parliamentary
-			government = social_liberalism
 			government = constitutional_monarchy
 		}
 		not = { has_country_flag = rigged_elections }
@@ -1603,10 +1575,8 @@ country_event = {
 	trigger = {
 		war = no
 		or = {
-			government = presidential
-			government = market_liberalism
+			government = presidential			
 			government = parliamentary
-			government = social_liberalism
 			government = constitutional_monarchy
 		}
 		is_in_any_faction = no
@@ -1656,10 +1626,8 @@ country_event = {
 		
 		and = {
 			or = {
-				government = presidential
-				government = market_liberalism
-				government = parliamentary
-				government = social_liberalism
+				government = presidential				
+				government = parliamentary	
 				government = constitutional_monarchy
 			}
 			ideology = generical_fascism

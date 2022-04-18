@@ -148,8 +148,8 @@ civil_law = {
                         popularity = 55
                         war = yes
                     }
-                    NOT = { government = social_liberalism }
-                    NOT = { government = social_democracy }
+                    NOT = { ideology = social_liberalism }
+                    NOT = { ideology = social_democracy }
                 }
                 AND = { 
                     ideology = reactionarism
@@ -182,7 +182,7 @@ civil_law = {
                         ideology_group = capitalism
                         ideology_group = fascism
                     }
-                government = parliamentary_white_democracy   
+                    government = parliamentary_white_democracy   
                 }
             }
         }

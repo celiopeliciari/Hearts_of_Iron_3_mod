@@ -125,41 +125,41 @@ regno_d_italia;Regno d'Italia;;;;;;;;;x
 imperial_fascism;Imperial Fascism;;;;;;;;;x
 fascist_government;Fascist Government;;;;;;;;;x
 germanic_fascist_government;German Fascist Government;;;;;;;;;x
-right_wing_autocrat;Right-Wing Autocracy;Autocratie de droite;Rechtsgerichtete Alleinherrschaft;;Autocracia de derechas;;;;;;;;;x
-right_wing_republic;Right-Wing Republic;République de droite;Rechtsgerichtete Republik;;República de derechas;;;;;;;;;x
+imperial;Imperial;;;;;;;;x
+absolute_monarchy;Absolute Monarchy;;;;;;;;;x
+right_wing_autocrat;Right-Wing Autocracy;;;;;;;;;x
+right_wing_republic;Right-Wing Republic;;;;;;;;;x
 hungarian_right_wing_republic;Hungarian Right-Wing Republic;;;;;;;;;x
-absolute_monarchy;Absolute Monarchy;Monarchie absolue;Absolute Monarchie;;Monarquía absolutista;;;;;;;;;x
-imperial;Imperial;Impérial;Kaiserlich;;Imperial;;;;;;;;;x
 presidencial_white_democracy;Presidencial White Democracy;;;;;;;;;x
 parliamentary_white_democracy;Parliamentary White Democracy;;;;;;;;;x
+constitutional_monarchy;Constitucional Monarchy;;;;;;;;;x
 presidential;Presidential;;;;;;;;;x
-spanish_social_conservatism;Social Conservatism;Conservatisme social;Sozialkonservatismus;;Conservadurismo social;;;;;;;;;x
-market_liberalism;Market Liberalism;Libéralisme;Marktliberalismus;;Liberalismo de mercado;;;;;;;;;x
 parliamentary;Parliamentary;;;;;;;;;x
-social_liberalism;Social Liberalism;Libéralisme social;Sozialliberalismus;;Liberalismo social;;;;;;;;;x
 war_socialism;War Socialism;;;;;;;;;x
-socialist_republic;Socialist Republic;République socialiste;Sozialistische Republik;;República socialista;;;;;;;;;x
-federal_socialist_republic;Federal Socialist Republic;République socialiste fédérale;Sozialistische Bundesrepublik;;República federal socialista;;;;;;;;;x
-absolute_monarchy_ruler;King;Roi;König;;Rey;;;;;;;;;x
-right_wing_republic_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
-social_conservatism_ruler;Prime Minister;Premier Ministre;Premierminister;;Primer Ministro;;;;;;;;;x
-germanic_fascist_republic_ruler;Chancellor;Chancelier;Kanzler;;Canciller;;;;;;;;;x
-market_liberalism_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
-socialist_republic_ruler;Chairman;Président;Vorsitzender;;Presidente;;;;;;;;;x
-right_wing_autocrat_ruler;Generalissimus;Generalissimus;Generalissimus;;Generalissimus;;;;;;;;;x;
-social_liberalism_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
-social_democracy_ruler;Prime Minister;Premier Ministre;Premierminister;;Primer Ministro;;;;;;;;;x
-imperial_ruler;Emperor;Empereur;Kaiser;;Emperador;;;;;;;;;x
-german_reich_ruler;Führer;Führer;Führer;;Führer;;;;;;;;;x
-fascist_republic_ruler;Duce;Duce;Duce;;Duce;;;;;;;;;x
-hungarian_right_wing_republic_ruler;Regent;Régent;Regent;;Regente;;;;;;;;;x
-left_wing_radicals_ruler;President;Président;Präsident;;Presidente;;;;;;;;;x
-federal_socialist_republic_ruler;Comrade;Camarade;Genosse;;Camarada;;;;;;;;;x
-spanish_social_conservatism_ruler;Caudillo;Caudillo;Caudillo;;Caudillo;;;;;;;;;x
+socialist_republic;Socialist Republic;;;;;;;;;x
+federal_socialist_republic;Federal Socialist Republic;;;;;;;;;x
+german_reich_ruler;Führer;;;;;;;;;x
+regno_d_italia_ruler;Duce;;;;;;;;;x
+imperial_fascism_ruler;Emperor;;;;;;;;;x
+fascism_government_ruler;Generalissimus;;;;;;;;;x
+germanic_fascist_government_ruler;Chancellor;;;;;;;;;x
+imperial_ruler;Emperor;;;;;;;;;x
+absolute_monarchy_ruler;King;;;;;;;;;x
+right_wing_autocrat_ruler;Generalissimus;;;;;;;;;x
+right_wing_republic_ruler;President;;;;;;;;;x
+hungarian_right_wing_republic_ruler;Regent;;;;;;;;;x
+presidencial_white_democracy_ruler;President;;;;;;;;;x
+parliamentary_white_democracy_ruler;Prime Minister;;;;;;;;;x
+constitucional_monarchy_ruler;King;;;;;;;;;x
+presidential_ruler;President;;;;;;;;;x
+parliamentary_ruler;Prime Minister;;;;;;;;;x
+war_socialism_ruler;Chairman;;;;;;;;;x
+socialist_republic_ruler;Chairman;;;;;;;;;x
+federal_socialist_republic_ruler;Chairman;;;;;;;;;x
 ##################################################;;;;;;;;;;;;;;x
 # Laws ;;;;;;;;;;;;;;x
 ##################################################;;;;;;;;;;;;;;x
-civil_law;Civil Laws;Droit civil;Bürgerrecht;;Ley civil;;;;;;;;;x
+civil_law;Civil Laws;;;;;;;;;x
 conscription_law;Conscription Laws;Droit de la conscription;Wehrpflichtrecht;;Ley de reclutamiento;;;;;;;;;x
 economic_law;Economic Laws;Droit économique;Wirtschaftsrecht;;Ley económica;;;;;;;;;x
 education_investment_law;Education Investment Laws;Droit du dév. de l'éducation;Bildungsinvestitionsrecht;;Ley inversión en educación;;;;;;;;;x

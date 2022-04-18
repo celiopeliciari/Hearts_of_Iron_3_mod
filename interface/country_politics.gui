@@ -450,17 +450,15 @@ guiTypes = {
 				spriteType = "org_bar"
 				position = { x= 100 y = 0 }
 				Orientation = "UPPER_LEFT"
-			}
-			
+			}			
 			iconType = {
-				name ="social_democracy_org"
+				name ="social_liberalism_org"
 				spriteType = "org_bar"
 				position = { x= 125 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
-			
 			iconType = {
-				name ="social_liberalism_org"
+				name ="social_democracy_org"
 				spriteType = "org_bar"
 				position = { x= 150 y = 0 }
 				Orientation = "UPPER_LEFT"
