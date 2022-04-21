@@ -114,7 +114,7 @@ organization = {
 }
 
 training_laws = basic_training
-press_laws = censored_press
+press_laws = capitalist_control_censorship
 industrial_policy_laws = mixed_industry
 education_investment_law = average_education_investment
 economic_law = full_civilian_economy

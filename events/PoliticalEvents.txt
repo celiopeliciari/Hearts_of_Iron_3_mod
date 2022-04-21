@@ -760,7 +760,7 @@ country_event = {
 	id = 5019
 
 	trigger = {
-		press_laws = propaganda_press
+		press_laws = capitalist_control_censorship
 		not = { has_country_flag = political_feuds }
 		not = { organisation = 50 }
 	}

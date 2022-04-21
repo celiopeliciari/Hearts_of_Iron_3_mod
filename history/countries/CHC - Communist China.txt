@@ -121,10 +121,10 @@ organization = {
 }
 
 training_laws = minimal_training
-press_laws = propaganda_press
+press_laws = ruling_party_control
 industrial_policy_laws = consumer_product_orientation
-education_investment_law = minimal_education_investment
-economic_law = full_civilian_economy
+education_investment_law = big_education_investment
+economic_law = total_economic_mobilisation
 conscription_law = volunteer_army
 civil_law = wide_restrictions
 

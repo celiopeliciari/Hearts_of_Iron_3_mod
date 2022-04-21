@@ -116,7 +116,7 @@ organization = {
 }
 
 training_laws = basic_training
-press_laws = free_press
+press_laws = capitalist_control
 industrial_policy_laws = mixed_industry
 education_investment_law = average_education_investment
 economic_law = full_civilian_economy
@@ -153,7 +153,7 @@ civil_law = no_specific_restrictions
 		trotskyism = 25
 		stalinism = 0
 	}
-	press_laws = censored_press
+	press_laws = capitalist_control_censorship
 	civil_law = wide_restrictions
 }
 1938.9.1 = { 

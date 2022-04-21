@@ -189,7 +189,7 @@ organization = {
 }
 
 training_laws = advanced_training
-press_laws = propaganda_press
+press_laws = ruling_party_control
 industrial_policy_laws = mixed_industry
 education_investment_law = medium_large_education_investment
 economic_law = basic_mobilisation

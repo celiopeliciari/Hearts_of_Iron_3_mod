@@ -116,7 +116,7 @@ organization = {
 }
 
 training_laws = minimal_training
-press_laws = censored_press
+press_laws = capitalist_control_censorship
 industrial_policy_laws = consumer_product_orientation
 education_investment_law = minimal_education_investment
 economic_law = full_civilian_economy

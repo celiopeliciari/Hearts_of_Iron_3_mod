@@ -43,47 +43,6 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
-
-	# French non-historical intervention
-	large_spanish_civil_war_french_intervention = {
-		potential = {
-			tag = FRA
-			has_country_flag = french_intervention_spanish_civil_war
-			exists = SPA
-			exists = SPR
-			SPA = { war_with = SPR }
-			not = { alliance_with = SPA }
-			SPR = { not = { faction = axis } }
-			SPA = { not = { faction = allies } }
-		}
-		allow = {
-			not = { government = german_reich }
-			not = { government = regno_d_italia }
-			not = { government = germanic_fascist_government }
-			not = { government = right_wing_republic }
-			not = { dissent = 1 }
-			popularity = 60
-			organisation = 60
-			not = { war_with = SPR }
-			not = { war_with = SOV }
-			not = { war_with = ENG }
-			not = { war_with = USA }
-		}
-		effect = {
-			set_country_flag = large_french_intervention_spanish_civil_war
-			relation = { who = SPR value = 75 }
-			relation = { who = SPA value = -50 }
-			relation = { who = GER value = -20 }
-			relation = { who = ITA value = -20 }
-			relation = { who = POR value = -20 }
-			relation = { who = SOV value = 20 }
-			neutrality = -25
-			SPR = { country_event = 20070 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	# Mexican Historical Intervention
 	spanish_civil_war_mexican_intervention = {
@@ -163,46 +122,6 @@ diplomatic_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
-
-	# Soviet non-Historical Intervention
-	large_spanish_civil_war_russian_intervention = {
-		potential = {
-			tag = SOV
-			has_country_flag = russian_intervention_spanish_civil_war
-			exists = SPA
-			exists = SPR
-			SPA = { war_with = SPR }
-			not = { alliance_with = SPA }
-			SPR = { not = { faction = axis } }
-			SPA = { not = { faction = allies } }
-		}
-		allow = {
-			not = { government = german_reich }
-			not = { government = regno_d_italia }
-			not = { government = germanic_fascist_government }
-			not = { government = right_wing_republic }
-			
-			not = { dissent = 1 }
-			popularity = 60
-			organisation = 60
-			not = { war_with = SPR }
-			not = { war_with = FRA }
-			not = { war_with = ENG }
-			not = { war_with = USA }
-		}
-		effect = {
-			set_country_flag = large_russian_intervention_spanish_civil_war
-			relation = { who = SPR value = 75 }
-			relation = { who = SPA value = -50 }
-			relation = { who = GER value = -20 }
-			relation = { who = ITA value = -20 }
-			relation = { who = POR value = -20 }
-			relation = { who = FRA value = 10 }
-			neutrality = -25
-			SPR = { country_event = 20195 }
-		}
-		ai_will_do = { factor = 1 }
 	}
 	
 	#####################

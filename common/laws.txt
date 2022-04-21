@@ -178,10 +178,7 @@ civil_law = {
         allow = {
             OR = {
                 AND = {
-                    OR = {
-                        ideology_group = capitalism
-                        ideology_group = fascism
-                    }
+                    ideology_group = capitalism
                     government = parliamentary_white_democracy   
                 }
             }
@@ -196,11 +193,8 @@ civil_law = {
         allow = {
             OR = {
                 AND = {
-                    OR = {
-                        ideology_group = capitalism
-                        ideology_group = fascism
-                    }
-                government = parliamentary_white_democracy   
+                    ideology_group = capitalism
+                    government = presidencial_white_democracy   
                 }
             }
         }
@@ -214,100 +208,57 @@ conscription_law = {
     volunteer_army = {
     	cost = 0.5
         allow = {
-            NOT = {
-                war = yes
-            }
+            NOT = { war = yes }
         }
         reserves_penalty_size = -0.75
         global_manpower_modifier = -0.50
         peacetime_manpower_rotation = 0.10
-	officer_recruitment = -0.50
+	    officer_recruitment = -0.50
     }
 
     one_year_draft = {
     	cost = 0.5
         allow = {
-            OR = {
-                war = yes
-	        AND  = {
-	                NOT = {
-	                    neutrality = 65
-	                }
-	                national_unity = 60
-	            }
-	           AND = {
-	        	NOT = { ideology_group = capitalism }
-	                NOT = {
-	                    neutrality = 70
-	                }
-			national_unity = 60
-	            }
-	         AND = {
-	         	ideology_group = communism
-	         	national_unity = 60
-	         }
-            }
         }
         reserves_penalty_size = -0.66
         global_manpower_modifier = -0.25
         peacetime_manpower_rotation = 0.05
         officer_recruitment = -0.25
     }
+
     two_year_draft = {
     	cost = 0.5
         allow = {
             OR = {
+                AND = {
+                    NOT = { neutrality = 60 }
+                    national_unity = 60
+                }
+                OR = {
+                    ideology_group = fascism
+                    ideology = conservatism
+                    government = war_socialism
+                }
                 war = yes
-               
-                    AND  = {
-                        NOT = {
-                            neutrality = 60
-                        }
-                        national_unity = 70
-                    }
-                   AND = {
-			NOT = { ideology_group = capitalism }
-                        NOT = {
-                            neutrality = 65
-                        }
-			national_unity = 70
-                    }
-	         AND = {
-	         	ideology_group = communism
-	         	national_unity = 70
-	         }
-                    
-             }
+            }
         }
         reserves_penalty_size = -0.5
         peacetime_manpower_rotation = 0.03
-        officer_recruitment = 0
     }
 
     three_year_draft = {
     	cost = 0.5
         allow = {
             OR = {
-                war = yes
- 
-                AND  = {
-                    NOT = {
-                        neutrality = 55
-                    }
+                AND = {
+                    NOT = { neutrality = 50 }
                     national_unity = 70
                 }
-                AND = {
-					NOT = { ideology_group = capitalism }
-                    NOT = {
-                        neutrality = 60
-                    }
-					national_unity = 70
+                OR = {
+                    ideology_group = fascism
+                    government = war_socialism
                 }
-				AND = {
-					ideology_group = communism
-					national_unity = 75
-				}
-                    
+                war = yes
             }
         }
         reserves_penalty_size = -0.25
@@ -319,8 +270,21 @@ conscription_law = {
     service_by_requirement = {
     	cost = 0.5
         allow = {
-			enemy_ic_ratio = 2
-            war = yes
+            OR = {
+                AND = {
+                    NOT = { neutrality = 35 }
+                    national_unity = 90
+                }
+                OR = {
+                      ideology = nazism
+                      ideology = generical_fascism
+                      government = war_socialism
+                }
+                AND = {
+            		enemy_ic_ratio = 2
+                    war = yes
+                }
+            }
         }
         reserves_penalty_size = -0.10
         global_manpower_modifier = 1.0
@@ -334,101 +298,131 @@ economic_law = {
     full_civilian_economy = {
     	cost = 0.5
         allow = {
+            NOT = {
+                war = yes
+            }
         }
-        peace_consumer_goods_demand = -0.1
-        global_ic = -0.5
-        global_money = 0.15        
-        global_resources = -0.5
+        peace_consumer_goods_demand = 0.2
+        global_money = 0.2   
+        global_ic = -0.2     
     }
 
     basic_mobilisation = {
     	cost = 0.5
         allow = {
             OR = {
-                war = yes
-                    AND  = {
-                        NOT = {
-                            neutrality = 70
-                        }
-                        national_unity = 60
-                    }
-                   AND = {
-			NOT = { ideology_group = capitalism }
-                        NOT = {
-                            neutrality = 80
-                        }
-			national_unity = 60
-                    }
+                AND = {
+                    NOT = { neutrality = 80 }
+                    national_unity = 30
                 }
+                OR = {
+                    ideology_group = fascism
+                    ideology = conservatism
+                    government = war_socialism
+                }
+                war = yes
+            }
         }
-	peace_consumer_goods_demand = -0.05
-        global_ic = -0.25
-        global_resources = -0.25
-        global_money = 0.05
+	    peace_consumer_goods_demand = 0.1
+        global_money = 0.01    
+        global_ic = -0.1
+        global_resources = 0.05 
+    }
+
+    medium_mobilisation = {
+        cost = 0.5
+        allow = {
+            OR = {
+                AND = {
+                    NOT = { neutrality = 70 }
+                    national_unity = 40
+                }
+                OR = {
+                    ideology_group = fascism
+                    ideology = conservatism
+                    government = war_socialism
+                }
+                war = yes
+            }
+        }
+        war_consumer_goods_demand = -0.1
+        global_money = -0.1
+        global_ic = 0.05    
+        global_resources = 0.1 
+        
     }
 
     full_mobilisation = {
     	cost = 0.5
        	allow = {
             OR = {
-                war = yes
-                    AND  = {
-                        NOT = {
-                            neutrality = 60
-                        }
-                        national_unity = 60
-                    }
-                   AND = {
-    			NOT = { ideology_group = capitalism }
-                        NOT = {
-                            neutrality = 75
-                        }
-			national_unity = 60
-                    }
+                AND = {
+                    NOT = { neutrality = 65 }
+                    national_unity = 50
                 }
+                OR = {
+                    ideology_group = fascism
+                    ideology = conservatism
+                    government = war_socialism
+                }
+                war = yes
+            }
         }
-         global_money = -0.10
+        war_consumer_goods_demand = -0.3
+        global_money = -0.3
+        global_ic = 0.10    
+        global_resources = 0.15 
+        
     }
 
     war_economy = {
     	cost = 0.5
         allow = {
             OR = {
-                war = yes
-                AND  = {
-                	NOT = {
-                            neutrality = 55
-                        }
-                        national_unity = 60
-                }
                 AND = {
-			NOT = { ideology_group = capitalism }
-                        NOT = {
-                            neutrality = 70
-                        }
-			national_unity = 60
+                    NOT = { neutrality = 50 }
+                    national_unity = 70
                 }
+                OR = {
+                    ideology_group = fascism
+                    ideology = conservatism
+                    government = war_socialism
+                }
+                war = yes
             }
         }
-        war_consumer_goods_demand = -0.02
-        global_ic = 0.25    
-		global_resources = 0.10	
-        global_money = -0.25
+        war_consumer_goods_demand = -0.4
+        global_money = -0.4
+        global_ic = 0.2    
+		global_resources = 0.2	
+        
     }
 
     total_economic_mobilisation = {
     	cost = 0.5
         allow = {
-			enemy_ic_ratio = 2
-            war = yes 
-         }
-        war_consumer_goods_demand = -0.05
-        global_ic = 0.50
-		global_resources = 0.25
+            OR = {
+                AND = {
+                    NOT = { neutrality = 35 }
+                    national_unity = 90
+                }
+                OR = {
+                    ideology_group = fascism
+                    government = war_socialism
+                }
+                AND = {
+                    enemy_ic_ratio = 2
+                    war = yes
+                }
+            }
+        }
+        war_consumer_goods_demand = -0.5
         global_money = -0.50
+        global_ic = 0.30
+		global_resources = 0.25
+        
     }
 }
-
 
 education_investment_law = {
     minimal_education_investment = {
@@ -450,7 +444,7 @@ education_investment_law = {
         global_money = -0.10
         global_leadership_modifier = 0.10
     }
-    big_education_investment= {
+    big_education_investment = {
     	cost = 0.5
         allow = {
         }
@@ -515,46 +509,60 @@ industrial_policy_laws = {
 }
 
 press_laws = {
-    free_press = {
+    capitalist_control = {
     	cost = 0.5
         allow = {
+            OR = {
+                ideology_group = capitalism
+                ideology_group = fascism
+            }
         }
-        national_unity_effect = 0.2 #national unity effects are exagerated 
-        counter_espionage = -0.10
+        national_unity_effect = 0.1
         drift_speed = 0.1
     }
 
-    censored_press = {
+    capitalist_control_censorship = {
     	cost = 0.5
         allow = {
-            war = yes
-        }
-        drift_speed = 0.05
-    }
-
-    state_press = {
-    	cost = 0.5
-        allow = {
-            NOT = {
-		ideology_group = capitalism
+            AND = {
+                OR = {
+                ideology_group = capitalism
+                ideology_group = fascism
+                }
+                popularity = 30
             }
         }
-        national_unity_effect = -0.05 #national unity effects are limited
-        drift_speed = -0.05
-        counter_espionage = 0.05
+        national_unity_effect = 0.15
+        drift_speed = 0.15
+        ruling_party_support = 0.1
+        global_money = -0.05
     }
 
-    propaganda_press = {
+    community_control = {
     	cost = 0.5
         allow = {
+            AND = {
                 OR = {
-                    ideology = stalinism
-                    ideology = nazism
+                    ideology_group = communism
                 }
-         }
-        national_unity_effect = -0.1 #national unity effects are limited
-        counter_espionage = 0.10
-        drift_speed = -0.1
+                NOT = { government = war_socialism }
+            }
+        }
+        national_unity_effect = 0.1
+        drift_speed = 0.1
+    }
+
+    ruling_party_control = {
+        cost = 0.5
+        allow = {
+            OR = {
+                ideology_group = communism
+            }
+        }
+        national_unity_effect = 0.15
+        drift_speed = 0.15
+        ruling_party_support = 0.1
+        global_money = -0.05
     }
 }
 

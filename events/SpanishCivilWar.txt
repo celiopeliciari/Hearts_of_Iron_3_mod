@@ -1269,73 +1269,6 @@ country_event = {
 	}
 }
 
-# French non-Historical Intervention
-country_event = {
-
-	id = 20070
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
-	desc = "EVTDESC20070" #Frenchs are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
-	picture = "SCW"
-
-	option = {
-		name = "EVTOPTA2007" #We need all the help we can get (gold.csv)
-		FRA = {	split_troops = 0.2 }
-		set_country_flag = large_french_intervention
-	}
-}
-
-# French non-Historical Intervention Resources for Spain
-country_event = {
-
-	id = 20071
-
-	trigger = {
-		tag = SPR
-		has_country_flag = large_french_intervention
-		has_country_flag = spanish_civil_war
-	}
-
-	mean_time_to_happen = {
-		days = 30
-	}
-	fire_only_once = no
-
-	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
-	desc = "EVTDESC20070" #Frenchs are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
-	picture = "SCW"
-		option = { 
-			name = "We need all help."
-			money = 200
-			supplies = 200
-			fuel = 50
-			relation = { who = FRA value = 2 }
-			FRA = { country_event = 20072 }
-		}
-}
-
-# French non-Historical Intervention Resources by France
-country_event = {
-
-	id = 20072
-
-	is_triggered_only = yes
-
-	title = "EVTNAME20070" #Spanish Civil War - Large French Intervention (gold.csv)
-	desc = "EVTDESC20071" #We are dispose to do everything by any means necessary to defeat the fascists (gold.csv)
-	picture = "SCW"
-	option = {
-		name = "Support has its cost."
-		money = -200
-		supplies = -200
-		fuel = -50
-	}
-}
-
-
 # Mexican Historical Intervention
 country_event = {
 
@@ -1768,25 +1701,6 @@ country_event = {
 		relation = { who = MON value = 1 }
 		relation = { who = SIK value = 1 }
 		relation = { who = CHC value = 1 }
-	}
-}
-
-# Soviet non-Historical Intervention
-country_event = {
-
-	id = 20195
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	title = "EVTNAME20195"
-	desc = "EVTDESC20195"
-	picture = "SCW"
-
-	option = {
-		name = "EVTOPTA2007"
-		SOV = {	split_troops = 0.15 }
-		set_country_flag = large_soviet_intervention
 	}
 }
 
