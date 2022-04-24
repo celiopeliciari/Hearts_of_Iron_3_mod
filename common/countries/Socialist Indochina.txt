@@ -1,4 +1,4 @@
-color = { 130  206  113 }
+color = { 216  108  75 }
 graphical_culture = Japanese
 
 default_templates = {
@@ -26,42 +26,42 @@ default_templates = {
 
 unit_names = {
 	infantry_brigade = {
-		"2ème Division d'Infanterie" "4ème Division d'Infanterie" "6ème Division d'Infanterie" "7ème Division d'Infanterie" "8ème Division d'Infanterie" "14ème Division d'Infanterie" "10ème Division d'Infanterie" "11ème Division d'Infanterie" "13ème Division d'Infanterie" "16ème Division d'Infanterie" "18ème Division d'Infanterie" 
-		"19ème Division d'Infanterie" "20ème Division d'Infanterie" 
+		"2Ã¨me Division d'Infanterie" "4Ã¨me Division d'Infanterie" "6Ã¨me Division d'Infanterie" "7Ã¨me Division d'Infanterie" "8Ã¨me Division d'Infanterie" "14Ã¨me Division d'Infanterie" "10Ã¨me Division d'Infanterie" "11Ã¨me Division d'Infanterie" "13Ã¨me Division d'Infanterie" "16Ã¨me Division d'Infanterie" "18Ã¨me Division d'Infanterie" 
+		"19Ã¨me Division d'Infanterie" "20Ã¨me Division d'Infanterie" 
 	}
 	cavalry_brigade = {
-		"1ère Division Légère de Cavalerie" "2ème Division Légère de Cavalerie" "3ème Division Légère de Cavalerie" "4ème Division Légère de Cavalerie" "5ème Division Légère de Cavalerie" 
+		"1Ã¨re Division LÃ©gÃ¨re de Cavalerie" "2Ã¨me Division LÃ©gÃ¨re de Cavalerie" "3Ã¨me Division LÃ©gÃ¨re de Cavalerie" "4Ã¨me Division LÃ©gÃ¨re de Cavalerie" "5Ã¨me Division LÃ©gÃ¨re de Cavalerie" 
 	}
 	motorized_brigade = {
-		"1ère Division d'Infanterie Motorisée" "3ème Division d'Infanterie Motorisée" "5ème Division d'Infanterie Motorisée" 
+		"1Ã¨re Division d'Infanterie MotorisÃ©e" "3Ã¨me Division d'Infanterie MotorisÃ©e" "5Ã¨me Division d'Infanterie MotorisÃ©e" 
 	}
 	mechanized_brigade = {
-		"1ère Division Légère Mécanisée" "2ème Division Légère Mécanisée" "3ème Division Légère Mécanisée" "4ème Division Légère Mécanisée" "5ème Division Légère Mécanisée" 
+		"1Ã¨re Division LÃ©gÃ¨re MÃ©canisÃ©e" "2Ã¨me Division LÃ©gÃ¨re MÃ©canisÃ©e" "3Ã¨me Division LÃ©gÃ¨re MÃ©canisÃ©e" "4Ã¨me Division LÃ©gÃ¨re MÃ©canisÃ©e" "5Ã¨me Division LÃ©gÃ¨re MÃ©canisÃ©e" 
 	}
 	light_armor_brigade = {
-		"1ere Division Cuirassée de Réserve" "2ème Division Cuirassée de Réserve" "3ème Division Cuirassée de Réserve" "4ème Division Cuirassée de Réserve" "5ème Division Cuirassée de Réserve" 
+		"1ere Division CuirassÃ©e de RÃ©serve" "2Ã¨me Division CuirassÃ©e de RÃ©serve" "3Ã¨me Division CuirassÃ©e de RÃ©serve" "4Ã¨me Division CuirassÃ©e de RÃ©serve" "5Ã¨me Division CuirassÃ©e de RÃ©serve" 
 	}
 	armor_brigade = {
-		"1ère Division Cuirassée de Réserve" "2ème Division Cuirassée de Réserve" "3ème Division Cuirassée de Réserve" "4ème Division Cuirassée de Réserve" "5ème Division Cuirassée de Réserve" "6ème Division Cuirassée de Réserve" 
+		"1Ã¨re Division CuirassÃ©e de RÃ©serve" "2Ã¨me Division CuirassÃ©e de RÃ©serve" "3Ã¨me Division CuirassÃ©e de RÃ©serve" "4Ã¨me Division CuirassÃ©e de RÃ©serve" "5Ã¨me Division CuirassÃ©e de RÃ©serve" "6Ã¨me Division CuirassÃ©e de RÃ©serve" 
 	}
 	paratrooper_brigade = {
-		"1re Divsion Aéroportée" "2ème Divsion Aéroportée" "3ème Divsion Aéroportée" "4ème Divsion Aéroportée" "5ème Divsion Aéroportée" 
+		"1re Divsion AÃ©roportÃ©e" "2Ã¨me Divsion AÃ©roportÃ©e" "3Ã¨me Divsion AÃ©roportÃ©e" "4Ã¨me Divsion AÃ©roportÃ©e" "5Ã¨me Divsion AÃ©roportÃ©e" 
 	}
 	marine_brigade = {
-		"1ère Division d'Infanterie de Marine" "2ème Division d'Infanterie de Marine" "3ème Division d'Infanterie de Marine" "4ème Division d'Infanterie de Marine" 
+		"1Ã¨re Division d'Infanterie de Marine" "2Ã¨me Division d'Infanterie de Marine" "3Ã¨me Division d'Infanterie de Marine" "4Ã¨me Division d'Infanterie de Marine" 
 	}
 	bergsjaeger_brigade = {
-		"27ème Division d'Infanterie" "30ème Division d'Infanterie" "31ème Division d'Infanterie" 
+		"27Ã¨me Division d'Infanterie" "30Ã¨me Division d'Infanterie" "31Ã¨me Division d'Infanterie" 
 	}
 	garrison_brigade = {
-		"2ème Division d'Garnison" "4ème Division d'Garnison" "6ème Division d'Garnison" "7ème Division d'Garnison" "8ème Division d'Garnison" "14ème Division d'Garnison" 
+		"2Ã¨me Division d'Garnison" "4Ã¨me Division d'Garnison" "6Ã¨me Division d'Garnison" "7Ã¨me Division d'Garnison" "8Ã¨me Division d'Garnison" "14Ã¨me Division d'Garnison" 
 	}
 	hq_brigade = {
-		"1ère Armée Indochinois" "2ème Armée Indochinois" "3ème Armée Indochinois" 
+		"1Ã¨re ArmÃ©e Indochinois" "2Ã¨me ArmÃ©e Indochinois" "3Ã¨me ArmÃ©e Indochinois" 
 	}
 	militia_brigade = {
-		"1ère Division d'Infanterie de Réserve" "2ème Division d'Infanterie de Réserve" "3ème Division d'Infanterie de Réserve" "4ème Division d'Infanterie de Réserve" "5ème Division d'Infanterie de Réserve" "6ème Division d'Infanterie de Réserve" "7ème Division d'Infanterie de Réserve" "8ème Division d'Infanterie de Réserve" "9ème Division d'Infanterie de Réserve" "10ème Division d'Infanterie de Réserve" "11ème Division d'Infanterie de Réserve" 
-		"12ème Division d'Infanterie de Réserve" "13ème Division d'Infanterie de Réserve" 
+		"1Ã¨re Division d'Infanterie de RÃ©serve" "2Ã¨me Division d'Infanterie de RÃ©serve" "3Ã¨me Division d'Infanterie de RÃ©serve" "4Ã¨me Division d'Infanterie de RÃ©serve" "5Ã¨me Division d'Infanterie de RÃ©serve" "6Ã¨me Division d'Infanterie de RÃ©serve" "7Ã¨me Division d'Infanterie de RÃ©serve" "8Ã¨me Division d'Infanterie de RÃ©serve" "9Ã¨me Division d'Infanterie de RÃ©serve" "10Ã¨me Division d'Infanterie de RÃ©serve" "11Ã¨me Division d'Infanterie de RÃ©serve" 
+		"12Ã¨me Division d'Infanterie de RÃ©serve" "13Ã¨me Division d'Infanterie de RÃ©serve" 
 	}
 	multi_role = {
 		"Groupe de Chasse 21" "Groupe de Chasse 22" "Groupe de Chasse 23" "Groupe de Chasse 24" "Groupe de Chasse 25" 
@@ -70,40 +70,40 @@ unit_names = {
 		"Groupe de Chasse 22" "Groupe de Chasse 23" "Groupe de Chasse 24" "Groupe de Chasse 25" 
 	}
 	strategic_bomber = {
-		"Groupe de Bombardèment 1" "Groupe de Bombardèment 2" "Groupe de Bombardèment 3" "Groupe de Bombardèment 6" "Groupe de Bombardèment 7" "Groupe de Bombardèment 8" 
+		"Groupe de BombardÃ¨ment 1" "Groupe de BombardÃ¨ment 2" "Groupe de BombardÃ¨ment 3" "Groupe de BombardÃ¨ment 6" "Groupe de BombardÃ¨ment 7" "Groupe de BombardÃ¨ment 8" 
 	}
 	tactical_bomber = {
-		"Groupe de Bombardèment 1" "Groupe de Bombardèment 2" "Groupe de Bombardèment 3" "Groupe de Bombardèment 6" "Groupe de Bombardèment 7" "Groupe de Bombardèment 8" "Groupe de Bombardèment 9" "Groupe de Bombardèment 10" 
+		"Groupe de BombardÃ¨ment 1" "Groupe de BombardÃ¨ment 2" "Groupe de BombardÃ¨ment 3" "Groupe de BombardÃ¨ment 6" "Groupe de BombardÃ¨ment 7" "Groupe de BombardÃ¨ment 8" "Groupe de BombardÃ¨ment 9" "Groupe de BombardÃ¨ment 10" 
 	}
 	naval_bomber = {
-		"Groupe de Bombardèment Naval 1" "Groupe de Bombardèment Naval 2" "Groupe de Bombardèment Naval 3" "Groupe de Bombardèment Naval 4" "Groupe de Bombardèment Naval 5" "Groupe de Torpilleur 1" "Groupe de Torpilleur 2" "Groupe de Torpilleur 3" "Groupe de Torpilleur 4" "Groupe de Torpilleur 5" 
+		"Groupe de BombardÃ¨ment Naval 1" "Groupe de BombardÃ¨ment Naval 2" "Groupe de BombardÃ¨ment Naval 3" "Groupe de BombardÃ¨ment Naval 4" "Groupe de BombardÃ¨ment Naval 5" "Groupe de Torpilleur 1" "Groupe de Torpilleur 2" "Groupe de Torpilleur 3" "Groupe de Torpilleur 4" "Groupe de Torpilleur 5" 
 	}
 	cas = {
-		"Groupe de Bombardèment d'Assaut 18" "Groupe de Bombardèment d'Assaut 19" "Groupe de Bombardèment d'Assaut 21" "Groupe de Bombardèment d'Assaut 22" "Groupe de Bombardèment d'Assaut 23" "Groupe de Bombardèment d'Assaut 24" 
+		"Groupe de BombardÃ¨ment d'Assaut 18" "Groupe de BombardÃ¨ment d'Assaut 19" "Groupe de BombardÃ¨ment d'Assaut 21" "Groupe de BombardÃ¨ment d'Assaut 22" "Groupe de BombardÃ¨ment d'Assaut 23" "Groupe de BombardÃ¨ment d'Assaut 24" 
 	}
 	transport_plane = {
-		"1er Groupe de Transport Aérien" "2ème Groupe de Transport Aérien" "3ème Groupe de Transport Aérien" "4ème Groupe de Transport Aérien" "5ème Groupe de Transport Aérien" 
+		"1er Groupe de Transport AÃ©rien" "2Ã¨me Groupe de Transport AÃ©rien" "3Ã¨me Groupe de Transport AÃ©rien" "4Ã¨me Groupe de Transport AÃ©rien" "5Ã¨me Groupe de Transport AÃ©rien" 
 	}
 	battleship = {
-		"Indépendance" "Liberté" "Egalité" "Fraternité" "Nation" 
+		"IndÃ©pendance" "LibertÃ©" "EgalitÃ©" "FraternitÃ©" "Nation" 
 	}
 	light_cruiser = {
-		"Indépendance" "Liberté" "Egalité" "Fraternité" "Nation" 
+		"IndÃ©pendance" "LibertÃ©" "EgalitÃ©" "FraternitÃ©" "Nation" 
 	}
 	heavy_cruiser = {
-		"Indépendance" "Liberté" "Egalité" "Fraternité" "Nation" "Indépendance" "Liberté" "Egalité" "Fraternité" "Nation" 
+		"IndÃ©pendance" "LibertÃ©" "EgalitÃ©" "FraternitÃ©" "Nation" "IndÃ©pendance" "LibertÃ©" "EgalitÃ©" "FraternitÃ©" "Nation" 
 	}
 	battlecruiser = {
-		"Indépendance" "Liberté" "Egalité" "Fraternité" "Nation" 
+		"IndÃ©pendance" "LibertÃ©" "EgalitÃ©" "FraternitÃ©" "Nation" 
 	}
 	destroyer = {
-		"1ère Divisionde Torpilleurs" "2ème Divisionde Torpilleurs" "3ème Divisionde Torpilleurs" "4ème Divisionde Torpilleurs" "5ème Divisionde Torpilleurs" 
+		"1Ã¨re Divisionde Torpilleurs" "2Ã¨me Divisionde Torpilleurs" "3Ã¨me Divisionde Torpilleurs" "4Ã¨me Divisionde Torpilleurs" "5Ã¨me Divisionde Torpilleurs" 
 	}
 	submarine = {
-		"1ère Flottille sous-marine" "2ème Flottille sous-Marine" "3ème Flottille sous-Marine" "4ème Flottille sous-Marine" "5ème Flottille sous-Marine" 
+		"1Ã¨re Flottille sous-marine" "2Ã¨me Flottille sous-Marine" "3Ã¨me Flottille sous-Marine" "4Ã¨me Flottille sous-Marine" "5Ã¨me Flottille sous-Marine" 
 	}
 	transport_ship = {
-		"1ère Flottille de Transport" "2ème Flottille de Transport" "3ème Flottille de Transport" "4ème Flottille de Transport" "5ème Flottille de Transport" 
+		"1Ã¨re Flottille de Transport" "2Ã¨me Flottille de Transport" "3Ã¨me Flottille de Transport" "4Ã¨me Flottille de Transport" "5Ã¨me Flottille de Transport" 
 	}
 
 }

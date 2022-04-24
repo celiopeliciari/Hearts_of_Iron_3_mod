@@ -1,0 +1,665 @@
+####################################
+# Liberation of Indochina by Japan #
+####################################
+
+country_event = {
+
+	id = 9900
+
+	trigger = {
+		tag = JAP
+		NOT = { ideology_group = fascism }
+		NOT = { 
+			exists = IDC
+			exists = SFR
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 1
+
+		modifier = {
+			factor = 2.0
+		}
+	}
+	
+	title = "EVTNAME9900" #Japan hands over power to Emperor Bao Dai (Pelliciari_mod)
+	desc = "EVTDESC9900" #In August, events accelerate: the US drops the two nuclear bombs on Japan and the Soviet Union attacks the Japanese positions in Manchuria - the northern region of China. On the 16th, the Japanese in Vietnam hand over power to Emperor Bao Dai, and on the same day, the Viet Minh proclaimed the creation of a provisional government under the presidency of Uncle Ho. (Pelliciari_mod)
+	picture = "BaoDai"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA9900" #Let them go (Pelliciari_mod)
+
+		7651 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5879 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5897 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5898 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5915 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5916 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5917 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5929 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5931 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5943 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5944 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5945 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5953 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5954 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5955 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5962 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5963 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5964 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5973 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5974 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5982 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5983 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5992 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		5993 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6001 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6002 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6010 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6020 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6021 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6033 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6034 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6046 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6047 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6058 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6059 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6060 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6073 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6074 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6075 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6085 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6086 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6087 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6097 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6098 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6107 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6108 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6115 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6116 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6123 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6129 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6130 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6140 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6141 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6151 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6152 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6165 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6166 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6178 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6179 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6186 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6187 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6188 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6193 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6194 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6195 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6201 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6202 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6203 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6204 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6209 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6210 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6211 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6212 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6213 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6214 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6220 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6221 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6222 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6223 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6224 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6232 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6233 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6234 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6235 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6236 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6242 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6243 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6244 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6245 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6251 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6252 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6259 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6266 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6267 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6277 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		6286 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7604 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7612 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7621 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7629 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7636 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7644 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7658 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7668 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7675 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7678 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7679 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7690 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7696 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7701 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7705 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7709 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7710 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7712 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7713 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7714 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7715 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7716 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7718 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7719 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7720 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7724 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7725 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7727 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7729 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7731 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+		7643 = { limit = { owned_by = JAP } secede_province = IDC add_core = IDC }
+
+		laos_region  = { add_core = IDC }
+		tonkin_region = { add_core = IDC }
+		annam_region = { add_core = IDC }
+		cochinchina_region = { add_core = IDC }
+		cambodia_region = { add_core = IDC }
+
+		IDC = { set_country_flag = protests_in_indochine }
+	}
+}
+
+#######################################
+# Socialistic Revolution in Indochina #
+#######################################
+
+country_event = {
+	
+	id = 9901
+
+	trigger = {
+		tag = IDC
+		has_country_flag  = protests_in_indochine
+	}
+
+	mean_time_to_happen = { 
+		months = 1 
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9901" #Communist revolution (Pelliciari_mod)
+	desc = "EVTDESC9901" #In the next few days, the people of Vietnam began to hold public protests, forcing, on August 30, the Emperor to abdicate. On the same day the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people. (Pelliciari_mod)
+	picture = "HanoiSpeech"
+
+	option = {
+		name = "EVTOPTA9901" #This isn't over yet (Pelliciari_mod)
+
+		7651 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5879 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5897 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5898 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5915 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5916 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5917 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5929 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5931 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5943 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5944 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5945 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5953 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5954 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5955 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5962 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5963 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5964 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5973 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5974 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5982 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5983 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5992 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		5993 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6001 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6002 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6010 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6020 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6021 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6033 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6034 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6046 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6047 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6058 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6059 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6060 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6073 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6074 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6075 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6085 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6086 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6087 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6097 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6098 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6107 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6108 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6115 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6116 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6123 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6129 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6130 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6140 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6141 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6151 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6152 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6165 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6166 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6178 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6179 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6186 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6187 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6188 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6193 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6194 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6195 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6201 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6202 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6203 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6204 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6209 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6210 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6211 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6212 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6213 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6214 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6220 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6221 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6222 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6223 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6224 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6232 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6233 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6234 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6235 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6236 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6242 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6243 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6244 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6245 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6251 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6252 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6259 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6266 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6267 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6277 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		6286 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7604 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7612 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7621 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7629 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7636 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7644 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7658 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7668 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7675 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7678 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7679 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7690 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7696 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7701 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7705 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7709 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7710 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7712 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7713 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7714 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7715 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7716 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7718 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7719 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7720 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7724 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7725 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7727 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7729 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7731 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+		7643 = { limit = { owned_by = IDC } secede_province = SFR add_core = SFR }
+
+		laos_region  = { add_core = SFR }
+		tonkin_region = { add_core = SFR }
+		annam_region = { add_core = SFR }
+		cochinchina_region = { add_core = SFR }
+		cambodia_region = { add_core = SFR }
+
+		SFR = { set_country_flag = indochina_socialist_revolution }	
+	}
+}
+
+################################################
+# Ho Chi Minh Proclames Independence of France #
+################################################
+
+country_event = {
+	
+	id = 9902
+
+	trigger = {
+		tag = FRA
+		date = 1945.9.2
+		controls = 6236
+		NOT = { 
+			exists = IDC
+			exists = SFR
+		}
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9902" #Ho Chi Minh Proclames Independence (Pelliciari_mod)
+	desc = "EVTDESC9902" #On setember 2 of 1945 the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people.
+	picture = "HanoiSpeech"
+
+	option = {
+		name = "EVTOPTA9901" #This isn't over yet (Pelliciari_mod)
+
+		7651 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5879 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5897 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5898 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5915 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5916 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5917 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5929 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5931 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5943 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5944 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5945 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5953 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5954 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5955 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5962 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5963 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5964 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5973 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5974 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5982 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5983 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5992 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		5993 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6001 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6002 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6010 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6020 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6021 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6033 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6034 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6046 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6047 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6058 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6059 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6060 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6073 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6074 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6075 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6085 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6086 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6087 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6097 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6098 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6107 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6108 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6115 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6116 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6123 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6129 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6130 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6140 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6141 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6151 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6152 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6165 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6166 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6178 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6179 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6186 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6187 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6188 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6193 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6194 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6195 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6201 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6202 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6203 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6204 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6209 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6210 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6211 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6212 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6213 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6214 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6220 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6221 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6222 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6223 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6224 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6232 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6233 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6234 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6235 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6236 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6242 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6243 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6244 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6245 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6251 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6252 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6259 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6266 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6267 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6277 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		6286 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7604 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7612 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7621 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7629 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7636 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7644 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7658 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7668 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7675 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7678 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7679 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7690 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7696 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7701 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7705 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7709 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7710 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7712 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7713 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7714 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7715 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7716 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7718 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7719 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7720 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7724 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7725 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7727 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7729 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7731 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+		7643 = { limit = { owned_by = FRA } secede_province = SFR add_core = SFR }
+
+		laos_region  = { add_core = SFR }
+		tonkin_region = { add_core = SFR }
+		annam_region = { add_core = SFR }
+		cochinchina_region = { add_core = SFR }
+		cambodia_region = { add_core = SFR }
+
+		SFR = { set_country_flag = indochina_socialist_revolution }
+	}
+}
+
+######################################################
+# Ho Chi Minh Proclames Independence of Vichy France #
+######################################################
+
+country_event = {
+	
+	id = 9903
+
+	trigger = {
+		tag = VIC
+		date = 1945.9.2
+		controls = 6236
+		NOT = { 
+			exists = IDC
+			exists = SFR
+		}
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9902" #Ho Chi Minh Proclames Independence (Pelliciari_mod)
+	desc = "ETVDESC9902" #On setember 2 of 1945 the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people.
+	picture = "HanoiSpeech"
+
+	option = {
+		name = "EVTOPTA9901" #This isn't over yet (Pelliciari_mod)
+
+		7651 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5879 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5897 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5898 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5915 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5916 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5917 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5929 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5931 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5943 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5944 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5945 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5953 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5954 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5955 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5962 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5963 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5964 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5973 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5974 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5982 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5983 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5992 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		5993 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6001 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6002 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6010 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6020 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6021 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6033 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6034 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6046 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6047 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6058 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6059 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6060 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6073 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6074 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6075 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6085 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6086 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6087 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6097 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6098 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6107 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6108 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6115 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6116 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6123 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6129 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6130 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6140 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6141 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6151 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6152 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6165 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6166 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6178 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6179 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6186 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6187 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6188 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6193 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6194 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6195 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6201 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6202 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6203 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6204 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6209 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6210 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6211 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6212 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6213 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6214 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6220 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6221 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6222 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6223 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6224 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6232 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6233 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6234 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6235 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6236 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6242 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6243 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6244 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6245 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6251 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6252 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6259 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6266 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6267 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6277 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		6286 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7604 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7612 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7621 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7629 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7636 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7644 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7658 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7668 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7675 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7678 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7679 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7690 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7696 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7701 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7705 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7709 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7710 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7712 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7713 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7714 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7715 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7716 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7718 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7719 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7720 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7724 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7725 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7727 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7729 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7731 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+		7643 = { limit = { owned_by = VIC } secede_province = SFR add_core = SFR }
+
+		laos_region  = { add_core = SFR }
+		tonkin_region = { add_core = SFR }
+		annam_region = { add_core = SFR }
+		cochinchina_region = { add_core = SFR }
+		cambodia_region = { add_core = SFR }
+
+		SFR = { set_country_flag = indochina_socialist_revolution }
+	}
+}

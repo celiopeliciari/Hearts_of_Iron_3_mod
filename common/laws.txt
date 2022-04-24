@@ -208,12 +208,28 @@ conscription_law = {
     volunteer_army = {
     	cost = 0.5
         allow = {
-            NOT = { war = yes }
+            AND = {
+                NOT = { war = yes }
+                NOT = { ideology_group = communism }
         }
         reserves_penalty_size = -0.75
         global_manpower_modifier = -0.50
         peacetime_manpower_rotation = 0.10
 	    officer_recruitment = -0.50
+    }
+
+    equal_volunteer_army = {
+        cost = 0.5
+        allow = {
+            AND = {
+                NOT = { war = yes }
+                ideology_group = communism
+            }
+        }
+        reserves_penalty_size = -0.75
+        global_manpower_modifier = -0.50
+        peacetime_manpower_rotation = 0.10
+        officer_recruitment = -0.50
     }
 
     one_year_draft = {
@@ -226,20 +242,52 @@ conscription_law = {
         officer_recruitment = -0.25
     }
 
+    equal_one_year_draft = {
+        cost = 0.5
+        allow = {
+            ideology_group = communism
+        }
+        reserves_penalty_size = -0.66
+        global_manpower_modifier = -0.25
+        peacetime_manpower_rotation = 0.05
+        officer_recruitment = -0.25
+    }
+
     two_year_draft = {
     	cost = 0.5
+        allow = {
+            AND = {
+                OR = {
+                    AND = {
+                        NOT = { neutrality = 60 }
+                        national_unity = 60
+                    }
+                    OR = {
+                        ideology_group = fascism
+                        ideology = conservatism
+                    }
+                    war = yes
+                }
+                NOT = { ideology_group = communism }
+            }
+        }
+        reserves_penalty_size = -0.5
+        peacetime_manpower_rotation = 0.03
+    }
+
+    equal_two_year_draft = {
+        cost = 0.5
         allow = {
             OR = {
                 AND = {
                     NOT = { neutrality = 60 }
                     national_unity = 60
+                    ideology_group = communism
                 }
-                OR = {
-                    ideology_group = fascism
-                    ideology = conservatism
-                    government = war_socialism
+                AND = {
+                    war = yes
+                    ideology_group = communism
                 }
-                war = yes
             }
         }
         reserves_penalty_size = -0.5
@@ -249,16 +297,39 @@ conscription_law = {
     three_year_draft = {
     	cost = 0.5
         allow = {
+            AND = {
+                OR = {
+                    AND = {
+                        NOT = { neutrality = 50 }
+                        national_unity = 70
+                    }
+                    OR = {
+                        ideology_group = fascism
+                        government = war_socialism
+                    }
+                    war = yes
+                }
+                NOT = { ideology_group = communism }
+        }
+        reserves_penalty_size = -0.25
+        global_manpower_modifier = 0.25
+        peacetime_manpower_rotation = 0.02
+        officer_recruitment = 0.25
+    }
+
+    equal_three_year_draft = {
+        cost = 0.5
+        allow = {
             OR = {
                 AND = {
                     NOT = { neutrality = 50 }
                     national_unity = 70
+                    ideology_group = communism
                 }
-                OR = {
-                    ideology_group = fascism
-                    government = war_socialism
+                AND = {
+                    war = yes
+                    ideology_group = communism
                 }
-                war = yes
             }
         }
         reserves_penalty_size = -0.25
@@ -270,19 +341,43 @@ conscription_law = {
     service_by_requirement = {
     	cost = 0.5
         allow = {
+            AND = {
+                OR = {
+                    AND = {
+                        NOT = { neutrality = 35 }
+                        national_unity = 90
+                    }
+                    OR = {
+                          ideology = nazism
+                          ideology = generical_fascism
+                    }
+                    AND = {
+                		enemy_ic_ratio = 2
+                        war = yes
+                    }
+                }
+                NOT = { ideology_group = communism }
+            }
+        }
+        reserves_penalty_size = -0.10
+        global_manpower_modifier = 1.0
+        peacetime_manpower_rotation = 0.01
+        officer_recruitment = 0.5
+    }
+
+    equal_service_by_requirement = {
+        cost = 0.5
+        allow = {
             OR = {
                 AND = {
                     NOT = { neutrality = 35 }
                     national_unity = 90
-                }
-                OR = {
-                      ideology = nazism
-                      ideology = generical_fascism
-                      government = war_socialism
+                    ideology_group = communism
                 }
                 AND = {
-            		enemy_ic_ratio = 2
+                    enemy_ic_ratio = 2
                     war = yes
+                    ideology_group = communism
                 }
             }
         }
@@ -395,25 +490,14 @@ economic_law = {
         global_money = -0.4
         global_ic = 0.2    
 		global_resources = 0.2	
-        
     }
 
     total_economic_mobilisation = {
     	cost = 0.5
         allow = {
-            OR = {
-                AND = {
-                    NOT = { neutrality = 35 }
-                    national_unity = 90
-                }
-                OR = {
-                    ideology_group = fascism
-                    government = war_socialism
-                }
-                AND = {
-                    enemy_ic_ratio = 2
-                    war = yes
-                }
+            AND = {
+                enemy_ic_ratio = 2
+                war = yes
             }
         }
         war_consumer_goods_demand = -0.5
@@ -512,10 +596,7 @@ press_laws = {
     capitalist_control = {
     	cost = 0.5
         allow = {
-            OR = {
-                ideology_group = capitalism
-                ideology_group = fascism
-            }
+            ideology_group = capitalism
         }
         national_unity_effect = 0.1
         drift_speed = 0.1
@@ -524,12 +605,12 @@ press_laws = {
     capitalist_control_censorship = {
     	cost = 0.5
         allow = {
-            AND = {
-                OR = {
-                ideology_group = capitalism
-                ideology_group = fascism
+            OR = {
+                AND = {
+                    ideology_group = capitalism
+                    popularity = 30
                 }
-                popularity = 30
+                ideology_group = fascism
             }
         }
         national_unity_effect = 0.15
@@ -555,9 +636,7 @@ press_laws = {
     ruling_party_control = {
         cost = 0.5
         allow = {
-            OR = {
-                ideology_group = communism
-            }
+            ideology_group = communism
         }
         national_unity_effect = 0.15
         drift_speed = 0.15

@@ -182,19 +182,24 @@ jim_crow_laws;Jim Crow Laws;;;;;;;;;x
 jim_crow_laws_desc;Jim Crow was the name of the racial caste system which operated primarily, but not exclusively in southern and border states, between 1877 and the mid-1960s.;;;;;;;;;x
 volunteer_army;Volunteer Army;Armée volontaire;Freiwilligenarmee;;Ejército voluntario;;;;;;;;;x,
 volunteer_army_desc;Build up the army by introducing the concept of voluntary military service.;Crée une armée en introduisant le concept de service militaire volontaire.;Bauen Sie die Armee durch die Einführung des Konzepts des freiwilligen Militärdiensts auf.;;Nutre el ejército introduciendo el concepto de servicio militar voluntario.;;;;;;;;;x,
+equal_volunteer_army;Equal Volunteer Army;;;;;;;;;x,
 one_year_draft;One-Year Draft;Incorporation d'un an;Einjährige Wehrpflicht;;Servicio militar anual;;;;;;;;;x,
 one_year_draft_desc;Raise wartime forces by making it compulsory for draftees to serve for at least one year.;Lève des troupes en temps de guerre en rendant le service militaire obligatoire pour au moins un an.;Erhöhen Sie die Mannstärke der Streitkräfte zu Kriegszeiten, indem Sie den Wehrdienst auf ein Jahr festlegen.;;En tiempos de guerra, aumenta las fuerzas obligando a los reclutas a servir durante al menos un año.;;;;;;;;;x,,
+equal_one_year_draft;Equal One-Year Draft;;;;;;;;;x,,
 two_year_draft;Two-Year Draft;Incorporation de deux ans;Zweijährige Wehrpflicht;;Servicio militar bienal;;;;;;;;;x,,
 two_year_draft_desc;Improve the size and condition of the army by increasing the amount of time draftees are required to serve to two years.;Améliore la capacité et l'état de l'armée en augmentant la durée du service militaire à deux ans.;Vergrößern und verbessern Sie die Armee durch die Anhebung des Wehrdienstes von einem auf zwei Jahre.;;Mejora el tamaño y las condiciones del ejército aumentando el período en el que los reclutas están obligados a servir dos años.;;;;;;;;;x,,
+equal_two_year_draft;Equal Two-Year Draft;;;;;;;;;x,,
 three_year_draft;Three-Year Draft;Incorporation de trois ans;Dreijährige Wehrpflicht;;Servicio militar trienal;;;;;;;;;x,,
 three_year_draft_desc;Increase the amount of time draftees are obligated to serve in the military to a minimum of three years.;Augmente la durée du service obligatoire pour les recrues à un minimum de trois ans.;Erhöhen Sie den obligatorischen Wehrdienst auf ein Minimum von drei Jahren.;;Aumenta el período en el que los reclutas están obligados a servir en el ejército durante un mínimo de tres años.;;;;;;;;;x,,
+equal_three_year_draft;Equal Three-Year Draft;;;;;;;;;x,,
 service_by_requirement;Service by Requirement;Service militaire sur demande;Wehrpflicht bei Bedarf;;Servicio por requerimiento;;;;;;;;;x,,
 service_by_requirement_desc;Make conscription rules for military service completely dependent on the current demand.;Les règles du service militaire dépendent entièrement des besoins courants.;Machen Sie die Einberufungsregeln für den Wehrdienst völlig von der aktuellen Nachfrage abhängig.;;Hace que las normas de reclutamiento para el servicio militar dependan por completo de la demanda de cada momento.;;;;;;;;;x,,
+equal_service_by_requirement;Equal Service by Requirement;;;;;;;;;x,,
 full_civilian_economy;Full Civilian Economy;Économie entièrement civile;Vollständig zivile Wirtschaft;;Economía civil completa;;;;;;;;;x,,
 full_civilian_economy_desc;By focusing our economy on civilian production, we can generate more cash income for import purchases at the cost of military production.;En concentrant notre économie sur la production civile, nous pouvons générer plus de revenu monétaire pour les importations, aux dépends de la production militaire.;Durch die Fokussierung unserer Wirtschaft auf zivile Produkte können wir auf Kosten unserer militärischen Produktion mehr Geld für Importkäufe generieren.;;Al centrarse nuestra economía en la producción civil, podemos generar más ingresos por importaciones al coste de la producción militar.;;;;;;;;;x,
 basic_mobilisation;Basic Mobilisation;Mobilisation de base;Grundmobilmachung;;Movilización básica;;;;;;;;;x,,
 basic_mobilisation_desc;By diverting some of our production towards military production, we restrict the production of consumer goods, which reduces our civilian economy.;En déviant une partie de notre production vers le domaine militaire, nous limitons la production de biens de consommation ce qui ralentit notre économie civile.;Durch teilweise Umleitung unserer Produktion auf Militärgüter schränken wir die Produktion von Konsumgütern ein und schwächen damit unsere Zivilwirtschaft.;;Al derivar parte de nuestra producción hacia el aspecto militar, restringimos la producción de bienes de consumo, lo que reduce la economía civil.;;;;;;;;;x
-medium_mobilisation;Basic Mobilisation;;;;;;;;;x,,
+medium_mobilisation;Medium Mobilisation;;;;;;;;;x,,
 medium_mobilisation_desc;Medium preparition for comming war.;;;;;;;;;x,,
 full_mobilisation;Full Mobilisation;Mobilisation totale;Volle Mobilmachung;;Movilización completa;;;;;;;;;x,,
 full_mobilisation_desc;By adjusting our economy to a full war economy, we increase the amount of resources available for military production, but at a significant cost for the civilian economy.;En adaptant notre économie entièrement à une économie de guerre, on augmente la quantité de ressources disponibles pour la production militaire mais cela a des conséquences importantes sur l'économie civile.;Durch die volle Umwandlung unserer Wirtschaft in eine Kriegswirtschaft erhöhen wir die Anzahl der für die Militärproduktion zur Verfügung stehenden Ressourcen, jedoch deutlich zu Lasten unserer Zivilwirtschaft.;;Al ajustar nuestra economía a un completo esfuerzo para la guerra, aumentamos la cantidad de recursos disponibles para la producción militar, pero a un coste significativo para la economía civil.;;;;;;;;;x
@@ -218,12 +223,13 @@ heavy_industry_emphasis;Heavy Industry Emphasis;Accent sur l'industrie lourde;Sc
 heavy_industry_emphasis_desc;Improve industrial efficiency by directing more efforts towards the development of heavy industry.;Augmente l'efficacité industrielle en mettant l'accent sur le développement de l'industrie lourde.;Verbessern Sie die Industrieeffizienz durch beschleunigte Entwicklung der Schwerindustrie.;;Mejora la eficacia de la industria al destinar más esfuerzos al desarrollo de una industria pesada.;;;;;;;;;x
 capitalist_control;Capitalist Control;;;;;;;;;x
 capitalist_control_desc;The entire press is under capitalists control.;;;;;;;;;x
-capitalist_control_censorship;Captitalist Control under censorship;;;;;;;;;x,
+capitalist_control_censorship;Captitalist Control Over Censor;;;;;;;;;x,
 capitalist_control_censorship_desc;The capitalist state impose restrictions on press.;;;;;;;;;x,
 community_control;Community Control;;;;;;;;;x,
 community_control_desc;The organized people with state subside control the entire press.;;;;;;;;;x
 ruling_party_control;Ruling Party Control;;;;;;;;;x,
 ruling_party_control_desc;The ruling communist party controls the press.;;;;;;;;;x,
+minimal_training;Minimal Training;;;;;;;;;x,
 minimal_training_desc;Keep conscription costs and organization efforts to a minimum by limiting the mandatory amount of military training.;Maintient les coûts et l'organisation de la conscription au plus bas en limitant la durée de l'entraînement militaire obligatoire.;Halten Sie die Wehrpflichtkosten und Organisationsbemühungen durch die Einschränkung der militärischen Ausbildung auf dem Minimalwert.;;Mantiene los costes de reclutamiento y los esfuerzos de organización al mínimo al limitar la instrucción militar obligatoria.;;;;;;;;;x,
 basic_training;Basic Training;Entraînement de base;Grundausbildung;;Instrucción elemental;;;;;;;;;x,
 basic_training_desc;Improve the condition of the army by putting more focus on training military personnel.;Améliore l'état de l'armée en se concentrant plus fortement sur l'entraînement du personnel militaire.;Verbessern Sie den Zustand der Armee durch verbesserte Ausbildung des militärischen Personals.;;Mejora la condición del ejército al centrarse en el entrenamiento de personal militar.;;;;;;;;;x,

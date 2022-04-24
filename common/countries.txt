@@ -103,6 +103,7 @@ TIB	= "countries/Tibet.txt"
 
 # Southeastern Asia
 IDC	= "countries/Indochina.txt"
+SFR	= "countries/Socialist Indochina.txt"
 INO	= "countries/Indonesia.txt"
 PHI	= "countries/Philippines.txt"
 SIA	= "countries/Siam.txt"

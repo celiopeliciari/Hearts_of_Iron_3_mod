@@ -231,7 +231,6 @@ ENG = {
     color3= { 83 149 105  }
 }
 
-
 # Leinster
 LEI = {
     color1= { 48 164 51  }
@@ -1778,6 +1777,13 @@ KHA = {
 
 # Khmer
 KHM = {
+    color1= { 127 180 60  }
+    color2= { 183 176 194  }
+    color3= { 83 149 105  }
+}
+
+# Socialist Federal Republic of Indochina
+SFR = {
     color1= { 127 180 60  }
     color2= { 183 176 194  }
     color3= { 83 149 105  }
