@@ -211,6 +211,7 @@ conscription_law = {
             AND = {
                 NOT = { war = yes }
                 NOT = { ideology_group = communism }
+            }
         }
         reserves_penalty_size = -0.75
         global_manpower_modifier = -0.50
@@ -310,6 +311,7 @@ conscription_law = {
                     war = yes
                 }
                 NOT = { ideology_group = communism }
+            }
         }
         reserves_penalty_size = -0.25
         global_manpower_modifier = 0.25

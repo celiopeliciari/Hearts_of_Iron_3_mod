@@ -1,4 +1,4 @@
-capital = 9289
+capital = 5762
 government = right_wing_autocrat
 ideology = reactionarism
 alignment = { x = 40 y = 27.0 }

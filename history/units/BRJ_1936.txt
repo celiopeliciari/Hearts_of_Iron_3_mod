@@ -1,0 +1,35 @@
+theatre = {
+	name = "Indian Theatre"
+	location = 9406
+	regiment = { type = hq_brigade name = "Colonial Command Theatre HQ" historical_mode = 0 }
+	division = {
+		is_reserve = no
+		name = "1st Military District"
+		location = 9406
+		regiment = { type = garrison_brigade name = "7th Brigade" historical_model = 0 }
+		regiment = { type = artillery_brigade name = "1st RAA" historical_model = 0 }
+	}
+	corps = {
+		name = "2nd Military District"
+		location = 9406
+		regiment = { type = hq_brigade name = "2nd Military District HQ" historical_model = 0 }
+		division= {
+			name = "1st Australian Division"
+			location = 9406
+			is_reserve = yes
+			regiment = { type = garrison_brigade name = "1st Brigade" historical_model = 0 }
+			regiment = { type = garrison_brigade name = "9th Brigade" historical_model = 0 }
+		}
+		division= {
+			name = "2nd Australian Division"
+			location = 9406
+			is_reserve = yes
+			regiment = { type = garrison_brigade name = "5th Brigade" historical_model = 0 }
+			regiment = { type = garrison_brigade name = "8th Brigade" historical_model = 0 }
+		}
+		division= {
+			name = "1st Australian Cavalry Division"
+			location = 9406
+			is_reserve = yes
+			regiment = { type = cavalry_brigade name = "2nd Cavalry Brigade" historical_model = 0 }
+			regiment = { type = cavalry_brigade name = "4th Cavalry Brigade"historical_model = 0 }

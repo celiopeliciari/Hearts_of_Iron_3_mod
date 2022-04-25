@@ -1,0 +1,9 @@
+owner = BRJ
+
+controller = BRJ
+
+add_core = BRJ
+add_core = PAK
+
+
+infra = 5

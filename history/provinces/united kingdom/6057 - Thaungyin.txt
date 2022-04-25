@@ -1,0 +1,12 @@
+owner = BRJ
+controller = BRJ
+add_core = BRJ
+add_core = BUR
+
+infra = 1
+1942.6.4 = {
+
+	controller = JAP
+
+}
+

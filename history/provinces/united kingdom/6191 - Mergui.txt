@@ -1,0 +1,10 @@
+owner = BRJ
+controller = BRJ
+add_core = BRJ
+add_core = BUR
+infra = 4
+manpower = 1.00
+leadership = 0.10
+1942.6.4 = {
+	controller = JAP
+}

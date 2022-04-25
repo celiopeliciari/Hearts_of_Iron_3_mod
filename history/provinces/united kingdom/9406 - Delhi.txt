@@ -1,0 +1,10 @@
+owner = BRJ
+
+controller = BRJ
+
+add_core = BRJ
+add_core = IND
+points = 5
+anti_air = 2
+infra = 6
+air_base = 4

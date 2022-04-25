@@ -80,8 +80,10 @@ YEM	= "countries/Yemen.txt"
 # Southern Asia
 BHU	= "countries/Bhutan.txt"
 IND	= "countries/India.txt"
+BRJ	= "countries/British Raj.txt"
 NEP	= "countries/Nepal.txt"
 PAK	= "countries/Pakistan.txt"
+BUR 	= "countries/Burma.txt"
 
 
 # Eastern Asia

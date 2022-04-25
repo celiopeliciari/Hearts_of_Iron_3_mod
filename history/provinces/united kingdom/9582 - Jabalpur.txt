@@ -1,0 +1,6 @@
+ owner = BRJ
+controller = BRJ
+add_core = BRJ
+add_core = IND
+energy = 5.00
+infra = 5

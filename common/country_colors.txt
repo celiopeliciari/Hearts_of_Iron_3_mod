@@ -231,6 +231,20 @@ ENG = {
     color3= { 83 149 105  }
 }
 
+# British Raj
+BRJ = {
+    color1= { 190 20 10  }
+    color2= { 90 130 150  }
+    color3= { 80 140 100  }
+}
+
+# Burma
+BUR = {
+    color1= { 200 30 15  }
+    color2= { 100 140 155  }
+    color3= { 85 150 110  }
+}
+
 # Leinster
 LEI = {
     color1= { 48 164 51  }

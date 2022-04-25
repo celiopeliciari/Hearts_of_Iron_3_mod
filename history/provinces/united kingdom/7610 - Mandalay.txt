@@ -1,0 +1,19 @@
+owner = BRJ
+
+controller = BRJ
+
+add_core = BRJ
+add_core = BUR
+
+points = 1
+anti_air = 1
+infra = 6
+air_base = 4
+manpower = 1.00
+leadership = 0.25
+1942.6.4 = {
+
+	controller = JAP
+
+}
+

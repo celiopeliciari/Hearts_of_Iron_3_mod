@@ -1,0 +1,62 @@
+capital = 6070
+government = semi_parliamentary_colony
+
+alignment = { x = 60 y = 44.3 }
+neutrality = 80
+national_unity = 40
+
+
+
+
+schwerpunkt = 0
+blitzkrieg = 0
+mobile_warfare = 0
+elastic_defence = 0
+operational_level_command_structure = 0
+tactical_command_structure = 0
+mechanized_offensive = 0
+delay_doctrine = 0
+integrated_support_doctrine = 0
+infantry_warfare = 0
+special_forces = 0
+assault_concentration = 0
+central_planning = 0
+mass_assault = 0
+peoples_army = 1
+large_front = 0
+guerilla_warfare = 1
+operational_level_organisation = 0
+
+popularity = { 
+	nazism = 0
+	generical_fascism = 0
+	reactionarism = 20
+	conservatism = 60
+	liberalism = 0
+	social_liberalism = 0
+	social_democracy = 10
+	marxism = 5
+	trotskyism = 0
+	stalinism = 5
+}
+
+organization = { 
+	nazism = 0
+	generical_fascism = 0
+	reactionarism = 40
+	conservatism = 80
+	liberalism = 0
+	social_liberalism = 0
+	social_democracy = 20
+	marxism = 10
+	trotskyism = 0
+	stalinism = 10
+}
+
+training_laws = minimal_training
+press_laws = capitalist_control_censorship
+industrial_policy_laws = consumer_product_orientation
+education_investment_law = minimal_education_investment
+economic_law = full_civilian_economy
+conscription_law = volunteer_army
+civil_law = wide_restrictions

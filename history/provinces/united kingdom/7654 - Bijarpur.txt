@@ -1,0 +1,15 @@
+owner = BRJ
+
+controller = BRJ
+
+add_core = BRJ
+add_core = IND
+
+
+infra = 4
+
+infra = 4
+
+infra = 4
+
+infra = 4
