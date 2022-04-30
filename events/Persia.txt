@@ -1,0 +1,125 @@
+#############################################
+# British and Soviet Intervention on Persia #
+#############################################
+country_event = {
+	
+	id = 9910
+
+	is_triggered_only = yes
+
+	title = "EVTNAME9910" # The Soviet Union call us to do a intervention on Persia (events)
+	desc = "EVTDESC9910" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with Soviet Union. (events)
+	picture = "PersiaIntervention"
+
+	option = {
+		name = "Send a ultimatum to Reza Pahlavi"
+		ai_chance = { factor = 100 }
+		
+		SOV = {
+			manpower = -15
+			fuel = -100
+			supplies = -200
+		}
+		ENG = {
+			manpower = -5
+			fuel = -75
+			supplies = -150
+		}
+		BRJ = {
+			manpower = -10
+			fuel = -25
+			supplies = -50
+		}
+
+		PER = { country_event = 9912 }
+	}
+	option = {
+		name = "We'll not do it with our other enemies"
+
+		relation = { who = SOV value = -15 }
+	}
+}
+
+country_event = {
+	
+	id = 9911
+
+	is_triggered_only = yes
+
+	title = "EVTNAME9911" # The United kingdom call us to do a intervention on Persia (events)
+	desc = "EVTDESC9911" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with United Kingdom.
+	picture = "PersiaIntervention"
+
+	option = {
+		name = "Send a ultimatum to Reza Pahlavi"
+		ai_chance = { factor = 100 }
+
+		SOV = {
+			manpower = -15
+			fuel = -100
+			supplies = -200
+		}
+		ENG = {
+			manpower = -5
+			fuel = -75
+			supplies = -150
+		}
+		BRJ = {
+			manpower = -10
+			fuel = -25
+			supplies = -50
+		}
+
+		PER = { country_event = 9912 }
+	}
+	option = {
+		name = "We'll not do it with our other enemies"
+
+		relation = { who = ENG value = -15 }
+	}
+}
+
+country_event = {
+	
+	id = 9912
+
+	is_triggered_only = yes
+
+	title = "EVTNAME9912"
+	desc = "EVTDESC9912"
+	picture = "PersiaIntervention"
+
+	option = {
+		name = Let it be
+		ai_chance = { factor = 100 }
+
+		PER = {
+			british_persia_intervention_region = { limit = { owned_by = PER } secede_province = ENG }
+			soviet_persia_intervention_region = { limit = { owned_by = PER } secede_province = SOV }
+
+			head_of_state = 53031 #Mohammed Reza Pahlavi
+			head_of_government = 53035 #Mohammed Ali Foroughi
+			foreign_minister = 53037 #Ahmeed Qawan as Saltana
+			armament_minister = 53064 #Sayyid al-Din Tabataba'i
+			minister_of_security = 53066 #Mohammed Bahrami
+			minister_of_intelligence = 53066 #Mohammed Bahrami
+			chief_of_staff = 53095 #Hossein Afkhami
+			chief_of_army = 53098 #Azram Mir Ghani
+			chief_of_navy = 53103 #Mohammed Mir Mohanna
+			chief_of_air = 53100 #Hedayat Gilanshah
+		}		
+
+		SOV = { military_access = PER }
+		ENG = { military_access = PER }
+		BRJ = { military_access = PER }
+
+		relation = { who = SOV value = -20 }
+		relation = { who = ENG value = -20 }
+	}
+	option = {
+		name = Resist!
+
+		PER = {	war = {	target = SOV } }
+		PER = {	war = {	target = ENG } }
+	}
+}

@@ -1,0 +1,86 @@
+#############################################
+# British and Soviet Intervention on Persia #
+#############################################
+diplomatic_decisions = {
+	soviet_intervention_on_persia = {
+		potential = { 
+			tag = SOV
+			exists = PER
+			exists = ENG
+			exists = GER 
+			year = 1939
+			NOT = { has_country_flag = united_kingdom_call_us_to_intervene_on_persia }
+			NOT = { has_country_flag = soviet_intervention_on_persia }
+		}
+		allow = {
+			PER = { NOT = { war = yes } }
+			PER = { is_in_any_faction = no }
+			year = 1941
+			month = 7
+		}
+		effect = {
+			set_country_flag = soviet_intervention_on_persia
+			ENG = { set_country_flag = soviet_union_call_us_to_intervene_on_persia }
+			ENG = { country_event = 9910 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	british_intervention_on_persia = {
+		potential = { 
+			tag = ENG
+			exists = PER 
+			exists = SOV
+			exists = GER
+			year = 1939
+			NOT = { has_country_flag = soviet_union_call_us_to_intervene_on_persia }
+			NOT = { has_country_flag = british_intervention_on_persia }
+		}
+		allow = {
+			PER = { NOT = { war = yes } }
+			PER = { is_in_any_faction = no }
+			year = 1941
+			month = 7
+		}
+		effect = {
+			set_country_flag = british_intervention_on_persia
+			SOV = { set_country_flag = united_kingdom_call_us_to_intervene_on_persia }
+			SOV = { country_event = 9911 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
+###########################
+# Persia join to the Axis #
+###########################
+diplomatic_decisions = {
+	persia_join_to_axis = {
+		potential = {
+			tag = PER
+			PER = { is_in_any_faction = no }
+			PER = { NOT = { war = yes } }
+			exists = SOV
+			exists = GER
+			exists = ENG
+			GER = { war_with = SOV }
+			head_of_state = 53001 
+		}
+		allow = {
+			GER = { controls = 2857 } #Stalingrad
+		}
+		effect = {
+			join_faction = axis
+			PER = {	war = {	target = SOV } }
+			PER = {	war = {	target = ENG } }
+			neutrality = -100
+			persia_caucaso_revindication_region = { add_core = PER }
+			persia_central_asia_revindication_region = { add_core = PER }
+			persia_iraque_revindication_region = { add_core = PER }
+			persia_british_raj_revindication_region = { add_core = PER }
+			persia_afeganistan_revindication_region = { add_core = PER }
+			persia_turkey_revindication_region = { add_core = PER }
+			persia_syria_revindication_region = { add_core = PER }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
