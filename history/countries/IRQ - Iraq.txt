@@ -1,7 +1,6 @@
 capital = 9213
 government = absolute_monarchy
 ideology = reactionarism
-join_faction = allies
 alignment = { x = 60 y = 27.0 }
 head_of_state = 91001
 head_of_government = 91002

@@ -7,8 +7,8 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME9910" # The Soviet Union call us to do a intervention on Persia (events)
-	desc = "EVTDESC9910" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with Soviet Union. (events)
+	title = "EVTNAME9910" # The Soviet Union call us to do a intervention on Persia (Pelliciari_mod)
+	desc = "EVTDESC9910" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with Soviet Union. (Pelliciari_mod)
 	picture = "PersiaIntervention"
 
 	option = {
@@ -46,8 +46,8 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME9911" # The United kingdom call us to do a intervention on Persia (events)
-	desc = "EVTDESC9911" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with United Kingdom.
+	title = "EVTNAME9911" # The United kingdom call us to do a intervention on Persia (Pelliciari_mod)
+	desc = "EVTDESC9911" # The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with United Kingdom. (Pelliciari_mod)
 	picture = "PersiaIntervention"
 
 	option = {

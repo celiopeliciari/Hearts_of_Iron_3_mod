@@ -1,0 +1,27 @@
+#################################
+# Anglo-Egyptian treaty of 1936 #
+#################################
+country_event = {
+	
+	id = 9920
+
+	trigger = {
+		tag = ENG
+		date = 1936.8.26
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9920" #Anglo-Egyptian treaty of 1936 (Pelliciari_mod)
+	desc = "EVTDESC9920" #Anglo-Egyptian Treaty, treaty signed in London on August 26, 1936, that officially brought to an end 54 years of British occupation in Egypt. Nevertheless, Egyptian sovereignty remained circumscribed by the terms of the treaty, which established a 20-year military alliance that allowed Great Britain to impose martial law and censorship in Egypt in the event of international emergency. (Pelliciari_mod)
+	picture = ""
+
+	option = {
+		name = "EVTOPTA9920" #It's not good, but not that bad (Pelliciari_mod)
+		ai_chance = { factor = 100 }
+		
+		egypt_region = { secede_province = EGY }
+		create_alliance = EGY
+		}
+	}
+}

@@ -1,9 +1,22 @@
 capital = 5611
 government = absolute_monarchy
 ideology = reactionarism
-alignment = { x = 60 y = 61.6 }
+head_of_state = 512001 #Fuad I
+head_of_government = 512002 #Ali Mahir Pasha
+foreign_minister = 512002 #Ali Mahir Pasha
+armament_minister = 512004 #Mohammed al Fransawi
+minister_of_security = 512005 #Mustafa an-Nahhas Pasha
+minister_of_intelligence = 512006 #Mohammed Hilmi Issa
+chief_of_staff = 512007 #Hassan Sabry Pasha
+chief_of_army = 512007 #Hassan Sabry Pasha
+chief_of_navy = 512009 #Abdallah Ziwar Pasha
+chief_of_air = 512002 #Ali Mahir Pasha
+alignment = { x = 20 y = -128.7 }
 neutrality = 85
 national_unity = 65
+
+obb = "EGY_1936.txt"
+
 schwerpunkt = 0
 blitzkrieg = 0
 mobile_warfare = 0
@@ -26,27 +39,27 @@ operational_level_organisation = 0
 popularity = { 
 	nazism = 0
 	generical_fascism = 0
-	reactionarism = 40
-	conservatism = 60
-	liberalism = 0
+	reactionarism = 50
+	conservatism = 40
+	liberalism = 5
 	social_liberalism = 0
 	social_democracy = 0
 	marxism = 0
 	trotskyism = 0
-	stalinism = 0
+	stalinism = 5
 }
 
 organization = { 
 	nazism = 0
 	generical_fascism = 0
-	reactionarism = 50
-	conservatism = 70
-	liberalism = 0
+	reactionarism = 70
+	conservatism = 50
+	liberalism = 15
 	social_liberalism = 0
 	social_democracy = 0
 	marxism = 0
 	trotskyism = 0
-	stalinism = 0
+	stalinism = 5
 }
 
 training_laws = minimal_training
@@ -55,4 +68,4 @@ industrial_policy_laws = consumer_product_orientation
 education_investment_law = minimal_education_investment
 economic_law = full_civilian_economy
 conscription_law = volunteer_army
-civil_law = limited_restrictions
+civil_law = wide_restrictions

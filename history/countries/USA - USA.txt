@@ -12,7 +12,7 @@ chief_of_army = 6007
 chief_of_navy = 6158
 chief_of_air = 6010
 alignment = { x = 20 y = -128.7 }
-neutrality = 100
+neutrality = 90
 national_unity = 80
 money = 1
 
