@@ -1,0 +1,450 @@
+#Ejército,   constituido  por:  —Ejército  Territorial:  8 Divisiones  orgánicas,  una  de  Caballería,  3  Brigadas  de  montaña,  las  guarniciones  de  los  archipiélagos  y  bases  navales  y  tropas  de  cuerpo  de  ejército  y  ejército  con   117.385  hombres.  —Ejército  de  África:  Fuerzas  Militares  de  Marruecos  (FMM)  y  las  Jalifia-nas  del  Madjen  con  47.127  hombres,  incluida  la  policía.  Marina:   2 Acorazados  —uno  fuera  de  servicio—;  7 cruceros  —uno  fuera  de  servicio  y dos  en  construcción  muy  avanzada—;   17 destructores  —3  anticuados  y  5 en  construcción  a punto  de  entregarse  a  la  Flota—;   13 submarinos  —uno  en  grada—;   16  torpederos   y  escoltas  y  otros  buques  auxiliares.  En  total   21.975   hombres. Aviación:   No  constituía  fuerza  autónoma  aunque  tenía  un  órgano  propio  de  administración:  la  Dirección  General  de  Aeronáutica  y  tres  Servicios;  aviación  militar,  aeronáutica  naval  y  aviación  civil.  Disponía  de  35 "escuadrillas  —26  del  Ejército   y  9  de  la  Armada—  con   450  aviones  —todos  anticuados—  y  5.307  hombres. Fuerzas   Paramilitares:    67.300  hombres  de  los  que  34.391  pertenecían  a  la  Guardia   Civil;   15.249  al  cuerpo   de  carabineros   y   17.660  al  de   seguridad   y   asaltos
+
+
+theatre = {
+	name = "Teatro Español"
+	location = 4540
+	regiment = { type = hq_brigade name = "Brigada de Teatro Español" historical_model = 0 }
+	
+	# Begin of 8 organic division with 117k men
+	army = {
+		name = "1. Ejército  Territorial"
+		location = 4540
+		regiment = { type = hq_brigade name = "Brigada Ejército Territorial" historical_model = 0 }
+
+		corps = {
+		name = "1a División Orgánica"
+		location = 4540										#Madrid
+		regiment = { type = hq_brigade name = "1a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "1/1a División Orgánica"
+				location = 4540									#Madrid
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "1. Wad Ras" historical_model = 0 }
+				regiment = { type = artillery_brigade name = "2. Leon" historical_model = 0 }
+			}
+			division= {
+				name = "2/1a División Orgánica"
+				location = 4647									#Badajoz (Monforte)
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "3. Castillia" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "4. Covadonga" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "2a División Orgánica"
+			location = 5030										#Sevilla
+			regiment = { type = hq_brigade name = "1a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "3/2a División Orgánica"
+				location = 5030									#Sevilla
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "5. Lepanto" historical_model = 0 }
+				regiment = { type = artillery_brigade  name = "6. Granada" historical_model = 0 }
+			}
+			division= {
+				name = "4/2a División Orgánica"
+				location = 5129									#Granada
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "7. Pavla Ovledo" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "8. Vitoria" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "3a División Orgánica"
+			location = 4862										#Valencia
+			regiment = { type = hq_brigade name = "3a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "5/3a División Orgánica"
+				location = 4862									#Valencia
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "9. Ottumba" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "10. Guadalajara" historical_model = 0 }
+			}
+			division= {
+				name = "6/3a División Orgánica"
+				location = 5001									#Alicante
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "11. Tarifa" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "12. Vizcaya" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "4a División Orgánica"
+			location = 4548										#Barcelona
+			regiment = { type = hq_brigade name = "4a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "7/4a División Orgánica"
+				location = 4548									#Barcelona
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "13. Badajoz" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "14. Alcanrara" historical_model = 0 }
+			}
+			division= {
+				name = "8/4a División Orgánica"
+				location = 4482									#Lérida (Candasnos)
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "15. Almansa" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "16. Albuera" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "5a División Orgánica"
+			location = 4353										#Zaragoza
+			regiment = { type = hq_brigade name = "5a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "9/5a División Orgánica"
+				location = 4353									#Zaragoza
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "17. Aragon" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "18. Gerona" historical_model = 0 }
+			}
+			division= {
+				name = "10/5a División Orgánica"
+				location = 4293									#Huesca
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "19. Galicia" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "20. Valladolid" historical_model = 0 }
+			}
+		}
+	}
+	army = {
+		name = "2. Ejército  Territorial"
+		location = 4540
+		regiment = { type = hq_brigade name = "Brigada Ejército Territorial" historical_model = 0 }
+
+		corps = {
+			name = "6a División Orgánica"
+			location = 4155										#Burgos
+			regiment = { type = hq_brigade name = "6a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "11/6a División Orgánica"
+				location = 4155									#Burgos
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "21. Valencia" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "22. San Marcial" historical_model = 0 }
+			}
+			division= {
+				name = "12/6a División Orgánica"
+				location = 4026									#Pamplona
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "23. America" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "24. Bailen" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "7a División Orgánica"
+			location = 4218										#Valladolid
+			regiment = { type = hq_brigade name = "7a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "13/7a División Orgánica"
+				location = 4218									#Valladolid
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "25. Valladolid" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "26. Salamanca" historical_model = 0 }
+			}
+			division= {
+				name = "14/7a División Orgánica"
+				location = 4347									#Salamanca
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "27. Argel" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "8a División Orgánica"
+			location = 3610										#La Coruña
+			regiment = { type = hq_brigade name = "8a División Orgánica HQ" historical_model = 0 }
+			division= {
+				name = "15/8a División Orgánica"
+				location = 3610									#La Coruña
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "28. Zamora" historical_model = 0 }
+			}
+			division= {
+				name = "16/8a División Orgánica"
+				location = 3952									#León
+				is_reserve = yes
+				regiment = { type = infantry_brigade name = "29. Burgos" historical_model = 0 }
+			}
+		}
+		corps = {
+			name = "1a División de Caballería"
+			location = 4347										#Salamanca
+			regiment = { type = hq_brigade name = "1a División de Caballería HQ" historical_model = 0 }
+			division= {
+				name = "1/1a División de Caballería"
+				location = 4347									#Salamanca
+				is_reserve = yes
+				regiment = { type = cavalry_brigade name = "1. Villarrobledo" historical_model = 0 }
+				regiment = { type = cavalry_brigade name = "2. Calatrava" historical_model = 0 }
+			}
+		}
+	}
+	army = {
+		name = "3. Ejército  Territorial"
+		location = 4540
+		regiment = { type = hq_brigade name = "Brigada Ejército Territorial" historical_model = 0 }
+
+		division= {
+			name = "1 Brigada Montaña"
+			location = 9506										#Gerona (Canary Islands)
+			is_reserve = yes
+			regiment = { type = bergsjaeger_brigade name = "1. Media Brigada" historical_model = 0 }
+			regiment = { type = bergsjaeger_brigade name = "2. Media Brigada" historical_model = 0 }
+		}
+		division= {
+			name = "2 Brigada Montaña"
+			location = 3884										#Bilbao
+			is_reserve = yes
+			regiment = { type = bergsjaeger_brigade name = "3. Media Brigada" historical_model = 0 }
+			regiment = { type = bergsjaeger_brigade name = "4. Media Brigada" historical_model = 0 }
+		}
+		division= {
+			name = "Brigada Mixta Montaña"
+			location = 3746										#Oviedo
+			is_reserve = yes
+			regiment = { type = bergsjaeger_brigade name = "5. Regimiento" historical_model = 0 }
+			regiment = { type = bergsjaeger_brigade name = "6. Regimiento" historical_model = 0 }
+		}
+		division = {
+			name = "Comandancia de Baleares"
+			location = 4913										#Mallorca
+			is_reserve = yes
+			regiment = { type = garrison_brigade  name = "1. Palma" historical_model = 0 }
+		}
+		division = {
+			name = "Comandancia de Canarias"
+			location = 10730									#Las Palmas (Fuerteventura)
+			is_reserve = yes
+			regiment = { type = garrison_brigade  name = "1. Tenerife" historical_model = 0 }
+		}
+	}
+	# End of 8 organic division with 117k men
+
+	# Begin of africa army with 47k men
+	army = {
+		name = "1. Ejército  de  África"
+		location = 5289
+		regiment = { type = hq_brigade name = "Brigada Ejército África" historical_model = 0 }
+
+		corps = {
+			name = "Ejército de África"
+			location = 5289										#Ceuta
+			regiment = { type = hq_brigade name = "Ejército de África HQ" historical_model = 0 }
+			division= {
+				name = "1. Circunscripción Occidental"
+				location = 5289									#Ceuta
+				regiment = { type = cazadores_brigade name = "1. Cueta-Tetuan" historical_model = 0 }
+				regiment = { type = cazadores_brigade name = "2. Cueta-Tetuan" historical_model = 0 }
+				regiment = { type = cazadores_brigade name = "3. Cueta-Tetuan" historical_model = 0 }
+			}
+			division= {
+				name = "1. Circunscripción Occidental"
+				location = 5289									#Ceuta
+				regiment = { type = infantry_brigade name = "4. Cueta-Tetuan" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "5. Cueta-Tetuan" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "6. Cueta-Tetuan" historical_model = 0 }
+			}
+			division= {
+				name = "3. Circunscripción Occidental"
+				location = 5289									#Ceuta
+				regiment = { type = police_brigade name = "7. Cueta-Tetuan" historical_model = 0 }
+				regiment = { type = police_brigade name = "8. Cueta-Tetuan" historical_model = 0 }
+			}
+			division= {
+				name = "1. Circunscripción Oriental"
+				location = 5323									#Melilla
+				regiment = { type = cazadores_brigade name = "1. Melilla" historical_model = 0 }
+				regiment = { type = cazadores_brigade name = "2. Melilla" historical_model = 0 }
+				regiment = { type = cazadores_brigade name = "3. Melilla" historical_model = 0 }
+			}
+			division= {
+				name = "2. Circunscripción Oriental"
+				location = 5323									#Melilla
+				regiment = { type = police_brigade name = "4. Melilla" historical_model = 0 }
+				regiment = { type = police_brigade name = "5. Melilla" historical_model = 0 }
+			}
+			division = {
+				name = "Fuerzas del Sahara"
+				location = 9482									#El Aaiún
+				regiment = { type = infantry_brigade name = "1. Sahara Espanol" historical_model = 0 }
+				regiment = { type = infantry_brigade name = "2. Sahara Espanol" historical_model = 0 }
+			}
+			division = {
+				name = "Policia del Sahara"
+				location = 9482									#El Aaiún
+				regiment = { type = police_brigade name = "1. Sahara Espanol" historical_model = 0 }
+				regiment = { type = police_brigade name = "3. Sahara Espanol" historical_model = 0 }
+			}
+		}
+		division = {
+			name = "Guardias Coloniales"
+			location = 10002									#Bata
+			regiment = { type = garrison_brigade historical_model = 0 }
+			regiment = { type = garrison_brigade historical_model = 0 }
+		}
+		division = {
+			name = "Policias Coloniales"
+			location = 10002									#Bata
+			regiment = { type = police_brigade historical_model = 0 }
+			regiment = { type = police_brigade historical_model = 0 }
+		}
+	}
+	# End of africa army with 47k men
+
+
+	navy = {
+		name = "Marina de Guerra de la República Española"
+		base = 4548 #Barcelona
+		location = 4548	#Barcelona
+		ship = { type = battleship name = "ARE Jaime I" historical_model = 0 pride = yes}
+		ship = { type = heavy_cruiser name = "ARE Miguel de Cervantes" historical_model = 0 }
+		ship = { type = heavy_cruiser name = "ARE Méndez Núñez" historical_model = 0 }
+		ship = { type = heavy_cruiser name = "ARE Libertad" historical_model = 1 }
+		ship = { type = light_cruiser name = "ARE Crucero No. 1" historical_model = 1 }
+		ship = { type = light_cruiser name = "ARE Crucero No. 2" historical_model = 1 }
+		ship = { type = light_cruiser name = "ARE Crucero No. 3" historical_model = 1 }
+		ship = { type = light_cruiser name = "ARE Crucero No. 4" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 1" historical_model = 0 }
+		ship = { type = destroyer name = "ARE Destructor No. 2" historical_model = 0 }
+		ship = { type = destroyer name = "ARE Destructor No. 3" historical_model = 0 }
+		ship = { type = destroyer name = "ARE Destructor No. 4" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 5" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 6" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 7" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 8" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 9" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 10" historical_model = 1 }
+		ship = { type = destroyer name = "ARE Destructor No. 11" historical_model = 1 }
+		ship = { type = transport_ship name = "1a Flotilla de Transporte Naval" historical_model = 0 }
+		ship = { type = transport_ship name = "2a Flotilla de Transporte Naval" historical_model = 0 }
+		ship = { type = transport_ship name = "3a Flotilla de Transporte Naval" historical_model = 0 }
+		ship = { type = transport_ship name = "4a Flotilla de Transporte Naval" historical_model = 0 }
+	}
+	navy = {
+		name = "Grupo C"
+		base = 4862										#Valencia
+		location = 4862										#Valencia
+		ship = { type = submarine name = "Isaac Peral C1" historical_model = 1 }
+		ship = { type = submarine name = "C2" historical_model = 1 }
+		ship = { type = submarine name = "C3" historical_model = 1 }
+		ship = { type = submarine name = "C4" historical_model = 1 }
+		ship = { type = submarine name = "C5" historical_model = 1 }
+		ship = { type = submarine name = "C6" historical_model = 1 }
+	}
+	navy = {
+		name = "Grupo B"
+		base = 4862										#Valencia
+		location = 4862										#Valencia
+		ship = { type = submarine name = "B1" historical_model = 0 }
+		ship = { type = submarine name = "B2" historical_model = 0 }
+		ship = { type = submarine name = "B3" historical_model = 0 }
+		ship = { type = submarine name = "B4" historical_model = 0 }
+		ship = { type = submarine name = "B5" historical_model = 0 }
+		ship = { type = submarine name = "B6" historical_model = 0 }
+	}
+
+
+	air = {
+		name = "1a Escuadra Aérea"
+		base = 4540										#Madrid
+		location = 4540										#Madrid
+		wing = { type = tactical_bomber name = "1er Grupo Táctico" historical_model = 0 }
+	}
+	air = {
+		name = "2a Escuadra Aérea"
+		base = 4540										#Madrid
+		location = 4540										#Madrid
+		wing = { type = interceptor name = "1er Grupo de Caza" historical_model = 0 }
+	}
+	air = {
+		name = "3a Escuadra Aérea"
+		base = 4548										#Barcelona
+		location = 4548										#Barcelona
+		wing = { type = interceptor name = "2er Grupo de Caza" historical_model = 0 }
+	}
+	air = {
+		name = "4a Escuadra Aérea"
+		base = 4548										#Barcelona
+		location = 4548										#Barcelona
+		wing = { type = tactical_bomber name = "2er Grupo Táctico" historical_model = 0 }
+	}
+	air = {
+		name = "4a Escuadra Aérea"
+		base = 4548										#Barcelona
+		location = 4548										#Barcelona
+		wing = { type = naval_bomber name = "1er Grupo Naval" historical_model = 0 }
+	}
+}
+
+
+military_construction = {
+	country = SPR
+	light_cruiser  = {
+		name = "ARE Crucero No. 5"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 80
+}
+military_construction = {
+	country = SPR
+	light_cruiser  = {
+		name = "ARE Crucero No. 6"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 100
+}
+military_construction = {
+	country = SPR
+	destroyer = {
+		name = "ARE Destructore No. 11"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 20
+}
+military_construction = {
+	country = SPR
+	destroyer = {
+		name = "ARE Destructore No. 12"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 30
+}
+military_construction = {
+	country = SPR
+	destroyer = {
+		name = "ARE Destructore No. 13"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 40
+}
+military_construction = {
+	country = SPR
+	destroyer = {
+		name = "ARE Destructore No. 14"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 50
+}
+military_construction = {
+	country = SPR
+	destroyer = {
+		name = "ARE Destructore No. 15"
+		historical_model = 1
+	}
+	cost = 4.50
+	progress = 0
+	duration = 60
+}

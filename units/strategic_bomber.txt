@@ -1,0 +1,48 @@
+strategic_bomber = {
+	type = air
+	active = no
+	sprite = Bomber
+	
+	is_bomber = yes
+
+	#Size Definitions
+	max_strength = 20 #20 aircraft
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 14 # 10% base manpower
+
+	#Building Costs
+	build_cost_ic = 3.4 # 1/5 of original
+	build_cost_manpower = 0.21 # 0.14 base (pilot, navigator, bomb-aimer, flight engineer, wireless operator, mid-upper and rear turret gunners) + 50% support
+	build_time = 60 # 1/5 of original
+	repair_cost_multiplier = 0.05
+
+	#Misc Abilities
+	maximum_speed = 200.00
+	transport_capability = 0.00
+	supply_consumption = 3.00
+	fuel_consumption = 4.60
+	range = 800.00
+	radio_strength = 1
+	
+	#Detection Abilities
+	surface_detection = 2.00
+	air_detection = 2.00
+
+	#Defensive Abilities
+	surface_defence = 8.00
+	air_defence = 6.00
+
+	#Offensive Abilities
+	soft_attack = 1.00
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 2.00
+	strategic_attack = 7.00
+	sub_attack = 0.00
+
+	completion_size = 5.1
+	on_completion = four_engine_aircraft_practical
+	
+	priority = 4
+}

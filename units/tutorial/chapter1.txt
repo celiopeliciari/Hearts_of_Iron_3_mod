@@ -1,0 +1,207 @@
+tutorial =
+{
+	title = "TUTORIAL_1"
+	desc = "TUTORIAL_1_DESC"
+	tutorial_window = "TUTORIAL_WINDOW_1"	# default window
+	exclusive = yes
+	country = GER
+	
+	page =
+	{
+		
+
+		tutorial_window_position = { -250 -230 }
+		window_size = {335 240}
+		tutorial_window = "TUTORIAL_WINDOW_1_ILLU"
+
+		text1 = "tut_1a_1"
+		text2 = "tut_1a_2"
+
+		goto = 235
+		zoom = 100
+
+		
+		
+	}
+	
+	page =
+	{
+
+		
+		tutorial_window = "TUTORIAL_WINDOW_2_ILLU"
+		tutorial_window_position = { -250 -230 }
+		
+		text1 = "tut_1a_3"
+		text2 = "tut_1a_4"
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+	}
+	
+	page =
+	{
+
+		
+		tutorial_window = "TUTORIAL_WINDOW_1_ILLU2"
+		tutorial_window_position = { -250 -230 }
+		
+		text1 = "tut_1a_5"
+		text2 = "tut_1a_6"
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+		
+		window = "tutorial_marker_lr"
+		window_position = { -332 -170 }
+		window_size = {335 170}
+
+		window = "tutorial_arrow_down_lr"
+		window_position = { -222 -200 }
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_RESOURCES"
+		tutorial_window_position = { 50 100 }
+		
+		text1 = "tut_1a_7"
+		text2 = "tut_1a_8"
+		text3 = "tut_1a_8a"
+		text4 = "tut_1a_8b"
+		text5 = "tut_1a_8c"
+		text6 = "tut_1a_8d"
+		
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+
+		window = "tutorial_marker_ul"
+		window_position = { 89 -9 }
+		window_size = {270 40}
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 235 20 }	
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_IC"
+		tutorial_window_position = { 100 100 }
+		
+		text1 = "tut_1a_9"
+		text2 = "tut_1a_10"
+				
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+
+		window = "tutorial_marker_ul"
+		window_position = { 348 -9 }
+		window_size = {130 40}
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 390 20 }	
+		
+		
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_PRODUCED"
+		tutorial_window_position = { 150 100  }
+		
+		text1 = "tut_1a_18"
+		text2 = "tut_1a_19"
+		text3 = "tut_1a_20"
+		text4 = "tut_1a_21"
+		text5 = "tut_1a_22"	
+		
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+
+		window = "tutorial_marker_ul"
+		window_position = { 468 -9 }
+		window_size = {190 40}
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 540 20 }	
+		
+		
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_LEADERSHIP"
+		tutorial_window_position = { 200 100  }
+		
+		text1 = "tut_1a_11"
+		text2 = "tut_1a_12"
+		text3 = "tut_1a_13"
+		text4 = "tut_1a_13a"
+		text5 = "tut_1a_13b"
+		text6 = "tut_1a_13c"
+				
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+
+
+		window = "tutorial_marker_ul"
+		window_position = { 658 -9 }
+		window_size = {228 40}
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 760 20 }	
+		
+		
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_DISSENT"
+		tutorial_window_position = { 250 100  }
+		
+		text1 = "tut_1a_14"
+		text2 = "tut_1a_15"
+		text3 = "tut_1a_16"
+				
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"
+
+		window = "tutorial_marker_ul"
+		window_position = { 870 -9 }
+		window_size = {107 40}
+
+		window = "tutorial_arrow_up_ul"
+		window_position = { 910 20 }	
+		
+		
+	}
+	
+	page =
+	{
+		
+		
+		tutorial_window = "TUTORIAL_WINDOW_3"
+		tutorial_window_position = { -250 -150 }
+		
+		text1 = "tut_1a_17"
+					
+		goto = 846
+		zoom = 200
+		mapmode = "terrain"	
+	
+	}
+}
