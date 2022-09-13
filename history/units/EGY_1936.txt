@@ -1,6 +1,0 @@
-theatre = {
-	name = "Egypt Theatre HQ"
-	location = 5611
-	regiment = { type = hq_brigade name = "Egypt Theatre HQ" historical_model = 0 }
-	}
-	

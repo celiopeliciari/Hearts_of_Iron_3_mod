@@ -23,7 +23,7 @@ country_event = {
 	}
 
 	title = "EVTNAME2001" #Spanish Civil War (events.csv)
-	desc = "EVTDESC2001" #In early 1936 after the electoral victory of the Socialists popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ëenemies of the peopleí. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
+	desc = "EVTDESC2001" #In early 1936 after the electoral victory of the Socialists popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ‚Äòenemies of the people‚Äô. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
 	picture = "SCW"
 
 	option = {
@@ -35,7 +35,7 @@ country_event = {
 		islas_baleares_region = { add_core = SPA }
 		castilla_la_nueva_region = { add_core = SPA }
 		castilla_la_vieja_region = { add_core = SPA }
-		cataluÒa_region = { add_core = SPA }
+		catalu√±a_region = { add_core = SPA }
 		extremadura_region = { add_core = SPA }
 		galicia_region = { add_core = SPA }
 		reino_de_leon_region = { add_core = SPA }
@@ -46,50 +46,50 @@ country_event = {
 		protectorado_espanol_de_marruecos_region = { add_core = SPA }
 		SPR_10729 = { add_core = SPA }					#Islas Canarias
 		sahara_espanol_region = { add_core = SPA }
-		SPR_10002 = { add_core = SPA }					#Guinea EspaÒola
+		SPR_10002 = { add_core = SPA }					#Guinea Espa√±ola
 		
 		navarra_region = { secede_province = SPA }			# Navarra Nationalist Spain
-		protectorado_espanol_de_marruecos_region = { secede_province = SPA }	#Protectorado EspaÒol de Marruecos
+		protectorado_espanol_de_marruecos_region = { secede_province = SPA }	#Protectorado Espa√±ol de Marruecos
 		SPR_10729 = { secede_province = SPA }				#Islas Canarias
-		sahara_espanol_region = { secede_province = SPA }		#Sahara EspaÒol
+		sahara_espanol_region = { secede_province = SPA }		#Sahara Espa√±ol
 		5129 = { secede_province = SPA }				#Granada
 		5097 = { secede_province = SPA }				#Jerez de la Frontera
-		5125 = { secede_province = SPA }				#C·diz
+		5125 = { secede_province = SPA }				#C√°diz
 		5156 = { secede_province = SPA }				#Algeciras
 		4856 = { secede_province = SPA }				#Medina-Sidonia
 		5030 = { secede_province = SPA }				#Sevilla
-		4995 = { secede_province = SPA }				#CÛrdoba
-		4543 = { secede_province = SPA }				#Molina de AragÛn
-		4413 = { secede_province = SPA }				#Sig¸enza
+		4995 = { secede_province = SPA }				#C√≥rdoba
+		4543 = { secede_province = SPA }				#Molina de Arag√≥n
+		4413 = { secede_province = SPA }				#Sig√ºenza
 		4473 = { secede_province = SPA }				#Valverde del Fresno
 		4474 = { secede_province = SPA }				#Cabezuela del Valle
-		4538 = { secede_province = SPA }				#JaraÌz de la Vera
-		4592 = { secede_province = SPA }				#Valencia de Alc·ntara
+		4538 = { secede_province = SPA }				#Jara√≠z de la Vera
+		4592 = { secede_province = SPA }				#Valencia de Alc√°ntara
 		4537 = { secede_province = SPA }				#Coria
-		4600 = { secede_province = SPA }				#Montalb·n
+		4600 = { secede_province = SPA }				#Montalb√°n
 		4654 = { secede_province = SPA }				#Calamocha
 		4223 = { secede_province = SPA }				#Ejea de los Caballeros
-		4292 = { secede_province = SPA }				#AlagÛn
+		4292 = { secede_province = SPA }				#Alag√≥n
 		4353 = { secede_province = SPA }				#Zaragoza
 		4352 = { secede_province = SPA }				#Tarazona
-		4415 = { secede_province = SPA }				#CariÒena
+		4415 = { secede_province = SPA }				#Cari√±ena
 		4414 = { secede_province = SPA }				#Calatayud
 		4480 = { secede_province = SPA }				#Daroca
 		4159 = { secede_province = SPA }				#Jaca
 		4293 = { secede_province = SPA }				#Huesca
-		SPR_4094 = { secede_province = SPA }				#LogroÒo region
+		SPR_4094 = { secede_province = SPA }				#Logro√±o region
 		3956 = { secede_province = SPA }				#Vitoria
 		3746 = { secede_province = SPA }				#Oviedo
 		SPR_4348 = { secede_province = SPA }				#Segovia region
-		4475 = { secede_province = SPA }				#PiedrahÌta
-		4346 = { secede_province = SPA }				#ArÈvalo
-		4410 = { secede_province = SPA }				#¡vila
+		4475 = { secede_province = SPA }				#Piedrah√≠ta
+		4346 = { secede_province = SPA }				#Ar√©valo
+		4410 = { secede_province = SPA }				#√Åvila
 		SPR_4408 = { secede_province = SPA }				#Salamanca region
 		SPR_4351 = { secede_province = SPA }				#Soria region
 		SPR_4153 = { secede_province = SPA }				#Valladolid region
 		3954 = { secede_province = SPA }				#Herrera de Pisuerga
 		4022 = { secede_province = SPA }				#Palencia
-		4092 = { secede_province = SPA }				#CarriÛn de los Condes
+		4092 = { secede_province = SPA }				#Carri√≥n de los Condes
 		4023 = { secede_province = SPA }				#Villadiego
 		4024 = { secede_province = SPA }				#Miranda de Ebro
 		4093 = { secede_province = SPA }				#Lerma
@@ -97,12 +97,12 @@ country_event = {
 		4220 = { secede_province = SPA }				#Salas de los Infantes
 		4219 = { secede_province = SPA }				#Aranda de Duero
 		SPR_4089 = { secede_province = SPA }				#Zamora region
-		3952 = { secede_province = SPA }				#LeÛn
+		3952 = { secede_province = SPA }				#Le√≥n
 		4019 = { secede_province = SPA }				#Ponferrada
-		3951 = { secede_province = SPA }				#La BaÒeza
+		3951 = { secede_province = SPA }				#La Ba√±eza
 		3881 = { secede_province = SPA }				#Astorga
-		4021 = { secede_province = SPA }				#Sahag˙n
-		SPR_3676 = { secede_province = SPA }				#La CoruÒa region
+		4021 = { secede_province = SPA }				#Sahag√∫n
+		SPR_3676 = { secede_province = SPA }				#La Coru√±a region
 		SPR_3878 = { secede_province = SPA }				#Orense region
 		SPR_3742 = { secede_province = SPA }				#Pontevedra region
 		3611 = { secede_province = SPA }				#Vivero
@@ -112,7 +112,7 @@ country_event = {
 		3809 = { secede_province = SPA }				#Monforte de Lemos
 		4913 = { secede_province = SPA }				#Mallorca
 		5002 = { secede_province = SPA }				#Ibiza
-		head_of_state = 11033			# AzaÒa
+		head_of_state = 11033			# Aza√±a
 		head_of_government = 11039		# Largo Caballero
 		foreign_minister = 11034		# Barcia Trelles
 		armament_minister = 11144		# Giner de los Rios
@@ -130,122 +130,10 @@ country_event = {
 					defender_goal = { casus_belli = civil_war }
 					} 
 				}
-		SPA = { split_troops = 0.9 }
-
-		#Madrid x20 militia brigades
-		4540 = { militia_brigade = current }				
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }
-		4540 = { militia_brigade = current }				
-		4540 = { militia_brigade = current }				
-		4540 = { militia_brigade = current }
-
-		#Barcelona x12 militia brigades				
-		4548 = { militia_brigade = current }				
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-		4548 = { militia_brigade = current }
-
-		#Bilbao x6 militia brigades
-		3884 = { militia_brigade = current }						
-		3884 = { militia_brigade = current }
-		3884 = { militia_brigade = current }
-		3884 = { militia_brigade = current }
-		3884 = { militia_brigade = current }
-		3884 = { militia_brigade = current }
-
-		#Valencia x6 militia brigades
-		4862 = { militia_brigade = current }				
-		4862 = { militia_brigade = current }
-		4862 = { militia_brigade = current }
-		4862 = { militia_brigade = current }
-		4862 = { militia_brigade = current }
-		4862 = { militia_brigade = current }
-
-		#Malaga x6 militia brigades 
-		5128 = { militia_brigade = current }				
-		5128 = { militia_brigade = current }
-		5128 = { militia_brigade = current }
-		5128 = { militia_brigade = current }
-		5128 = { militia_brigade = current }
-		5128 = { militia_brigade = current }
-
-		#Cartagena x4 militia brigades
-		5104 = { militia_brigade = current }				
-		5104 = { militia_brigade = current }
-		5104 = { militia_brigade = current }
-		5104 = { militia_brigade = current }
-
-		#Murcia x4 militia brigades
-		5073 = { militia_brigade = current }				
-		5073 = { militia_brigade = current }
-		5073 = { militia_brigade = current }
-		5073 = { militia_brigade = current }
-
-		#Guadalajara x3 militia brigades
-		4478 = { militia_brigade = current }				
-		4478 = { militia_brigade = current }
-		4478 = { militia_brigade = current }
-
-		#Santander x4 militia brigades
-		3814 = { militia_brigade = current }				
-		3814 = { militia_brigade = current }
-		3814 = { militia_brigade = current }
-		3814 = { militia_brigade = current }
-
-		#Guernica x1 militia brigade
-		3885 = { militia_brigade = current }				
-		
-		#Alicante x2 militia brigades
-		5001 = { militia_brigade = current }				
-		5001 = { militia_brigade = current }
-
-		#Toledo x3 militia brigades
-		4651 = { militia_brigade = current }				
-		4651 = { militia_brigade = current }
-		4651 = { militia_brigade = current }
-
-		#Girona x3 militia brigades
-		4358 = { militia_brigade = current }				
-		4358 = { militia_brigade = current }
-		4358 = { militia_brigade = current }
-
-		#Elchedelasierra x2 militia brigades
-		4999 = { militia_brigade = current }				
-		4999 = { militia_brigade = current }
-
-		#Terrassa x2 militia brigades
-		4484 = { militia_brigade = current }				
-		4484 = { militia_brigade = current }
-
-		#Badajoz x2 militia brigades
-		4702 = { militia_brigade = current }				
-		4702 = { militia_brigade = current }
+		SPA = { split_troops = 0.5 }
 
 		threat = { who = all value = -150 }
-		national_unity = 80
+		national_unity = 60
 		manpower = 25
 
 		SPA = {
@@ -256,7 +144,7 @@ country_event = {
 	}
 }
 
-# First Reinforcements to Republicans #18brigades
+# First Reinforcements to Republicans #6brigades
 country_event = {
 
 	id = 21010
@@ -289,34 +177,10 @@ country_event = {
 			militia_brigade = current
 			militia_brigade = current
 		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
 	}
 }
 
-# Second Reinforcements to Republicans #16brigades
+# Second Reinforcements to Republicans #6brigades
 country_event = {
 
 	id = 21011
@@ -331,7 +195,7 @@ country_event = {
 	picture = "SCW"
 
 	mean_time_to_happen = {
-		days = 50
+		days = 40
 	}
 	fire_only_once = yes
 
@@ -349,18 +213,30 @@ country_event = {
 			militia_brigade = current
 			militia_brigade = current
 		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
+	}
+}
+
+# Third Reinforcements to Republicans #4brigades
+country_event = {
+
+	id = 21012
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 60
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
 		random_owned = {
 			militia_brigade = current
 			militia_brigade = current
@@ -372,10 +248,42 @@ country_event = {
 	}
 }
 
-# Third Reinforcements to Republicans #14brigades
+# Fourth Reinforcements to Republicans #4brigades
 country_event = {
 
-	id = 21012
+	id = 21013
+
+	trigger = {
+		tag = SPR
+		has_country_flag = spanish_civil_war
+	}
+
+	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
+	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
+	picture = "SCW"
+
+	mean_time_to_happen = {
+		days = 75
+	}
+	fire_only_once = yes
+
+	option = {
+		name = "People rise agains fascism."
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+		random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+		}
+	}
+}
+
+# Fifth Reinforcements to Republicans #2brigades
+country_event = {
+
+	id = 21014
 
 	trigger = {
 		tag = SPR
@@ -397,118 +305,6 @@ country_event = {
 			militia_brigade = current
 			militia_brigade = current
 		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
-
-# Fourth Reinforcements to Republicans #12brigades
-country_event = {
-
-	id = 21013
-
-	trigger = {
-		tag = SPR
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 140
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains fascism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
-
-# Fifth Reinforcements to Republicans #8brigades
-country_event = {
-
-	id = 21014
-
-	trigger = {
-		tag = SPR
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20010" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20010" #Face the military coup d'etat by fascists, a large number of Spanish civilians organized military brigades in all Spain to fight against them. The people are our salvation. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 200
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains fascism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
 	}
 }
 
@@ -522,7 +318,7 @@ country_event = {
 	is_triggered_only = yes
 
 	title = "EVTNAME2002" #Spanish Civil War - Fascist Nation (events.csv)
-	desc = "EVTDESC2002" #In early 1936 after the electoral victory of the Socialists, popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ëenemies of the peopleí. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves, Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
+	desc = "EVTDESC2002" #In early 1936 after the electoral victory of the Socialists, popular demands for social equality evolved into a virtual revolution against the clergy, landowners and monarchists. Mobs attacked churches and tried to collectivise farms. Unions started strikes and anarchists assassinated ‚Äòenemies of the people‚Äô. The newly installed government was unable to restore order. The Spanish army joined the Conservatives and Catholics to put down the social revolution and they thus styled themselves, the Nationalists. The government facing an army rebellion styled themselves, Republicans and decided to fight joining in with the forces of revolution. The Spanish Civil War had begun! Many countries like Germany, Italy and the Soviet Union intervened with forces in the conflict. (events.csv)
 	picture = "SPA_fascist"
 
 	option = {
@@ -643,119 +439,75 @@ country_event = {
 		relation = { who = SIK value = -25 }
 		relation = { who = CHC value = -25 }
 		
-		# Seventy thousand of gendarmes
-			# Ceuta x4
-		5289 = { police_brigade  = current } 
-		5289 = { police_brigade  = current }
-		5289 = { police_brigade  = current }
-		5289 = { police_brigade  = current }
-			# Tanger x2
-		5258 = { police_brigade  = current }
-		5258 = { police_brigade  = current }
-			# C·diz x4
-		5125 = { police_brigade  = current }
-		5125 = { police_brigade  = current }
-		5125 = { police_brigade  = current }
-		5125 = { police_brigade  = current }
-			# Seville x6
-		5030 = { police_brigade  = current } 
-		5030 = { police_brigade  = current }
-		5030 = { police_brigade  = current }
-		5030 = { police_brigade  = current }
-		5030 = { police_brigade  = current }
-		5030 = { police_brigade  = current }
-			# Cordoba x4
-		4995 = { police_brigade  = current }
-		4995 = { police_brigade  = current }
-		4995 = { police_brigade  = current }
-		4995 = { police_brigade  = current }
-			# Salamanca x4
-		4347 = { police_brigade  = current }
-		4347 = { police_brigade  = current }
-		4347 = { police_brigade  = current }
-		4347 = { police_brigade  = current }
-			# Zaragoza x6
-		4353 = { police_brigade  = current }
-		4353 = { police_brigade  = current }
-		4353 = { police_brigade  = current }
-		4353 = { police_brigade  = current }
-		4353 = { police_brigade  = current }
-		4353 = { police_brigade  = current }
-			# Burgos x4
-		4155 = { police_brigade  = current }
-		4155 = { police_brigade  = current }
-		4155 = { police_brigade  = current }
-		4155 = { police_brigade  = current }
-			# Vitoria x2
-		3956 = { police_brigade  = current }
-		3956 = { police_brigade  = current }
-			# Pamplona x2
-		4026 = { police_brigade  = current }
-		4026 = { police_brigade  = current }
-			# Oviedo x2
-		3746 = { police_brigade  = current }
-		3746 = { police_brigade  = current }
-			# Ferrol x2
-		3776 = { police_brigade  = current }
-		3776 = { police_brigade  = current }
-			# Salamanca
-		4347 = { police_brigade  = current }		
-			# Santa Cruz de Tenerife
-		10729 = { police_brigade  = current }
-			# Tetu·n
-		5319 = { police_brigade  = current }		
-			# Mallorca
-		4913 = { police_brigade  = current }
-		# Vigo
-		3877 = { police_brigade  = current }
-			# Cuellar
-		4288 = { police_brigade  = current }
-			# Alagon
-		4292 = { police_brigade  = current }
-			# Villadiego
-		4023 = { police_brigade  = current }
-			# CariÒena
-		4415 = { police_brigade  = current }
-			# Huesca
-		4293 = { police_brigade  = current }
-			# Jerez
-		5097 = { police_brigade  = current }
-			# Algeciras
-		5156 = { police_brigade  = current }
-			# Medina
-		4856 = { police_brigade  = current }
-			# CarriÛn
-		4092 = { police_brigade  = current }
-			# Palencia
-		4154 = { police_brigade  = current }
-			# Villardefrades
-		4153 = { police_brigade  = current }
-			# Fuenlabrada
-		4597 = { police_brigade  = current }
-			# Foz
-		3611 = { police_brigade  = current }
-			# Ferrol x2
-		3676 = { police_brigade  = current }
-		3676 = { police_brigade  = current }
-			# La CoruÒa x2
-		3610 = { police_brigade  = current }
-		3610 = { police_brigade  = current }
-			# Cuellar
-		4288 = { police_brigade  = current }
-			# Avila
-		4410 = { police_brigade  = current }
-			# Leon
-		3952 = { police_brigade  = current }
-			# Lugo
-		3744 = { police_brigade  = current }
-			# Granada
-		5129 = { police_brigade  = current }
-			# Larache
-		5318 = { police_brigade  = current }
+		# Thirty two thousand gendarmes
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
+		random_owned = {
+			police_brigade = current
+			police_brigade = current
+		}
 	}
 }
 
-# First Reinforcements to Fascists #32brigades
+# First Reinforcements to Fascists #4brigades
 country_event = {
 
 	id = 20020
@@ -770,59 +522,13 @@ country_event = {
 	picture = "SCW"
 
 	mean_time_to_happen = {
-		days = 30
+		days = 20
 	}
 	fire_only_once = yes
 
 	option = {
 		name = "People rise agains communism and anarchism."
 		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
 			militia_brigade = current
 			militia_brigade = current
 		}
@@ -833,7 +539,7 @@ country_event = {
 	}
 }
 
-# Second Reinforcements to Fascists #30brigades
+# Second Reinforcements to Fascists #4brigades
 country_event = {
 
 	id = 20021
@@ -857,57 +563,15 @@ country_event = {
 		random_owned = {
 			militia_brigade = current
 			militia_brigade = current
-			militia_brigade = current
 		}
 		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
 			militia_brigade = current
 			militia_brigade = current
 		}
 	}
 }
 
-# Third Reinforcements to Fascists #28brigades
+# Third Reinforcements to Fascists #2brigades
 country_event = {
 
 	id = 20012
@@ -922,7 +586,7 @@ country_event = {
 	picture = "SCW"
 
 	mean_time_to_happen = {
-		days = 80
+		days = 75
 	}
 	fire_only_once = yes
 
@@ -931,55 +595,11 @@ country_event = {
 		random_owned = {
 			militia_brigade = current
 			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
 		}
 	}
 }
 
-# Fourth Reinforcements to Fascists #22brigades
+# Fourth Reinforcements to Fascists #2brigades
 country_event = {
 
 	id = 20013
@@ -994,161 +614,7 @@ country_event = {
 	picture = "SCW"
 
 	mean_time_to_happen = {
-		days = 120
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains communism and anarchism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
-
-# Fifth Reinforcements to Fascists #14brigades
-country_event = {
-
-	id = 20014
-
-	trigger = {
-		tag = SPA
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 170
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains communism and anarchism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
-
-# Sixth Reinforcements to Fascists #12brigades
-country_event = {
-
-	id = 20015
-
-	trigger = {
-		tag = SPA
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 230
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains communism and anarchism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
-
-# Seventh Reinforcements to Fascists #10brigades
-country_event = {
-
-	id = 20016
-
-	trigger = {
-		tag = SPA
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 300
+		days = 90
 	}
 	fire_only_once = yes
 
@@ -1158,64 +624,9 @@ country_event = {
 			militia_brigade = current
 			militia_brigade = current
 		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
 	}
 }
 
-# Eighth Reinforcements to Fascists #8brigades
-country_event = {
-
-	id = 20017
-
-	trigger = {
-		tag = SPA
-		has_country_flag = spanish_civil_war
-	}
-
-	title = "EVTNAME20020" #The people organized reinforcements! (events.csv)
-	desc = "EVTDESC20020" #Face of the advance of communists and anarchists in last years, the people recognizes the importance of stopping them. Therefore now a large number of Spanish civilians organized military brigades in all Spain to help us in this fight. (events.csv)
-	picture = "SCW"
-
-	mean_time_to_happen = {
-		days = 380
-	}
-	fire_only_once = yes
-
-	option = {
-		name = "People rise agains communism and anarchism."
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-		random_owned = {
-			militia_brigade = current
-			militia_brigade = current
-		}
-	}
-}
 ##################################
 # Troops defect to Republicans - #
 ##################################
@@ -1247,7 +658,7 @@ country_event = {
 ######################################
 # Interventions - Republican Side - #
 ######################################
-# Spanish Civil War - French Historical Intervention
+# Spanish Civil War - French Intervention
 country_event = {
 
 	id = 2007
@@ -1269,7 +680,7 @@ country_event = {
 	}
 }
 
-# Mexican Historical Intervention
+# Mexican Intervention
 country_event = {
 
 	id = 2008
@@ -1287,7 +698,7 @@ country_event = {
 	}
 }
 
-# Soviet Historical Intervention
+# Soviet Intervention
 	# Soviet support to Republicans
 		# Between 634 and 806 aircraft (Polikarpov I-15 and I-16)
 		# Between 331 and 362 tanks (T-26 and BT-5)
@@ -1322,7 +733,7 @@ country_event = {
 		has_country_flag = spanish_civil_war
 	}
 	mean_time_to_happen = {	
-		days = 20 
+		days = 30 
 	}
 	fire_only_once = yes
 
@@ -1355,7 +766,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {	
-		days = 40 
+		days = 75 
 	}
 	fire_only_once = yes
 
@@ -1390,7 +801,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {	
-		days = 60 
+		days = 120 
 	}
 	fire_only_once = yes
 
@@ -1425,7 +836,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {	
-		days = 70 
+		days = 180 
 	}
 	fire_only_once = yes
 
@@ -1459,7 +870,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {	
-		days = 80 
+		days = 240 
 	}
 	fire_only_once = yes
 
@@ -1540,7 +951,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 30
+		days = 60
 	}
 	fire_only_once = yes
 
@@ -1575,7 +986,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 60
+		days = 120
 	}
 	fire_only_once = yes
 
@@ -1610,7 +1021,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 90
+		days = 180
 	}
 	fire_only_once = yes
 
@@ -1645,7 +1056,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 240
 	}
 	fire_only_once = yes
 
@@ -1680,7 +1091,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 150
+		days = 300
 	}
 	fire_only_once = yes
 
@@ -1708,7 +1119,7 @@ country_event = {
 # Interventions - Fascist Side - #
 ##################################
 
-# Germany Historical Intervention
+# Germany Intervention
 country_event = {
 
 	id = 2010
@@ -1763,7 +1174,7 @@ country_event = {
 	}
 }
 
-# Second Germany Historical Intervention
+# Second Germany Intervention
 country_event = {
 
 	id = 20101
@@ -1774,7 +1185,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 60
+		days = 75
 	}
 	fire_only_once = yes
 
@@ -1793,7 +1204,7 @@ country_event = {
 	}
 }
 
-# Third Germany Historical Intervention
+# Third Germany Intervention
 country_event = {
 
 	id = 20102
@@ -1804,7 +1215,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 90
+		days = 120
 	}
 	fire_only_once = yes
 
@@ -1825,7 +1236,7 @@ country_event = {
 	}
 }
 
-# Fourth Germany Historical Intervention
+# Fourth Germany Intervention
 country_event = {
 
 	id = 20103
@@ -1836,7 +1247,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 120
+		days = 180
 	}
 	fire_only_once = yes
 
@@ -1857,7 +1268,7 @@ country_event = {
 	}
 }
 
-# Fifth Germany Historical Intervention
+# Fifth Germany Intervention
 country_event = {
 
 	id = 20104
@@ -1868,7 +1279,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 150
+		days = 240
 	}
 	fire_only_once = yes
 
@@ -1888,7 +1299,7 @@ country_event = {
 	}
 }
 
-# Italy Historical Intervention
+# Italy Intervention
 	#In total, Italy provided the Nationalists with 660 planes, 150 tanks, 800 artillery pieces and 44 thousand volunteers
 country_event = {
 
@@ -1906,7 +1317,7 @@ country_event = {
 	}
 }
 
-# First Italy Historical Intervention
+# First Italy Intervention
 country_event = {
 
 	id = 20110
@@ -1917,7 +1328,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 15
+		days = 30
 	}
 	fire_only_once = yes
 
@@ -1935,7 +1346,7 @@ country_event = {
 	}		
 }
 
-# Second Italy Historical Intervention
+# Second Italy Intervention
 country_event = {
 
 	id = 20111
@@ -1946,7 +1357,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 30
+		days = 70
 	}
 	fire_only_once = yes
 
@@ -1967,7 +1378,7 @@ country_event = {
 	}		
 }
 
-# Third Italy Historical Intervention
+# Third Italy Intervention
 country_event = {
 
 	id = 20112
@@ -1978,7 +1389,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 60
+		days = 120
 	}
 	fire_only_once = yes
 
@@ -1998,7 +1409,7 @@ country_event = {
 	}		
 }
 
-# Italy Historical Intervention - Army Mission
+# Italy Intervention - Army Mission
 country_event = {
 
 	id = 20113
@@ -2026,7 +1437,7 @@ country_event = {
 	}		
 }
 
-# Italy Historical Intervention - Corps of Volunteer Troops
+# Italy Intervention - Corps of Volunteer Troops
 country_event = {
 
 	id = 20114
@@ -2037,7 +1448,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 20
+		days = 25
 	}
 	fire_only_once = yes
 
@@ -2075,7 +1486,7 @@ country_event = {
 	}		
 }
 
-# Italy Historical Intervention - Corps of Volunteer Troops plus
+# Italy Intervention - Corps of Volunteer Troops plus
 country_event = {
 
 	id = 20115
@@ -2086,7 +1497,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 60
+		days = 70
 	}
 	fire_only_once = yes
 
@@ -2105,7 +1516,7 @@ country_event = {
 	}		
 }
 
-# Portugal Historical Intervention
+# Portugal Intervention
 	#Supplies and Transit Rights
 country_event = {
 
@@ -2115,7 +1526,7 @@ country_event = {
 	fire_only_once = yes
 
 	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
-	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister AntÛnio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister Ant√≥nio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
 	picture = "SCW"
 
 	option = {
@@ -2125,7 +1536,7 @@ country_event = {
 	}
 }
 
-# Portugal Historical Intervention Resources for Spain
+# Portugal Intervention Resources for Spain
 country_event = {
 
 	id = 20120 
@@ -2142,7 +1553,7 @@ country_event = {
 	fire_only_once = no
 
 	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
-	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister AntÛnio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister Ant√≥nio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
 	picture = "SCW"
 		option = { 
 			name = "We need all help."
@@ -2153,7 +1564,7 @@ country_event = {
 		}
 }
 
-# Portugal Historical Intervention Resources by Portugal
+# Portugal Intervention Resources by Portugal
 country_event = {
 
 	id = 20121
@@ -2161,7 +1572,7 @@ country_event = {
 	is_triggered_only = yes
 
 	title = "EVTNAME2012" #Portuguese Intervention (gold.csv)
-	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister AntÛnio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
+	desc = "EVTDESC2012" #The Estado Novo regime of Portuguese Prime Minister Ant√≥nio de Oliveira Salazar played an important role in supplying Franco's forces with ammunition and logistical help. Salazar supported Francisco Franco and the Nationalists in their war against the Second Republic forces, as well as the anarchists and the communists. The Nationalists lacked access to seaports early on, so Salazar's Portugal helped them receive armaments shipments from abroad, including ordnance when certain Nationalist forces virtually ran out of ammunition. (gold.csv)
 	picture = "SCW"
 	option = {
 		name = "Support has its cost."
@@ -2202,7 +1613,7 @@ country_event = {
 		islas_baleares_region = { add_core = SPA }
 		castilla_la_nueva_region = { add_core = SPA }
 		castilla_la_vieja_region = { add_core = SPA }
-		cataluÒa_region = { add_core = SPA }
+		catalu√±a_region = { add_core = SPA }
 		extremadura_region = { add_core = SPA }
 		galicia_region = { add_core = SPA }
 		reino_de_leon_region = { add_core = SPA }
@@ -2213,14 +1624,14 @@ country_event = {
 		protectorado_espanol_de_marruecos_region = { add_core = SPA }
 		SPR_10729 = { add_core = SPA }					#Islas Canarias
 		sahara_espanol_region = { add_core = SPA }
-		SPR_10002 = { add_core = SPA }					#Guinea EspaÒola
+		SPR_10002 = { add_core = SPA }					#Guinea Espa√±ola
 		andalucia_region = { remove_core = SPR }
 		aragon_region = { remove_core = SPR }
 		asturias_region = { remove_core = SPR }
 		islas_baleares_region = { remove_core = SPR }
 		castilla_la_nueva_region = { remove_core = SPR }
 		castilla_la_vieja_region = { remove_core = SPR }
-		cataluÒa_region = { remove_core = SPR }
+		catalu√±a_region = { remove_core = SPR }
 		extremadura_region = { remove_core = SPR }
 		galicia_region = { remove_core = SPR }
 		reino_de_leon_region = { remove_core = SPR }
@@ -2231,7 +1642,7 @@ country_event = {
 		protectorado_espanol_de_marruecos_region = { remove_core = SPR }
 		SPR_10729 = { remove_core = SPR }				#Islas Canarias
 		sahara_espanol_region = { remove_core = SPR }
-		SPR_10002 = { remove_core = SPR }				#Guinea EspaÒola
+		SPR_10002 = { remove_core = SPR }				#Guinea Espa√±ola
 		set_country_flag = spanish_civil_war_over
 	}
 }
