@@ -472,6 +472,15 @@ spriteType = {
 
 spriteType = {
 	norefcount = yes
+	  name = "GFX_counter_cazadores_brigade"
+	  texturefile = "gfx/mapitems/counters/cazadores_brigade.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
 	  name = "GFX_counter_size"
 	  texturefile = "gfx\\mapitems\\counterarmysize.tga"
 	  noOfFrames = 6
@@ -892,6 +901,14 @@ spriteType = {
 	  norefcount = yes
 }
 
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_cazadores_brigade"
+	  texturefile = "gfx/mapitems/mapcounters/cazadores_brigade.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
 
 ########
 
@@ -1302,6 +1319,14 @@ spriteType = {
 	norefcount = yes
 	  name = "GFX_small_counter_unknown"
 	  texturefile = "gfx/mapitems/smallcounters/unknown.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_cazadores_brigade"
+	  texturefile = "gfx/mapitems/smallcounters/cazadores_brigade.dds"
 	  noOfFrames = 1
 	  norefcount = yes
 }
