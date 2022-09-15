@@ -13,7 +13,7 @@ sp_rct_artillery_brigade = {
 
 	#Building Costs
 	build_cost_ic = 6
-	build_cost_manpower = 1.4 40% support
+	build_cost_manpower = 1.4 #40% support
 	build_time = 160
 	repair_cost_multiplier = 0.05
 

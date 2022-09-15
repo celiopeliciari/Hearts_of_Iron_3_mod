@@ -779,7 +779,9 @@ cag_development = {
 
 escort_carrier_technology = {
 
+	activate_unit = sea_plane_carrier
 	activate_unit = escort_carrier
+	activate_unit = light_carrier
 	
 	allow = {
 		num_of_ports  = 1
@@ -804,6 +806,12 @@ escort_carrier_technology = {
 carrier_technology = {
 
 	activate_unit = carrier
+	activate_unit = large_carrier
+	activate_unit = super_large_carrier
+	activate_unit = huge_carrier
+	activate_unit = super_huge_carrier
+	activate_unit = immense_carrier
+	activate_unit = colossal_carrier
 	
 	allow = {
 		num_of_ports  = 1
@@ -827,16 +835,47 @@ carrier_technology = {
 
 
 carrier_antiaircraft = {
-	carrier = {
+	
+	sea_plane_carrier = {
 		air_attack = 0.50
 		air_defence = 1.00
 	}
-
 	escort_carrier = {
 		air_attack = 0.50
 		air_defence = 1.00
 	}
-
+	light_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	large_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	super_large_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	huge_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	super_huge_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	immense_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
+	colossal_carrier = {
+		air_attack = 0.50
+		air_defence = 1.00
+	}
 
 	allow = {
 		carrier_technology = 1
@@ -860,20 +899,68 @@ carrier_antiaircraft = {
 }
 
 carrier_engine = {
-	carrier = {
+
+	sea_plane_carrier = {
 		fuel_consumption = 0.01
 		range = 600
 		maximum_speed = 1
 		sea_defence = 0.5
 	}
-
 	escort_carrier = {
 		fuel_consumption = 0.01
 		range = 500
 		maximum_speed = 0.5
 		sea_defence = 1
 	}
-
+	light_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	large_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	super_large_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	huge_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	super_huge_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	immense_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	colossal_carrier = {
+		fuel_consumption = 0.01
+		range = 600
+		maximum_speed = 1
+		sea_defence = 0.5
+	}
+	
 	allow = {
 		carrier_technology = 1
 	}
@@ -897,13 +984,17 @@ carrier_engine = {
 }
 
 carrier_armour = {
-	carrier = {
-		hull = 0.10
-	}
 
-	escort_carrier = {
-		hull = 0.08
-	}
+	sea_plane_carrier = { hull = 0.10 }
+	escort_carrier = { hull = 0.10 }
+	light_carrier = { hull = 0.10 }
+	carrier = { hull = 0.10 }
+	large_carrier = { hull = 0.10 }
+	super_large_carrier = {	hull = 0.10	}
+	huge_carrier = { hull = 0.10 }
+	super_huge_carrier = { hull = 0.10 }
+	immense_carrier = {	hull = 0.10	}
+	colossal_carrier = { hull = 0.10 }
 
 	allow = {
 		carrier_technology = 1
@@ -929,13 +1020,16 @@ carrier_armour = {
 
 carrier_hanger = {
 
-	carrier = {
-		visibility = -3
-	}
-
-	escort_carrier = {
-		visibility = -3
-	}
+	sea_plane_carrier = { visibility = -3 }
+	escort_carrier = { visibility = -3 }
+	light_carrier = { visibility = -3 }
+	carrier = { visibility = -3 }
+	large_carrier = { visibility = -3 }
+	super_large_carrier = {	visibility = -3	}
+	huge_carrier = { visibility = -3 }
+	super_huge_carrier = { visibility = -3 }
+	immense_carrier = {	visibility = -3	}
+	colossal_carrier = { visibility = -3 }
 
 	allow = {
 		carrier_technology = 1
@@ -973,7 +1067,6 @@ largewarship_radar = {
 			attack = 0.1
 		}
 	}
-
 	battleship = {
 		surface_detection = 1.00
 		air_detection = 1.00
@@ -981,15 +1074,34 @@ largewarship_radar = {
 			attack = 0.1
 		}
 	}
-
 	super_heavy_battleship = {
 		surface_detection = 1.00
 		air_detection = 1.00
 		night = { 
 			attack = 0.1
 		}
+	}	
+	sea_plane_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
 	}
-	
+	escort_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	light_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
 	carrier = {
 		surface_detection = 1.00
 		air_detection = 1.00
@@ -997,8 +1109,42 @@ largewarship_radar = {
 			attack = 0.1
 		}
 	}
-
-	escort_carrier = {
+	large_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	super_large_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	huge_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	super_huge_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	immense_carrier = {
+		surface_detection = 1.00
+		air_detection = 1.00
+		night = { 
+			attack = 0.1
+		}
+	}
+	colossal_carrier = {
 		surface_detection = 1.00
 		air_detection = 1.00
 		night = { 
@@ -1043,7 +1189,10 @@ largewarship_radar = {
 }
 
 submarine_technology = {
+	activate_unit = coastal_submarine
 	activate_unit = submarine
+	activate_unit = fleet_submarine
+	activate_unit = cruiser_submarine
 
 	allow = {
 		num_of_ports = 1

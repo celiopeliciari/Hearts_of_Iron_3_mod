@@ -1,0 +1,45 @@
+cruiser_submarine = {
+	range = {30001km - 50000km}
+	speed = {24kmh - 36kmh}
+	fire_distance = {7.5km}
+
+	Type J1 submarine: 45188.8 km
+	German Type U 139 submarine: 32873 km
+}
+
+fleet_submarine = {
+	range = {15001km - 30000km}
+	speed = {30kmh - 42kmh}
+	fire_distance = {6km}
+
+	Redoutable-class submarine: 26000 km
+	Soviet K-class submarine: 25928 km
+	Type B1 submarine: 25928 km
+	Cagni-class submarine: 25002 km
+	Type IX submarine: 24,910 km
+	HMS X1: 23,000 km
+	Thames class: 22000 km
+	Gato class: 20,000 km
+	French submarine Surcouf: 18520 km
+	German Type UC II submarine: 16,160 km
+}
+medium_submarine = {
+	range = {3001km - 15000km}
+	speed = {16kmh - 28kmh}
+	fire_distance = {5km}
+
+	Mackerel-class submarine: 13000 km
+	Type II submarine: 3000 km - 10000 km 
+	Type XVII submarine: 5390 km
+	Type XXIII submarine: 4800 km
+	Ha-201-class submarine: 5600 km
+}
+coastal_submarine = {
+	range = {300km - 3000km}
+	speed = {12kmh - 24kmh}
+	fire_distance = {4km}
+
+	German Type UC I submarine: 1,690 km
+	German Type UB I submarine: 3000 km
+	British H-class submarine: 3000 km
+}

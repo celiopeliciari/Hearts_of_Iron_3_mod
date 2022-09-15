@@ -1,0 +1,427 @@
+sea_plane_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 30 #10% base manpower
+	carrier_size = 1 #10 aircrafts
+	#Building Costs
+	build_cost_ic = 7.00
+	build_cost_manpower = 0.45 #3 base + 50% support
+	build_time = 540
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 24.00 
+	transport_capability = 0.00
+	supply_consumption = 0.45
+	fuel_consumption = 1.00
+	range = 6000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 2.00
+	sub_detection = 0.25
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.00
+	air_defence = 2.00
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 2.00
+	shore_bombardment = 0.00
+
+	Pegasus class = {1 year; 20kmh; 5600km; crews 180}
+	NMS Regele Carol I (1898) = {6 months; 33kmh}
+	HSwMS Dristigheten (1901) = {1 year 6 months; 30kmh; 3780km; crews 427}
+	Giuseppe Miraglia (1923) = {2 years 6 months; 39kmh; crews 300}
+	HMAS Albatross (1928) = {2 years 6 months; 41kmh; 7930km; crews 330}
+	Hōshō class (1922) = {1 year; 46kmh; 16000km; crews 512}
+	Shimane Maru-class = {1 year; 34kmh; 19000km}
+}
+
+escort_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 50 #10% base manpower
+	carrier_size = 2 #20 aircrafts
+	#Building Costs
+	build_cost_ic = 9.50
+	build_cost_manpower = 0.75 #0.5 base + 50% support
+	build_time = 570
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 26.00
+	transport_capability = 0.00
+	supply_consumption = 0.75
+	fuel_consumption = 1.20
+	range = 12000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.10
+	air_detection = 2.25
+	sub_detection = 0.30
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.10
+	air_defence = 2.20
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 2.20
+	shore_bombardment = 0.00
+
+	Boge class = {1 year; 33km; 48000kmh; crews 890}
+	Ruler-class = {1 year; 20kmh; 57000kmh; crews 646}
+	Attacker-class = {2 year; 33kmh; 50000kmh; crews 646}
+	Long Island-class = {6 months; 30kmh; 27000km; crews 555}
+	Avenger-class = {1 year; 30kmh; crews 555}
+	HMS Hermes (95) = {8 months; 46kmh; 10000km; 566 crews}
+	Nairana-class = {3 years; 31kmh; 700 crews}
+	HMS Argus (I49) = {3 years; 19kmh; 6700km; 495 crews}
+	Kaiyō = {5 years; 43kmh; 13000km; 829 crews}
+}
+
+light_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 80 #10% base manpower
+	carrier_size = 3 #30 aircrafts
+	#Building Costs
+	build_cost_ic = 12.00
+	build_cost_manpower = 1.2 #0.8 base + 50% support
+	build_time = 600
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 24.00
+	transport_capability = 0.00
+	supply_consumption = 1.20
+	fuel_consumption = 1.40
+	range = 10000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.20
+	air_detection = 2.50
+	sub_detection = 0.40
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.20
+	air_defence = 2.40
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 2.40
+	shore_bombardment = 0.00
+
+	Casablanca-class = {1 year; 35kmh; 18000km; 860 crews}
+	Commencement Bay-class = {2 years; 35kmh; 1066 crews}
+	Independence-class = {2 years; 28kmh; 24000km; 1321 crews}
+	Zuihō-class = {1 year; 52kmh; 14000km; 785 crews}
+	Sangamon-class = {6 months; 32kmh; 860 crews}
+	USS Long Island (CVE-1) = {6 months; 30kmh; 970 crews}
+	Japanese cruiser Ibuki (1943) = {1 year; 33kmh; 14000km; 1000 crews}
+	Taiyō-class = {3 years; 33kmh; 15700k; 850 crews}
+
+}
+
+carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 100 #10% base manpower
+	carrier_size = 4 #40 aircrafts
+	#Building Costs
+	build_cost_ic = 14.50
+	build_cost_manpower = 1.50 #1 base + 50% support
+	build_time = 660
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 20.00
+	transport_capability = 0.00
+	supply_consumption = 1.50
+	fuel_consumption = 1.60
+	range = 10000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.30
+	air_detection = 2.75
+	sub_detection = 0.50
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.30
+	air_defence = 2.60
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 2.60
+	shore_bombardment = 0.00
+
+	USS Langley (CV-1) = {1 year; 28kmh; 6500km; 468 crews}
+	Courageous-class = {19kmh; 12000km; 738 crews}
+	Graf Zeppelin-class = {35kmh; 14000km; 1720 crews}
+}
+
+large_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 130 #10% base manpower
+	carrier_size = 5 #50 aircrafts
+	#Building Costs
+	build_cost_ic = 17.00
+	build_cost_manpower = 1.95 #1.3 base + 50% support
+	build_time = 720
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 28.00
+	transport_capability = 0.00
+	supply_consumption = 1.95
+	fuel_consumption = 1.80
+	range = 19000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.40
+	air_detection = 3.00
+	sub_detection = 0.60
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.40
+	air_defence = 2.80
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 2.80
+	shore_bombardment = 0.00
+
+	Ryūjō class = {2 years; 54kmh; 19000km; 600 crews}
+	Chitose-class = {2 years; 30kmh; 800 crews}
+	Colossus-class = {1 year; 46kmh; 22000km; 1300 crews}
+	Hiyō-class = {3 years; 33kmh; 21000km; 1200 crews}
+	Shinano = {4 years; 33kmh; 19000km; 2400 crews}
+}
+
+super_large_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 140 #10% base manpower
+	carrier_size = 6 #60 aircrafts
+	#Building Costs
+	build_cost_ic = 19.50
+	build_cost_manpower = 2.10 #1.4 base + 50% support
+	build_time = 780
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 26.00
+	transport_capability = 0.00
+	supply_consumption = 2.10
+	fuel_consumption = 2.00
+	range = 15000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.50
+	air_detection = 3.25
+	sub_detection = 0.70
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.50
+	air_defence = 3.00
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 3.00
+	shore_bombardment = 0.00
+
+	Unryū-class = {2 years; 33kmh; 15000km; 1595 crews}
+	Hiryū = {3 years; 33kmh; 19000km; 1100 crews}
+	Illustrious-class = {3 years; 19kmh; 19000km; 1300 crews}
+	Akagi = {7 years; 30kmh; 19000km; 1600 crews}
+}
+
+huge_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 160 #10% base manpower
+	carrier_size = 7 #70 aircrafts
+	#Building Costs
+	build_cost_ic = 22.00
+	build_cost_manpower = 2.40 #1.6 base + 50% support
+	build_time = 810
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 26.00
+	transport_capability = 0.00
+	supply_consumption = 2.40
+	fuel_consumption = 2.20
+	range = 17000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.60
+	air_detection = 3.50
+	sub_detection = 0.80
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.60
+	air_defence = 3.25
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 3.25
+	shore_bombardment = 0.00
+
+	Ranger class = {3 years; 28kmh; 19000km; 2148 crews}
+	Sōryū = {3 years; 33kmh; 14000km; 1100 crews}
+	HMS Ark Royal (91) = {3 years; 37kmh; 14000km; 1580 crews}
+	Shōkaku-class = {3 years; 33kmh; 18000km; 1660 crews}
+}
+
+super_huge_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 200 #10% base manpower
+	carrier_size = 8 #80 aircrafts
+	#Building Costs
+	build_cost_ic = 24.50
+	build_cost_manpower = 3.00 #2 base + 50% support
+	build_time = 840
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 24.00
+	transport_capability = 0.00
+	supply_consumption = 3.00
+	fuel_consumption = 2.60
+	range = 18000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.70
+	air_detection = 3.75
+	sub_detection = 0.90
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.70
+	air_defence = 3.50
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 3.50
+	shore_bombardment = 0.00
+
+	Implacable-class = {3 years 6 months; 37kmh; 12000km; 2300 crews}
+	Lexington-class = {6 years; 19kmh; 19000km; 2300 crews}
+}
+
+immense_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 250 #10% base manpower
+	carrier_size = 9 #90 aircrafts
+	#Building Costs
+	build_cost_ic = 27.00
+	build_cost_manpower = 3.25 #2.5 base + 50% support
+	build_time = 900
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 18.00
+	transport_capability = 0.00
+	supply_consumption = 3.25
+	fuel_consumption = 2.80
+	range = 20000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.80
+	air_detection = 4.00
+	sub_detection = 1.00
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.80
+	air_defence = 3.75
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 3.75
+	shore_bombardment = 0.00
+
+	Yorktown-class = {3 years; 28kmh; 22000km; 2200 crews}
+	Essex-class = {1 year 6 monts; 28kmh; 37000km; 2300 crews}
+	Kaga = {8 years; 28kmh; 19000km; 1700 crews}
+}
+
+colossal_carrier = {
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 300 #10% base manpower
+	carrier_size = 10 #100 aircrafts
+	#Building Costs
+	build_cost_ic = 30.00
+	build_cost_manpower = 4.50 #3 base + 50% support
+	build_time = 1000
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 18.00
+	transport_capability = 0.00
+	supply_consumption = 4.50
+	fuel_consumption = 3.00
+	range = 20000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.90
+	air_detection = 4.25
+	sub_detection = 1.00
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.80
+	air_defence = 4.00
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 4.00
+	shore_bombardment = 0.00
+
+	Wasp class = {3 years; 28kmh; 22000km; 1800 crews}
+	Midway class = {2 years; 4000 crews}
+}

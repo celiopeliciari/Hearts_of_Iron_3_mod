@@ -481,6 +481,105 @@ spriteType = {
 
 spriteType = {
 	norefcount = yes
+	  name = "GFX_counter_coastal_submarine"
+	  texturefile = "gfx/mapitems/counters/coastal_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_fleet_submarine"
+	  texturefile = "gfx/mapitems/counters/fleet_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_cruiser_submarine"
+	  texturefile = "gfx/mapitems/counters/cruiser_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_sea_plane_carrier"
+	  texturefile = "gfx/mapitems/counters/sea_plane_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_light_carrier"
+	  texturefile = "gfx/mapitems/counters/light_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_large_carrier"
+	  texturefile = "gfx/mapitems/counters/large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_super_large_carrier"
+	  texturefile = "gfx/mapitems/counters/super_large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_huge_carrier"
+	  texturefile = "gfx/mapitems/counters/huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_super_huge_carrier"
+	  texturefile = "gfx/mapitems/counters/super_huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_immense_carrier"
+	  texturefile = "gfx/mapitems/counters/immense_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_counter_colossal_carrier"
+	  texturefile = "gfx/mapitems/counters/colossal_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+		transparencecheck = yes
+}
+
+spriteType = {
+	norefcount = yes
 	  name = "GFX_counter_size"
 	  texturefile = "gfx\\mapitems\\counterarmysize.tga"
 	  noOfFrames = 6
@@ -909,6 +1008,94 @@ spriteType = {
 	  norefcount = yes
 }
 
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_coastal_submarine"
+	  texturefile = "gfx/mapitems/mapcounters/coastal_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_fleet_submarine"
+	  texturefile = "gfx/mapitems/mapcounters/fleet_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_cruiser_submarine"
+	  texturefile = "gfx/mapitems/mapcounters/cruiser_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_sea_plane_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/sea_plane_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_light_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/light_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_large_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_super_large_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/super_large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_huge_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_super_huge_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/super_huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_immense_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/immense_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_map_counter_colossal_carrier"
+	  texturefile = "gfx/mapitems/mapcounters/colossal_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
 
 ########
 
@@ -1331,6 +1518,90 @@ spriteType = {
 	  norefcount = yes
 }
 
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_coastal_submarine"
+	  texturefile = "gfx/mapitems/smallcounters/coastal_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
 
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_fleet_submarine"
+	  texturefile = "gfx/mapitems/smallcounters/fleet_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
 
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_cruiser_submarine"
+	  texturefile = "gfx/mapitems/smallcounters/cruiser_submarine.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_sea_plane_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/sea_plane_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_light_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/light_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_large_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_super_large_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/super_large_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_huge_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_super_huge_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/super_huge_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_immense_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/immense_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
+}
+
+spriteType = {
+	norefcount = yes
+	  name = "GFX_small_counter_colossal_carrier"
+	  texturefile = "gfx/mapitems/smallcounters/colossal_carrier.dds"
+	  noOfFrames = 1
+	  norefcount = yes
 }

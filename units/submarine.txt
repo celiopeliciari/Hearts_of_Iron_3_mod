@@ -10,38 +10,38 @@ submarine = {
 	max_strength = 100
 	default_organisation = 25
 	default_morale = 0.35
-	officers = 3 #5% base manpower
+	officers = 3 #10% base manpower
 
 
 	#Building Costs
-	build_cost_ic =  4.00
-	build_cost_manpower = 0.09 #60 base + 50% support
-	build_time = 240
+	build_cost_ic =  3.00
+	build_cost_manpower = 0.04 #~25 crew + 50% support
+	build_time = 360
 	repair_cost_multiplier = 0.05
 
 	#Misc Abilities
-	maximum_speed = 10.00
+	maximum_speed = 16.00
 	transport_capability = 0.00
-	supply_consumption = 0.30
-	fuel_consumption = 0.58
-	range = 800.00
-	distance = 0.15
+	supply_consumption = 0.40
+	fuel_consumption = 0.50
+	range = 3000.00
+	distance = 0.05
 	radio_strength = 1
 	
 	#Detection Abilities
-	surface_detection = 2.00
+	surface_detection = 1.00
 	air_detection = 1.00
 	sub_detection = 1.00
-	visibility = 5
+	visibility = 3
 
 	#Defensive Abilities
-	sea_defence = 5.00
+	sea_defence = 2.00
 	air_defence = 1.00
 
 	#Offensive Abilities
-	convoy_attack = 1.00
+	convoy_attack = 2.00
 	sea_attack = 2.00
-	sub_attack = 0.00
+	sub_attack = 0.50
 	air_attack = 1.00
 	shore_bombardment = 0.00
 

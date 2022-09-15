@@ -1,0 +1,148 @@
+GROUND
+irregulary_infantary = {manpower = strenght + 15% support}
+infantary = {manpower = strenght + 30% support}
+elite_and_special_infantary = {manpower = strenght + 32% support}
+motorized_infantary = {manpower = strenght + 35% support}
+support_fire = {manpower = strenght + 35% support}
+mecanized_infantary = {manpower = strenght + 36% support}
+armored_car = {manpower = strenght + 37% support}
+light_armor = {manpower = strenght + 39% support}
+amored_support_fire = {manpower = strenght + 40% support}
+armor = {manpower = strenght + 41% support}
+heavy_armor = {manpower = strenght + 43% support}
+super_heavy_armor = {manpower = strenght + 45% support}
+
+AIR
+flying_bomb = {
+	officers = 0
+	build_cost_manpower = 0.00
+}
+flying_rocket = {
+	officers = 0
+	build_cost_manpower = 0.00
+}
+interceptor = {
+	max_strength = 20 #20 aircraft
+	officers = 2 # 10% base manpower
+	build_cost_ic = 2.8 # 1/5 of original
+	build_cost_manpower = 0.06 # 0.02 base + 200% support
+	build_time = 28 # 1/5 of original
+}
+cas = {
+	max_strength = 20 #20 aircraft
+	officers = 2 # 10% base manpower
+	build_cost_ic = 2.2 # 1/5 of original
+	build_cost_manpower = 0.06 # 0.02 base + 200% support
+	build_time = 36 # 1/5 of original
+}
+rocket_interceptor = {
+	max_strength = 20 #20 aircraft
+	officers = 2 # 10% base manpower
+	build_cost_ic = 4 # 1/5 of original
+	build_cost_manpower = 0.06 # 0.02 base + 200% support
+	build_time = 30 # 1/5 of original
+}
+cag = {
+	max_strength = 10 #10 aircrafts
+	officers = 1 # 10% base manpower
+	build_cost_ic = 1.96 # 1/5 of original
+	build_cost_manpower = 0.03 # 0.01 base + 200% support
+	build_time = 36 # 1/5 of original
+}
+multi-role = {
+	max_strength = 20 #20 aircraft
+	officers = 2 # 10% base manpower
+	build_cost_ic = 3 # 1/5 of original
+	build_cost_manpower = 0.06 # 0.02 base + 200% support
+	build_time = 30 # 1/5 of original
+}
+naval_bomber = {
+	max_strength = 20 #20 aircraft
+	officers = 2 # 10% base manpower
+	build_cost_ic = 2.8 # 1/5 of original
+	build_cost_manpower = 0.06 # 0.02 base + 200% support
+	build_time = 44 # 1/5 of original
+}
+tatical_bomber = {
+	max_strength = 20 #20 aircraft
+	fficers = 10 # 10% base manpower
+	build_cost_ic = 3.2 # 1/5 of original
+	build_cost_manpower = 1.5 # 0.1 base (pilot, navigator, bomb-aimer, flight engineer, wireless operator) + 50% support
+	build_time = 45 # 1/5 of original
+}
+transporte_plane = {
+	max_strength = 20 #20 aircraft
+	officers = 8 # 10% base manpower
+	build_cost_ic = 4 # 1/5 of original
+	build_cost_manpower = 0.12 # 0.08 base (pilot, navigator, flight engineer, wireless operator) + 50% support 
+	build_time = 30 # 1/5 of original
+	transport_capability = 3 # 1/5 of original
+}
+strategical_bomber = {
+	max_strength = 20 #20 aircraft
+	officers = 14 # 10% base manpower
+	build_cost_ic = 3.4 # 1/5 of original
+	build_cost_manpower = 0.21 # 0.14 base (pilot, navigator, bomb-aimer, flight engineer, wireless operator, mid-upper and rear turret gunners) + 50% support
+	build_time = 60 # 1/5 of original
+}
+
+NAVY
+carrier = {
+	build_cost_manpower = 3.9 #2.6k base + 50% support 
+	officers = 195 #5% manpower base
+}
+super_heavy_battleship = {
+	build_cost_manpower = 3.9 #2.6k base + 50% support 
+	officers = 195 #5% manpower base
+}
+battleship = {
+	build_cost_manpower = 3 #2k base + 50% support 
+	officers = 100 #5% manpower base
+}
+battlecruiser = {
+	build_cost_manpower = 1.5 #1k base + 50% support 
+	officers = 50 #5% manpower base
+}
+escort_carrier = {
+	build_cost_manpower = 1.5 #1k base + 50% support
+	officers = 75 #5# manpower base
+}
+heavy_cruiser = {
+	build_cost_manpower = 1.05 #700 base + 50% support
+	officers = 35 #5% manpower base
+}
+light_cruiser = {
+	build_cost_manpower = 0.75 #500 base + 50% support
+	officers = 25 #5% manpower base
+}
+destroier = {
+	build_cost_manpower = 0.22 #150 base + 50% support 
+	officers = 7 #5% manpower base
+}
+nuclear_submarine = {
+	build_cost_manpower = 0.18 #120 base + 50% support
+	officers = 3 #5% base manpower
+}
+coastal_submarine = {
+	build_cost_manpower = 0.09 #60 base + 50% support
+	officers = 6 #5% base manpower
+}
+submarine = {
+	build_cost_manpower = 0.09 #60 base + 50% support
+	officers = 6 #5% base manpower
+}
+assault_ship = {
+	build_cost_manpower = 0.03 #20 base + 50% support
+	officers = 1 #minimum
+}
+
+invasion_transport_ship = {
+	build_cost_manpower = 0.03 #20 base + 50% support
+	officers = 1 #minimum
+}
+transport_ship = {
+	manpbuild_cost_manpower ower = 0.03 #20 base + 50% support
+	officers = 1 #minimum
+}
+
+

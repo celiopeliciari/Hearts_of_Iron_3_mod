@@ -12,12 +12,12 @@ nuclear_submarine = {
 	max_strength = 100
 	default_organisation = 30
 	default_morale = 0.30
-	officers = 6 #5% base manpower
+	officers = 8 #10% base manpower
 
 	#Building Costs
-	build_cost_ic = 8.00
-	build_cost_manpower = 0.18 #120 base + 50% support
-	build_time = 320
+	build_cost_ic = 6.00
+	build_cost_manpower = 0.12 #80 crew + 50% support
+	build_time = 1080
 	repair_cost_multiplier = 0.05
 
 	#Misc Abilities

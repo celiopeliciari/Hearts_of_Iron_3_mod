@@ -291,6 +291,10 @@ unit_names = {
 		"97th Transport Flotilla" "98th Transport Flotilla" "99th Transport Flotilla" "100th Transport Flotilla" 
 	}
 
+	coastal_submarine = {
+		"British H1" "British H2" "British H3" "British H4" "British H5" "British H6" "British H7" "British H8" "British H9" "British H10" "British H11" "British H12" "British H13" "British H14" "British H15" "British H16" "British H17" "British H18" "British H19" "British H20"
+	}
+
 }
 
 

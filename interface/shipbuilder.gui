@@ -1,82 +1,28 @@
 guiTypes = {
-
-########################################
-# Ship builder Interface
-########################################
-
+	# #######################################
+	# Ship builder Interface
+	# #######################################
 	windowType = {
 		name = "ship_builder_window"
 		backGround=""
-		#position = { x=550 y=150 }	
-		#size = { x=360 y= 500 }
 		size = { x=1024 y=768 }
-		position = { x=-512 y=-344 }
+		position = { x=-660 y=-344 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 		orientation="CENTER"
-		
-		# iconType = {
-			# name ="bg_mainshadow"
-			# spriteType = "GFX_bg_mainshadow"
-			# position = { x= -46 y = 9 }
-			# Orientation = "UPPER_LEFT"
-		# }
-		
-		# iconType = {
-			# name ="production_topitem"
-			# spriteType = "GFX_production_topitem"
-			# position = { x= 517 y = -97 }
-			# Orientation = "UPPER_LEFT"
-		# }
-		
-		# guiButtonType = {
-			# name = "close_button"
-			# position = { x= 979 y = 30}
-			# quadTextureSprite = "GFX_close_button"	
-			# tooltip = ""
-			# tooltipText =""
-			# delayedTooltipText = ""
-			# buttonText = ""
-			# buttonFont = "Arial12_bold_black"
-			# Orientation = "UPPER_LEFT"
-			# shortcut = "ESCAPE"
-		# }
-		
-		# textBoxType = { 
-			# name = "headline_prod"
-			# position = { x = 667 y = 8 }
-			# textureFile = ""
-			# font = "impact"
-			# borderSize = {x = 0 y = 4}
-			# text = "headline_prod"	
-			# maxWidth = 300
-			# maxHeight = 64	
-			# format = right
-			# Orientation = "UPPER_LEFT"
-		# }
-		
+
 		iconType = {
 			name = "ship_build_bg"
 			spriteType = "GFX_bg_air_navy_build"
-			position = { x= 1 y = 62 }
-			Orientation = "UPPER_LEFT"
+			position = { x=1 y=62 }
+			orientation = "UPPER_LEFT"
 		}
-		
-
-		
-		
-		
-		################
-
-
-		# IC ###
-		
-					
-		
-		
+		# ###############
+		# IC
+		# ###############
 		iconType = {
 			name = "selected_brigade_green"
 			spriteType = "GFX_selected_brigade_green"
@@ -211,12 +157,10 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 10
 			orientation = "UPPER_LEFT"
-		}			
-			
-	
-		##### BUTTONS #######
-	
-	
+		}
+		# ###################################
+		# START/CLOSE BUTTONS
+		# ###################################
 		guiButtonType = {
 			name = "accept"
 			position = { x=667 y =668}
@@ -240,10 +184,9 @@ guiTypes = {
 			buttonFont = "Arial14"
 
 		}
-		
-		
-		#### # SERIAL
-		
+		# ###############################
+		# SERIAL
+		# ###############################
 		guiButtonType = {
 			name = "serial_plus"
 			position = { x=922 y =469}
@@ -337,27 +280,23 @@ guiTypes = {
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}		
-		
-		
-		
-		##### SORT BUTTONS
-		
-		
+		}
+		# ##################################
+		# SORT BUTTONS
+		# ##################################
 		guiButtonType = {
-			name = "sort_prio" 
-			position = { x=70 y =83}
+			name = "sort_prio"
+			position = { x=70 y=83}
 			quadTextureSprite ="GFX_icon_prio"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Arial12_bold_black"
-		}		
-
+		}
 		guiButtonType = {
 			name = "sort_org"
-			position = { x=180 y =79 }
+			position = { x=180 y=79 }
 			quadTextureSprite ="GFX_icon_org"
 			tooltip = ""
 			tooltipText =""
@@ -365,54 +304,49 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
-		
 		guiButtonType = {
-			name = "sort_con_a"               
-			position = { x=208 y =76 }
+			name = "sort_con_a"
+			position = { x=208 y=76 }
 			quadTextureSprite ="GFX_icon_con_a"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}			
+		}
 		guiButtonType = {
-			name = "sort_sea_a"                 
-			position = { x=240 y =76 }
+			name = "sort_sea_a"
+			position = { x=240 y=76 }
 			quadTextureSprite ="GFX_icon_sea_a"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}		
-
+		}
 		guiButtonType = {
-			name = "sort_sub_a"                 
-			position = { x=271 y =76 }
+			name = "sort_sub_a"
+			position = { x=271 y=76 }
 			quadTextureSprite ="GFX_icon_sub_a"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
-		
+		}
 		guiButtonType = {
-			name = "sort_air_a"                   
-			position = { x=300 y =76 }
+			name = "sort_air_a"
+			position = { x=300 y=76 }
 			quadTextureSprite ="GFX_icon_air_a"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}				
-
+		}
 		guiButtonType = {
-			name = "sort_shore"                   
-			position = { x=329 y =76 }
+			name = "sort_shore"
+			position = { x=329 y=76 }
 			quadTextureSprite ="GFX_icon_shore"
 			tooltip = ""
 			tooltipText =""
@@ -420,21 +354,19 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
 		guiButtonType = {
-			name = "sort_sea_d"                    
-			position = { x=364 y =79 }
+			name = "sort_sea_d"
+			position = { x=364 y=79 }
 			quadTextureSprite ="GFX_icon_def"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
-			
+		}
 		guiButtonType = {
-			name = "sort_air_d"                     
-			position = { x=392 y =79 }
+			name = "sort_air_d"
+			position = { x=392 y=79 }
 			quadTextureSprite ="GFX_icon_ad"
 			tooltip = ""
 			tooltipText =""
@@ -443,89 +375,87 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 		guiButtonType = {
-			name = "sort_sur_det"                  
-			position = { x=418 y =75 }
+			name = "sort_sur_det"
+			position = { x=418 y=75 }
 			quadTextureSprite ="GFX_icon_sur_det"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}		
-
+		}
 		guiButtonType = {
-			name = "sort_air_det"                     
-			position = { x=448 y =76 }
+			name = "sort_air_det"
+			position = { x=448 y=76 }
 			quadTextureSprite ="GFX_icon_air_det"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}		
+		}
 		guiButtonType = {
-			name = "sort_sub_det"               
-			position = { x=479 y =75 }
+			name = "sort_sub_det"
+			position = { x=479 y=75 }
 			quadTextureSprite ="GFX_icon_sub_det"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}			
+		}
 		guiButtonType = {
-			name = "sort_visibi"                    
-			position = { x=512 y =75 }
+			name = "sort_visibi"
+			position = { x=512 y=75 }
 			quadTextureSprite ="GFX_icon_visibility"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
+		}
 		guiButtonType = {
-			name = "sort_trans"                   
-			position = { x=548 y =76 }
+			name = "sort_trans"
+			position = { x=548 y=76 }
 			quadTextureSprite ="GFX_icon_trans_cap"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}		
-				
+		}
 		guiButtonType = {
-			name = "sort_range"                  
-			position = { x=584 y =76 }
+			name = "sort_range"
+			position = { x=584 y=76 }
 			quadTextureSprite ="GFX_icon_range"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
+		}
 		guiButtonType = {
-			name = "sort_distance"            
-			position = { x=623 y =79 }
+			name = "sort_distance"
+			position = { x=623 y=79 }
 			quadTextureSprite ="GFX_icon_cw"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
+		}
 		guiButtonType = {
 			name = "sort_speed"
-			position = { x=660 y =79 }
+			position = { x=660 y=79 }
 			quadTextureSprite ="GFX_icon_speed"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
+		}
 		guiButtonType = {
-			name = "sort_hull"                             
+			name = "sort_hull"
 			position = { x=690 y =76 }
 			quadTextureSprite ="GFX_icon_hull"
 			tooltip = ""
@@ -533,11 +463,10 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}	
-		
+		}
 		guiButtonType = {
-			name = "sort_pos"                     
-			position = { x=727 y =75 }
+			name = "sort_pos"
+			position = { x=727 y=75 }
 			quadTextureSprite ="GFX_icon_pos"
 			tooltip = ""
 			tooltipText =""
@@ -545,10 +474,9 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
 		guiButtonType = {
-			name = "sort_sc" 
-			position = { x=766 y =79 }
+			name = "sort_sc"
+			position = { x=766 y=79 }
 			quadTextureSprite ="GFX_icon_sc"
 			tooltip = ""
 			tooltipText =""
@@ -556,10 +484,9 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
 		guiButtonType = {
-			name = "sort_fc" 
-			position = { x=804 y =79 }
+			name = "sort_fc"
+			position = { x=804 y=79 }
 			quadTextureSprite ="GFX_icon_oc"
 			tooltip = ""
 			tooltipText =""
@@ -568,8 +495,8 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 		guiButtonType = {
-			name = "sort_off" 
-			position = { x=842 y =80 }
+			name = "sort_off"
+			position = { x=842 y=80 }
 			quadTextureSprite ="GFX_icon_off"
 			tooltip = ""
 			tooltipText =""
@@ -578,8 +505,8 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 		guiButtonType = {
-			name = "sort_ic" 
-			position = { x=876 y =79 }
+			name = "sort_ic"
+			position = { x=876 y=79 }
 			quadTextureSprite ="GFX_icon_icneed"
 			tooltip = ""
 			tooltipText =""
@@ -587,10 +514,9 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
 		guiButtonType = {
-			name = "sort_mp" 
-			position = { x=917 y =80 }
+			name = "sort_mp"
+			position = { x=917 y=80 }
 			quadTextureSprite ="GFX_icon_mp"
 			tooltip = ""
 			tooltipText =""
@@ -598,38 +524,32 @@ guiTypes = {
 			buttonText = ""
 			buttonFont = "Main_14_black"
 		}
-		
 		guiButtonType = {
-			name = "sort_time" 
-			position = { x=955 y =79 }
+			name = "sort_time"
+			position = { x=955 y=79 }
 			quadTextureSprite ="GFX_icon_time"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Main_14_black"
-		}		
-				
-			
-
-  ####### LISTBOX ########
-#######################  
-					
-							
+		}
+		# ###############################
+		# LISTBOX
+		# ###############################
 		listboxType = {
 			name = "queue"
-			position = { x = 30 y = 103 }
+			position = { x=30 y=103 }
 			backGround=""
-			size = { x= 533 y = 620}
-			Orientation = "UPPER_LEFT"
+			size = { x=950 y=300 }
+			orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 0 y = 0}
+			borderSize = { x=0 y=0 }
 		}
-		
-########################
-##    SELECTED SHIP                                                    
-########################
+		########################
+		##    SELECTED SHIP                                                    
+		########################
 	
 	windowType = {
 		name = "selected_ship_window"
@@ -756,343 +676,322 @@ guiTypes = {
 				
 		}	
 	}
-########################################
-# BOAT LIST   ENTRY
-########################################
-	
+	# #######################################
+	# SELECTED SHIP
+	# #######################################
 	windowType = {
 		name = "build_ship_entry"
 		backGround=""
-		position = { x=0 y=0 }	
-		size = { x=1024 y= 24 }
+		position = { x=0 y=0 }
+		size = { x=1024 y=24 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
-		Orientation = "UPPER_LEFT" 
-		
+		fullScreen = no
+		orientation = "UPPER_LEFT"
+
 		guiButtonType = {
 			name = "select"
-			position = { x= 1 y = 1 }
+			position = { x=1 y=1 }
 			quadTextureSprite ="GFX_select_ship_button"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
 			buttonFont = "Arial14"
-			Orientation = "UPPER_LEFT"
+			orientation = "UPPER_LEFT"
 		}
-
 		iconType = {
 			name ="counter_type"
 			spriteType = "GFX_temp_unit_icon"
-			position = { x= -12 y = -11 }
-			Orientation = "UPPER_LEFT"
+			position = { x=-12 y=-11 }
+			orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="counter_size"
 			spriteType = "GFX_counter_size"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-		}		
-				
-		
+			position = { x=0 y=0 }
+			orientation = "UPPER_LEFT"
+		}
 		instantTextBoxType = {
-			position = { x = 35 y = 4 }
+			position = { x=35 y=4 }
 			name = "name"
 			font = "Arial12_bold_black"
-			borderSize = {x = 4 y = 2}
-			text = "name"	
+			borderSize = { x=4 y=2 }
+			text = "name"
 			maxWidth = 200
 			maxHeight = 10
 			orientation = "UPPER_LEFT"
-		}		
-		
+		}
 		instantTextBoxType = {
-			position = { x = 75 y = 4 }
+			position = { x=75 y=4 }
 			name = "org"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "str"	
+			borderSize = { x=4 y=2 }
+			text = "str"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 105 y = 4 }
+			position = { x=105 y=4 }
 			name = "con_a"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "org"	
+			borderSize = { x=4 y=2 }
+			text = "org"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 135 y = 4 }
+			position = { x=135 y=4 }
 			name = "sea_a"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "cw"	
+			borderSize = { x=4 y=2 }
+			text = "cw"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}						
+		}
 		instantTextBoxType = {
-			position = { x = 165 y = 4 }
+			position = { x=165 y=4 }
 			name = "sub_a"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "SA"	
+			borderSize = { x=4 y=2 }
+			text = "SA"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 195 y = 4 }
+			position = { x=195 y=4 }
 			name = "air_a"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "HA"	
+			borderSize = { x=4 y=2 }
+			text = "HA"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
+		}
 		instantTextBoxType = {
-			position = { x = 225 y = 4 }
+			position = { x=225 y=4 }
 			name = "shore"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "AA"	
+			borderSize = { x=4 y=2 }
+			text = "AA"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
-		
-		
 		instantTextBoxType = {
-			position = { x = 255 y = 4 }
+			position = { x=255 y=4 }
 			name = "sea_d"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "def"	
+			borderSize = { x=4 y=2 }
+			text = "def"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
+		}
 		instantTextBoxType = {
-			position = { x = 285 y = 4 }
+			position = { x=285 y=4 }
 			name = "air_d"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
-		
-		
-		
 		instantTextBoxType = {
-			position = { x = 315 y = 4 }
+			position = { x=315 y=4 }
 			name = "sur_det"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "AD"	
+			borderSize = { x=4 y=2 }
+			text = "AD"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
-		
+		}
 		instantTextBoxType = {
-			position = { x = 345 y = 4 }
+			position = { x=345 y=4 }
 			name = "air_det"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "speed"	
+			borderSize = { x=4 y=2 }
+			text = "speed"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}			
-		
-												
+		}
 		instantTextBoxType = {
-			position = { x = 375 y = 4 }
+			position = { x=375 y=4 }
 			name = "sub_det"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "sup"	
+			borderSize = { x=4 y=2 }
+			text = "sup"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}													
+		}
 		instantTextBoxType = {
-			position = { x = 408 y = 4 }
+			position = { x=408 y=4 }
 			name = "visibi"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "sc"	
+			borderSize = { x=4 y=2 }
+			text = "sc"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
+		}
 		instantTextBoxType = {
-			position = { x = 444 y = 4 }
+			position = { x=444 y=4 }
 			name = "trans"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "fc"	
+			borderSize = { x=4 y=2 }
+			text = "fc"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}														
+		}
 		instantTextBoxType = {
-			position = { x = 480 y = 4 }
+			position = { x=480 y=4 }
 			name = "range"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "ic"	
+			borderSize = { x=4 y=2 }
+			text = "ic"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
+		}
 		instantTextBoxType = {
-			position = { x = 516 y = 4 }
+			position = { x=516 y=4 }
 			name = "distance"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "mp"	
+			borderSize = { x=4 y=2 }
+			text = "mp"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
-																	
+		}
 		instantTextBoxType = {
-			position = { x = 552 y = 4 }
+			position = { x=552 y=4 }
 			name = "speed"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "time"	
+			borderSize = { x=4 y=2 }
+			text = "time"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}																
+		}
 		instantTextBoxType = {
-			position = { x = 588 y = 4 }
+			position = { x=588 y=4 }
 			name = "hull"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "time"	
+			borderSize = { x=4 y=2 }
+			text = "time"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}	
+		}
 		instantTextBoxType = {
-			position = { x = 624 y = 4 }
+			position = { x=624 y=4 }
 			name = "pos"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
-		}		
+		}
 		instantTextBoxType = {
-			position = { x = 660 y = 4 }
+			position = { x=660 y=4 }
 			name = "sc"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 696 y = 4 }
+			position = { x=696 y=4 }
 			name = "fc"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 732 y = 4 }
+			position = { x=732 y=4 }
 			name = "off"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 770 y = 4 }
+			position = { x=770 y=4 }
 			name = "ic"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			position = { x = 810 y = 4 }
+			position = { x=810 y=4 }
 			name = "mp"
 			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
-			maxWidth = 170
-			maxHeight = 10
-			format = centre
-			orientation = "UPPER_LEFT"
-		}	
-		instantTextBoxType = {
-			position = { x = 850 y = 4 }
-			name = "time"
-			font = "Arial12_bold"
-			borderSize = {x = 4 y = 2}
-			text = "tou"	
+			borderSize = { x=4 y=2 }
+			text = "tou"
 			maxWidth = 170
 			maxHeight = 10
 			format = centre
 			orientation = "UPPER_LEFT"
 		}
-		
-		
-	}				
-
-
-
-
-
-	##############################################
-	# Model Entry
-	##############################################
+		instantTextBoxType = {
+			position = { x=850 y=4 }
+			name = "time"
+			font = "Arial12_bold"
+			borderSize = { x=4 y=2 }
+			text = "tou"
+			maxWidth = 170
+			maxHeight = 10
+			format = centre
+			orientation = "UPPER_LEFT"
+		}
+	}
+	# #############################################
+	# Stats selected ship
+	# #############################################
 	windowType = {
 		name = "shipbuild_model_entry"
 		backGround=""
@@ -1152,8 +1051,7 @@ guiTypes = {
 			format = left
 		}	
 
-	}	
-	
+	}
 	##############################################
 	# Model Entry
 	##############################################
@@ -1219,4 +1117,3 @@ guiTypes = {
 	}		
 
 }
-

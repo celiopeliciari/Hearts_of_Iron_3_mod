@@ -19,7 +19,7 @@ transport_plane = {
 
 	#Misc Abilities
 	maximum_speed = 200.00
-	transport_capability = 3 # 1/5 of original
+	transport_capability = 0.02 #look transport_plane mod database 
 	supply_consumption = 1.00
 	fuel_consumption = 2.30
 	range = 500.00

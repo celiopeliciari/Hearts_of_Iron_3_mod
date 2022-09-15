@@ -1,0 +1,46 @@
+super_huge_carrier = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	active = no
+	
+	hull = 1.0	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 200 #10% base manpower
+	carrier_size = 8 #80 aircrafts
+	#Building Costs
+	build_cost_ic = 24.50
+	build_cost_manpower = 3.00 #2 base + 50% support
+	build_time = 840
+	repair_cost_multiplier = 0.05
+	#Misc Abilities
+	maximum_speed = 24.00
+	transport_capability = 0.00
+	supply_consumption = 3.00
+	fuel_consumption = 2.60
+	range = 18000
+	distance = 1.00
+	radio_strength = 1.00
+	#Detection Abilities
+	surface_detection = 1.70
+	air_detection = 3.75
+	sub_detection = 0.90
+	visibility = 100.00
+	#Defensive Abilities
+	sea_defence = 1.70
+	air_defence = 3.50
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.00
+	sub_attack = 0.00
+	air_attack = 3.50
+	shore_bombardment = 0.00
+
+	completion_size = 3.4
+	on_completion = carrier_practical
+	
+	priority = 10
+}

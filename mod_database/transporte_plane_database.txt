@@ -1,0 +1,9 @@
+each plane can flight with de 10 to 40 soldiers (the biggerst 130)
+
+each squadron lvl 1 can flight with 200 soldiers
+
+infantry = 3 weight
+
+so is necessary 15 squadron to carry one infantry
+
+transporte_plane_0 = {0.02 cargo capacity}

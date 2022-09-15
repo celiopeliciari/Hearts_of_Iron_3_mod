@@ -47,8 +47,16 @@ light_cruiser_escort_role = {
 
 carrier_group_doctrine = {
 	
-	carrier = { positioning = 0.05 }
+	sea_plane_carrier = { positioning = 0.05 }
+	light_carrier = { positioning = 0.05 }
 	escort_carrier = { positioning = 0.05 }
+	carrier = { positioning = 0.05 }
+	large_carrier = { positioning = 0.05 }
+	super_large_carrier = { positioning = 0.05 }
+	huge_carrier = { positioning = 0.05 }
+	super_huge_carrier = { positioning = 0.05 }
+	immense_carrier = { positioning = 0.05 }
+	colossal_carrier = { positioning = 0.05 }
 	
 	allow = {
 		fleet_auxiliary_carrier_doctrine = 1
@@ -101,15 +109,46 @@ light_cruiser_crew_training = {
 
 carrier_crew_training = {
 	
-	carrier = {
+	sea_plane_carrier = {
 		default_organisation = 5 
 		default_morale = 0.05
 	}
-
 	escort_carrier = {
 		default_organisation = 5 
 		default_morale = 0.05
 	}
+	light_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	large_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	super_large_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	huge_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	super_huge_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	immense_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}
+	colossal_carrier = {
+		default_organisation = 5 
+		default_morale = 0.05
+	}	
 	
 	allow = {
 		fleet_auxiliary_carrier_doctrine = 1
@@ -185,8 +224,16 @@ naval_underway_repleshment = {
 
 radar_training = {
 
-	carrier = {	surface_detection = 1 }
+	sea_plane_carrier = { surface_detection = 1 }
+	light_carrier = { surface_detection = 1 }
 	escort_carrier = { surface_detection = 1 }
+	carrier = { surface_detection = 1 }
+	large_carrier = { surface_detection = 1 }
+	super_large_carrier = { surface_detection = 1 }
+	huge_carrier = { surface_detection = 1 }
+	super_huge_carrier = { surface_detection = 1 }
+	immense_carrier = { surface_detection = 1 }
+	colossal_carrier = { surface_detection = 1 }
 	
 	allow = {
 		fleet_auxiliary_carrier_doctrine = 1

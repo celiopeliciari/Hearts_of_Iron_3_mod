@@ -1,0 +1,51 @@
+cruiser_submarine = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	active = no
+	
+	hull = 0.5
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 25
+	default_morale = 0.35
+	officers = 6 #10% base manpower
+
+
+	#Building Costs
+	build_cost_ic =  4.00
+	build_cost_manpower = 0.09 #~60 crew + 50% support
+	build_time = 720
+	repair_cost_multiplier = 0.05
+
+	#Misc Abilities
+	maximum_speed = 24.00
+	transport_capability = 0.00
+	supply_consumption = 1.00
+	fuel_consumption = 1.20
+	range = 30000.00
+	distance = 0.07
+	radio_strength = 1
+	
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 1.00
+	visibility = 6
+
+	#Defensive Abilities
+	sea_defence = 5.00
+	air_defence = 2.00
+
+	#Offensive Abilities
+	convoy_attack = 5.00
+	sea_attack = 5.00
+	sub_attack = 1.00
+	air_attack = 2.00
+	shore_bombardment = 0.00
+
+	completion_size = 1
+	on_completion = submarine_practical
+	priority = 3
+}
