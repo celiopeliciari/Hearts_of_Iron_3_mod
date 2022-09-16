@@ -1,0 +1,5 @@
+owner = ENG
+controller = ENG
+anti_air = 1
+infra = 6
+air_base = 4

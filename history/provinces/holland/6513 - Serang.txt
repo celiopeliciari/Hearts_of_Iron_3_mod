@@ -3,8 +3,6 @@ controller = HOL
 
 strategic_resource = gold
 
-add_core = HOL
-add_core = INO
 infra = 6
 1942.6.4 = {
 	controller = JAP

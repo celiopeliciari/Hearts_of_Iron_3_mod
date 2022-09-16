@@ -2,8 +2,6 @@ owner = ENG
 
 controller = ENG
 
-add_core = ENG
-add_core = SIA
 points = 2
 metal = 2.00
 rare_materials = 25.00

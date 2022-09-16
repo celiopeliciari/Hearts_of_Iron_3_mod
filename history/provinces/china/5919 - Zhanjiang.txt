@@ -1,6 +1,5 @@
 owner = FRA
 controller = FRA
-add_core = FRA
 add_core = CGX
 add_core = CHI
 add_core = CHC

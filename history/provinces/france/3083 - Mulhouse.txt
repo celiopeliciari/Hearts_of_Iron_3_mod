@@ -1,6 +1,7 @@
 owner = FRA
 controller = FRA
 add_core = FRA
+add_core = GER
 
 energy = 16.00
 metal = 9.00

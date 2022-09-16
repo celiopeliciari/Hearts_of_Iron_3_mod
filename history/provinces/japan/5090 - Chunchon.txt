@@ -1,7 +1,9 @@
 owner = JAP
-controller = JAP
-add_core = JAP
+
+controller = JAP
+
 add_core = KOR
+add_core = PRK
 industry = 1
 infra = 3
 manpower = 1.00

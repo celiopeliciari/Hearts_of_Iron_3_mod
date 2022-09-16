@@ -1,6 +1,5 @@
 owner = FRA
 controller = FRA
-add_core = FRA
 metal = 6.00
 rare_materials = 1.00
 industry = 1

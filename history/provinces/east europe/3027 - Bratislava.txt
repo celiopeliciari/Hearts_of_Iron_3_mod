@@ -1,6 +1,7 @@
 owner = CZE
 controller = CZE
 add_core = CZE
+add_core = SLO
 
 points = 4
 infra = 10

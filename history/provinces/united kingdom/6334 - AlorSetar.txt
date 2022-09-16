@@ -1,7 +1,5 @@
 owner = ENG
 controller = ENG
-add_core = ENG
-add_core = SIA
 energy = 1.00
 rare_materials = 25.00
 industry = 1

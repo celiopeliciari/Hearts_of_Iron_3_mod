@@ -1,6 +1,7 @@
 owner = YUG
 controller = YUG
 add_core = YUG
+add_core = CRO
 
 naval_base = 1
 infra = 7

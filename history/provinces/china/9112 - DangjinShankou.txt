@@ -3,5 +3,7 @@ owner = SIK
 controller = SIK
 
 add_core = SIK
+add_core = CHC
+add_core = CHI
 
 infra = 2

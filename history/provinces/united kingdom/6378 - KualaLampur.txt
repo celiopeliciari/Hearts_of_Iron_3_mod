@@ -1,6 +1,5 @@
 owner = ENG
 controller = ENG
-add_core = ENG
 points = 1
 metal = 19.00
 rare_materials = 25.00

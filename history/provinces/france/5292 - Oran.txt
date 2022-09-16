@@ -1,6 +1,5 @@
 owner = FRA
 controller = FRA
-add_core = FRA
 anti_air = 2
 infra = 6
 air_base = 4

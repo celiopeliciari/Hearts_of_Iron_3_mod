@@ -1,6 +1,7 @@
 owner = FIN
 controller = FIN
 add_core = FIN
+add_core = SOV
 land_fort = 1
 infra = 6
 

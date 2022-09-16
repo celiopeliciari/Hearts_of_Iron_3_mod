@@ -2,7 +2,6 @@ owner = AST
 
 controller = AST
 
-add_core = AST
 
 points = 1
 anti_air = 1

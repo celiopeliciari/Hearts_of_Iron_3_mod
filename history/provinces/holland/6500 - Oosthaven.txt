@@ -1,0 +1,15 @@
+owner = HOL
+
+controller = HOL
+points = 2
+rare_materials = 10.00
+anti_air = 2
+infra = 4
+air_base = 4
+naval_base = 7
+manpower = 0.2
+leadership = 0.2
+
+1942.6.4 = {
+	controller = JAP
+}

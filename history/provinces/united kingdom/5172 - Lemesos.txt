@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+add_core = TUR
+add_core = GRE
+metal = 1.00
+anti_air = 1
+infra = 6
+air_base = 4

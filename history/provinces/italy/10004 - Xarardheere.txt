@@ -1,6 +1,5 @@
 owner = ITA
 controller = ITA
-add_core = ITA
 
 anti_air = 1
 infra = 5

@@ -1,7 +1,5 @@
 owner = HOL
 controller = HOL
-add_core = HOL
-add_core = INO
 metal = 4.00
 crude_oil = 4.00
 rare_materials = 7.00

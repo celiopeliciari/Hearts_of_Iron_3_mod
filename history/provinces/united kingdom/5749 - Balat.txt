@@ -1,0 +1,6 @@
+owner = ENG
+controller = ENG
+add_core = EGY
+rare_materials = 1.00
+
+infra = 1

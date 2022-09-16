@@ -1,6 +1,5 @@
 owner = FRA
 controller = FRA
-add_core = FRA
 add_core = IDC
 energy = 4.00
 infra = 6

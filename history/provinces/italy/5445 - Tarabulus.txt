@@ -1,6 +1,5 @@
 owner = ITA
 controller = ITA
-add_core = ITA
 points = 3
 anti_air = 1
 air_base = 4

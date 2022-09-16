@@ -1,6 +1,5 @@
 owner = BEL
 controller = BEL
-add_core = BEL
 rare_materials = 4.00
 infra = 2
 manpower = 1.00

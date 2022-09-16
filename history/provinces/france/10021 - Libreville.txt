@@ -1,6 +1,5 @@
 owner = FRA
 controller = FRA
-add_core = FRA
 points = 2
 infra = 4
 

@@ -1,6 +1,5 @@
 owner = ENG
 controller = ENG
-add_core = ENG
 add_core = JOR
 points = 1
 energy = 1.00

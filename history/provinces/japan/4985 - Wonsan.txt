@@ -1,6 +1,8 @@
 owner = JAP
-controller = JAP
-add_core = JAP
+
+controller = JAP
+
+add_core = KOR
 add_core = PRK
 energy = 3.00
 infra = 5

@@ -1,6 +1,7 @@
 owner = CZE
 controller = CZE
 add_core = CZE
+add_core = SLO
 
 metal = 4.00
 infra = 6

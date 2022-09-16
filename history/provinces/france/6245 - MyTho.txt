@@ -2,7 +2,6 @@ owner = FRA
 
 controller = FRA
 
-add_core = FRA
 add_core = IDC
 strategic_resource = black_soil
 

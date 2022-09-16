@@ -1,0 +1,55 @@
+owner = POR
+controller = POR
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 0
+
+infra = 4
+
+infra = 4
+naval_base = 1

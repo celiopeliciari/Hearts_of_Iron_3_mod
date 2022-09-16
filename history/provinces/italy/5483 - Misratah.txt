@@ -1,0 +1,12 @@
+owner = ITA
+controller = ITA
+
+naval_base = 1
+infra = 3
+
+1943.1.19 = {
+	controller = ENG
+}
+1943.9.3 = {
+	owner = ENG
+}

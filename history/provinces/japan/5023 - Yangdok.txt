@@ -1,5 +1,8 @@
 owner = JAP
-controller = JAP
-add_core = JAP
-add_core = PRK
+
+controller = JAP
+
+add_core = KOR
+add_core = PRK
+
 infra = 3

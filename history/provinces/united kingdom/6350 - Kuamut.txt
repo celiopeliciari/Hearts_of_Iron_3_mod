@@ -1,0 +1,9 @@
+owner = ENG
+controller = ENG
+
+infra = 1
+
+1942.6.4 = {
+	controller = JAP
+}
+

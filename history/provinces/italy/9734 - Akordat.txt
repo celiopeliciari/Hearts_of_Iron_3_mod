@@ -1,6 +1,5 @@
 owner = ITA
 controller = ITA
-add_core = ITA
 infra = 5
 1941.4.1 = {
 	controller = ENG
