@@ -22,6 +22,8 @@ country_event = {
 		
 		egypt_region = { secede_province = EGY }
 		create_alliance = EGY
+
+		EGY = { join_faction = allies}
 		}
 	}
 }

@@ -1,0 +1,270 @@
+####################################
+# Liberation of Indochina by Japan #
+####################################
+
+country_event = {
+
+	id = 9900
+
+	is_triggered_only = yes
+	
+	title = "EVTNAME9900" #Japan hands over power to Emperor Bao Dai (Pelliciari_mod)
+	desc = "EVTDESC9900" #In August, events accelerate: the US drops the two nuclear bombs on Japan and the Soviet Union attacks the Japanese positions in Manchuria - the northern region of China. On the 16th, the Japanese in Vietnam hand over power to Emperor Bao Dai, and on the same day, the Viet Minh proclaimed the creation of a provisional government under the presidency of Uncle Ho. (Pelliciari_mod)
+	picture = "BaoDai"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA9900" #Let them go (Pelliciari_mod)
+
+		french_indochine_region = { secede_province = IDC }
+
+		IDC = { 
+			set_country_flag = protests_in_indochine
+			
+			random_owned = { militia_brigade = current }
+			random_owned = { militia_brigade = current } 
+			random_owned = { militia_brigade = current } 
+			random_owned = { militia_brigade = current } 
+		}
+	}
+}
+
+#######################################
+# Socialistic Revolution in Indochina #
+#######################################
+
+country_event = {
+	
+	id = 9901
+
+	trigger = {
+		tag = IDC
+		has_country_flag  = protests_in_indochine
+	}
+
+	mean_time_to_happen = { 
+		months = 1 
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9901" #Communist revolution (Pelliciari_mod)
+	desc = "EVTDESC9901" #In the next few days, the people of Vietnam began to hold public protests, forcing, on August 30, the Emperor to abdicate. On the same day the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people. (Pelliciari_mod)
+	picture = "HanoiSpeech"
+
+	option = {
+		name = "EVTOPTA9901" #This isn't over yet (Pelliciari_mod)
+
+		french_indochine_region = { secede_province = SFR add_core = SFR }
+
+		form_government_in_exile = yes
+
+		SFR = { 
+			set_country_flag = indochina_socialist_revolution
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+		}	
+	}
+}
+
+######################################
+# Ho Chi Minh Proclames Independence #
+######################################
+
+country_event = {
+	
+	id = 9902
+
+	trigger = {
+		date = 1945.9.2
+		OR = {
+			controls = 7651 
+			controls = 5879 
+			controls = 5897 
+			controls = 5898 
+			controls = 5915
+			controls = 5916 
+			controls = 5917 
+			controls = 5929 
+			controls = 5931 
+			controls = 5943 
+			controls = 5944 
+			controls = 5945 
+			controls = 5953 
+			controls = 5954 
+			controls = 5955 
+			controls = 5962 
+			controls = 5963 
+			controls = 5964 
+			controls = 5973 
+			controls = 5974 
+			controls = 5982 
+			controls = 5983 
+			controls = 5992 
+			controls = 5993 
+			controls = 6001 
+			controls = 6002 
+			controls = 6010 
+			controls = 6020 
+			controls = 6021 
+			controls = 6033 
+			controls = 6034 
+			controls = 6046 
+			controls = 6047 
+			controls = 6058 
+			controls = 6059 
+			controls = 6060 
+			controls = 6073 
+			controls = 6074 
+			controls = 6075 
+			controls = 6085 
+			controls = 6086 
+			controls = 6087 
+			controls = 6097 
+			controls = 6098 
+			controls = 6107 
+			controls = 6108 
+			controls = 6115 
+			controls = 6116 
+			controls = 6123 
+			controls = 6129 
+			controls = 6130 
+			controls = 6140 
+			controls = 6141 
+			controls = 6151 
+			controls = 6152 
+			controls = 6165 
+			controls = 6166 
+			controls = 6178 
+			controls = 6179 
+			controls = 6186 
+			controls = 6187 
+			controls = 6188 
+			controls = 6193 
+			controls = 6194 
+			controls = 6195 
+			controls = 6201 
+			controls = 6202 
+			controls = 6203 
+			controls = 6204 
+			controls = 6209 
+			controls = 6210 
+			controls = 6211 
+			controls = 6212 
+			controls = 6213 
+			controls = 6214 
+			controls = 6220 
+			controls = 6221 
+			controls = 6222 
+			controls = 6223 
+			controls = 6224 
+			controls = 6232 
+			controls = 6233 
+			controls = 6234 
+			controls = 6235 
+			controls = 6236 
+			controls = 6242 
+			controls = 6243 
+			controls = 6244 
+			controls = 6245 
+			controls = 6251 
+			controls = 6252 
+			controls = 6259 
+			controls = 6266 
+			controls = 6267 
+			controls = 6277 
+			controls = 6286 
+			controls = 7604 
+			controls = 7612 
+			controls = 7621 
+			controls = 7629 
+			controls = 7636 
+			controls = 7644 
+			controls = 7658 
+			controls = 7668 
+			controls = 7675 
+			controls = 7678 
+			controls = 7679 
+			controls = 7690 
+			controls = 7696 
+			controls = 7701 
+			controls = 7705 
+			controls = 7709 
+			controls = 7710 
+			controls = 7712 
+			controls = 7713 
+			controls = 7714 
+			controls = 7715 
+			controls = 7716 
+			controls = 7718 
+			controls = 7719 
+			controls = 7720 
+			controls = 7724 
+			controls = 7725 
+			controls = 7727 
+			controls = 7729 
+			controls = 7731 
+			controls = 7643
+		}
+		NOT = {exists = SFR}
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9902" #Ho Chi Minh Proclames Independence (Pelliciari_mod)
+	desc = "EVTDESC9902" #On setember 2 of 1945 the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people.
+	picture = "HanoiSpeech"
+
+	option = {
+		name = "EVTOPTA9901A" #This isn't over yet (Pelliciari_mod)
+
+		ai_chance = { factor = 100 }
+
+		french_indochine_region = { secede_province = SFR add_core = SFR }
+
+		SFR = { 
+			set_country_flag = indochina_socialist_revolution
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+			random_owned = {
+			militia_brigade = current
+			militia_brigade = current
+			militia_brigade = current
+			}
+		}
+
+		set_country_flag = demand_colonial_territories_of_indochina_back
+	}
+}

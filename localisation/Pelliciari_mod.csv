@@ -3,7 +3,7 @@ EVTDESC9900;In August, events accelerate: the US drops the two nuclear bombs on 
 EVTOPTA9900;Let them go.;;;;;;;;;x
 EVTNAME9901;Communist revolution;;;;;;;;;x
 EVTDESC9901;In the next few days, the people of Vietnam began to hold public protests, forcing, on August 30, the Emperor to abdicate. On the same day the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people.;;;;;;;;;x
-EVTOPTA9901;This isn't over yet;;;;;;;;;x
+EVTOPTA9901A;This isn't over yet;;;;;;;;;x
 EVTNAME9902;Ho Chi Minh Proclames Independence;;;;;;;;;x
 EVTDESC9902;On setember 2 of 1945 the Viet Minh proclaimed the Democratic Republic of Vietnam and three days later Uncle Ho gives a speech in Hanoi - Vietnam's main city - to half a million people.;;;;;;;;;x
 EVTNAME9910;The Soviet Union call us to do a intervention on Persia;;;;;;;;x
@@ -12,3 +12,12 @@ EVTOPTA9910A;Let's do it;;;;;;;;x
 EVTOPTA9910B;We'll not do it with our other enemies;;;;;;;;x
 EVTNAME9911;The United kingdom call us to do a intervention on Persia;;;;;;;;x
 EVTDESC9911;The persian government maybe will support German Reich attaking Soviet Union and British Raj. We can prevent it do a mutual intervention on them with United Kingdom.;;;;;;;;x
+retake_indochina_title;Go to war to secure colonial territories;;;;;;;;x
+retake_indochina_desc;Indochinese communists, under command of Ho Chi Mihn, did a social revolution. If we want to prevail as a colonial power, we need to go to war.;;;;;;;;x
+vassalize_indochina_title;Go to war to secure colonial territories;;;;;;;;x
+vassalize_indochina_desc;In dificult time we lose our colonia in Indochina. To secure our position in world we need to show some strengh and go to war.;;;;;;;;x
+liberate_indochina_title;Liberate Indochina;;;;;;;;x
+liberate_indochina_desc;Face a dificult military situation and the possibilit to lose the Indochina control to the communists, we need try to secure the conservative values and monarchy position in Indochina as soon as possible.;;;;;;;;x
+EVTNAME9920;Anglo-Egyptian treaty of 1936;;;;;;;;x
+EVTDESC9920;Anglo-Egyptian Treaty, treaty signed in London on August 26, 1936, that officially brought to an end 54 years of British occupation in Egypt. Nevertheless, Egyptian sovereignty remained circumscribed by the terms of the treaty, which established a 20-year military alliance that allowed Great Britain to impose martial law and censorship in Egypt in the event of international emergency.;;;;;;;;x
+EVTOPTA9920;It's not good, but not that bad;;;;;;;;x

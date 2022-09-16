@@ -1,0 +1,181 @@
+#############
+# INDOCHINA #
+#############
+diplomatic_decisions = {
+	
+	retake_indochina = {
+		potential = { 
+			has_country_flag = demand_colonial_territories_of_indochina_back 
+			exists = SFR
+			}
+		allow = { 
+			war = no
+			not = { war_with = SFR }
+		}
+		effect = { 
+			war = {	target = SFR }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	vassalize_indochina = {
+		potential = { 
+			tag = FRA
+			exists = IDC
+			}
+		allow = { 
+			war = no
+			not = { war_with = IDC }
+		}
+		effect = { 
+			war = {	target = IDC }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	liberate_indochina = {
+		potential = {
+			tag = JAP
+			OR = {
+				controls = 7651 
+				controls = 5879 
+				controls = 5897 
+				controls = 5898 
+				controls = 5915
+				controls = 5916 
+				controls = 5917 
+				controls = 5929 
+				controls = 5931 
+				controls = 5943 
+				controls = 5944 
+				controls = 5945 
+				controls = 5953 
+				controls = 5954 
+				controls = 5955 
+				controls = 5962 
+				controls = 5963 
+				controls = 5964 
+				controls = 5973 
+				controls = 5974 
+				controls = 5982 
+				controls = 5983 
+				controls = 5992 
+				controls = 5993 
+				controls = 6001 
+				controls = 6002 
+				controls = 6010 
+				controls = 6020 
+				controls = 6021 
+				controls = 6033 
+				controls = 6034 
+				controls = 6046 
+				controls = 6047 
+				controls = 6058 
+				controls = 6059 
+				controls = 6060 
+				controls = 6073 
+				controls = 6074 
+				controls = 6075 
+				controls = 6085 
+				controls = 6086 
+				controls = 6087 
+				controls = 6097 
+				controls = 6098 
+				controls = 6107 
+				controls = 6108 
+				controls = 6115 
+				controls = 6116 
+				controls = 6123 
+				controls = 6129 
+				controls = 6130 
+				controls = 6140 
+				controls = 6141 
+				controls = 6151 
+				controls = 6152 
+				controls = 6165 
+				controls = 6166 
+				controls = 6178 
+				controls = 6179 
+				controls = 6186 
+				controls = 6187 
+				controls = 6188 
+				controls = 6193 
+				controls = 6194 
+				controls = 6195 
+				controls = 6201 
+				controls = 6202 
+				controls = 6203 
+				controls = 6204 
+				controls = 6209 
+				controls = 6210 
+				controls = 6211 
+				controls = 6212 
+				controls = 6213 
+				controls = 6214 
+				controls = 6220 
+				controls = 6221 
+				controls = 6222 
+				controls = 6223 
+				controls = 6224 
+				controls = 6232 
+				controls = 6233 
+				controls = 6234 
+				controls = 6235 
+				controls = 6236 
+				controls = 6242 
+				controls = 6243 
+				controls = 6244 
+				controls = 6245 
+				controls = 6251 
+				controls = 6252 
+				controls = 6259 
+				controls = 6266 
+				controls = 6267 
+				controls = 6277 
+				controls = 6286 
+				controls = 7604 
+				controls = 7612 
+				controls = 7621 
+				controls = 7629 
+				controls = 7636 
+				controls = 7644 
+				controls = 7658 
+				controls = 7668 
+				controls = 7675 
+				controls = 7678 
+				controls = 7679 
+				controls = 7690 
+				controls = 7696 
+				controls = 7701 
+				controls = 7705 
+				controls = 7709 
+				controls = 7710 
+				controls = 7712 
+				controls = 7713 
+				controls = 7714 
+				controls = 7715 
+				controls = 7716 
+				controls = 7718 
+				controls = 7719 
+				controls = 7720 
+				controls = 7724 
+				controls = 7725 
+				controls = 7727 
+				controls = 7729 
+				controls = 7731 
+				controls = 7643
+			}
+			NOT = { 
+				exists = IDC
+				exists = SFR
+			}
+		}
+		allow = {		
+			date = 1945.8.1
+		}
+		effect = {
+			country_event = 9900
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
