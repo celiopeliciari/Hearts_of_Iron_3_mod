@@ -1,0 +1,75 @@
+country_event = {
+	
+	id = 9903
+
+	trigger = {
+		tag = FRA
+		date = 1936.2.10
+		war = no
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9903" #Franco-Soviet Treaty of Mutual Assistance (Pelliciari_mod)
+	desc = "EVTDESC9903" #The Franco-Soviet Treaty of Mutual Assistance was a bilateral treaty between France and the Soviet Union with the aim of enveloping Nazi Germany in 1935 to reduce the threat from Central Europe. The pact was concluded in Paris on 2 May 1935 and ratified by the French government in February 1936. Ratifications were exchanged in Moscow on 27 March 1936, and the pact went into effect the same day. It was registered in League of Nations Treaty Series on 18 April 1936. (Pelliciari_mod)
+	picture = "FrancoSovietTreatyMutualAssistance"
+
+	option = {
+		name = "EVTOPTA9903" #French government ratified the pact (Pelliciari_mod)
+		ai_chance = { factor = 100 }
+
+		SOV = { country_event = 9904 }
+	}
+}
+	
+
+country_event = {
+
+	id = 9904
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { 
+		months = 1 
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9903" #Franco-Soviet Treaty of Mutual Assistance (Pelliciari_mod)
+	desc = "EVTDESC9903" #The Franco-Soviet Treaty of Mutual Assistance was a bilateral treaty between France and the Soviet Union with the aim of enveloping Nazi Germany in 1935 to reduce the threat from Central Europe. The pact was concluded in Paris on 2 May 1935 and ratified by the French government in February 1936. Ratifications were exchanged in Moscow on 27 March 1936, and the pact went into effect the same day. It was registered in League of Nations Treaty Series on 18 April 1936. (Pelliciari_mod)
+	picture = "FrancoSovietTreatyMutualAssistance"
+
+	option = {
+		name = "EVTOPTA9904" #Soviet government ratified the pact (Pelliciari_mod)
+
+		ai_chance = { factor = 100 }
+
+		FRA = { guarantee = SOV }
+		SOV = { guarantee = FRA }
+	}
+}
+
+country_event = {
+	id = 9905
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { 
+		months = 1 
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9903" #Franco-Soviet Treaty of Mutual Assistance (Pelliciari_mod)
+	desc = "EVTDESC9905" #By 1938, the appeasement policies implemented by British Prime Minister Neville Chamberlain and French Prime Minister Édouard Daladier ended collective security and further encouraged German aggression. The German Anschluss of Austria in 1938 and Munich Agreement, which led to the dismemberment of Czechoslovakia in 1938 and 1939, demonstrated the impossibility of establishing a collective security system in Europe. That and the reluctance of the British and the French governments to sign a full-scale anti-German political and military alliance with the Soviets led to the Molotov–Ribbentrop Pact between the Soviet Union and Germany in late August 1939.
+	picture = "FrancoSovietTreatyMutualAssistance"
+
+	option = {
+		name = "EVTOPTA9905" #We have no reason to believe in the Franco-Soviet pact anymore
+
+		ai_chance = { factor = 100 }
+
+		FRA = { end_guarantee = SOV }
+		SOV = { end_guarantee = FRA }
+	}
+}

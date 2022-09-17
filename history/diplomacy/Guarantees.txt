@@ -27,6 +27,12 @@ guarantee = {
 	end_date = 1948.1.1
 }
 
+guarantee = {
+	first = ENG
+	second = NEP
+	start_date = 1923.12.21
+	end_date = 1950.7.31
+}
 
 
 guarantee = {
@@ -154,4 +160,32 @@ guarantee = {
 	second = CSX
 	start_date = 1935.1.1
 	end_date = 1945.9.2
+}
+
+guarantee = {
+	first = SOV
+	second = CZE
+	start_date = 1935.5.16
+	end_date = 1938.9.30
+}
+
+guarantee = {
+	first = CZE
+	second = SOV
+	start_date = 1935.5.16
+	end_date = 1938.9.30
+}
+
+guarantee = {
+	first = FRA
+	second = CZE
+	start_date = 1935.1.1
+	end_date = 1938.9.30
+}
+
+guarantee = {
+	first = CZE
+	second = FRA
+	start_date = 1935.1.1
+	end_date = 1938.9.30
 }

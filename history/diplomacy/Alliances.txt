@@ -56,14 +56,6 @@ alliance = {
 	end_date = 1945.1.1
 }
 
-# United Kingdom - Nepal
-alliance = {
-	first = ENG
-	second = NEP
-	start_date = 1936.1.1
-	end_date = 1945.1.1
-}
-
 # United Kingdom - Oman
 alliance = {
 	first = ENG
@@ -108,8 +100,8 @@ alliance = {
 alliance = {
 	first = ENG
 	second = IRQ
-	start_date = 1936.1.1
-	end_date = 1941.5.2
+	start_date = 1941.05.31
+	end_date = 1947.1.1
 }
 
 # United Kingdom - Iran

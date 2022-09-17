@@ -11,7 +11,8 @@ chief_of_staff = 59001
 chief_of_army = 59008
 chief_of_navy = 59009
 chief_of_air = 59010
-alignment = { x = 60 y = 44.3 }
+alignment = { x = 0 y = -146.0 }
+join_faction = allies
 neutrality = 80
 national_unity = 40
 
