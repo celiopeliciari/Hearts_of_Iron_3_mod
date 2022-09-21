@@ -2,7 +2,6 @@ owner = POL
 controller = POL
 add_core = POL
 add_core = LIT
-add_core = SOV
 
 energy = 1.00
 industry = 1

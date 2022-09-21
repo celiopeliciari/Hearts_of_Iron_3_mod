@@ -1,0 +1,39 @@
+country_event = {
+	id = 9913
+
+	trigger = {
+		tag = SOV
+		date = 1939.8.1
+		SOV = {
+			war = no
+			exists = yes
+		}
+		LAT = {
+			war = no
+			exists = yes
+		}
+
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9913" #Soviet Latvian Mutual Assistance Treaty
+	desc = "EVTDESC9913" #Article 1 provided for military cooperation between the parties in case of an attack by a third party. Article 2 obliged the Soviet government to assist the Latvian government in providing armaments. Article 3 permitted the Soviet government to establish military and naval bases on Latvian territory. Article 4 obliged the Soviet and Latvian governments not to engage in military alliances against the other party. Article 5 stipulated that the political and economic systems and the sovereignty of both parties shall not be affected by the treaty. It clearly stipulated that the areas where Soviet bases were to be established shall remain part of Latvia.
+	picture = "SovietLatvianMutualAssistanceTreaty"
+
+	option = {
+		name = "EVTOPTA9908" #Ok.
+
+		ai_chance = { factor = 100 }
+
+		SOV = { 
+			guarantee = LAT 
+			military_access = LAT 
+			relation = { who = LAT value = 30 }
+		}
+		LAT = { 
+			guarantee = SOV 
+			relation = { who = SOV value = 30 }
+		}
+	}
+}

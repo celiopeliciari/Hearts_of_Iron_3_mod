@@ -8,22 +8,6 @@ vassal = {
 	end_date = 1947.8.15
 }
 
-# Soviet Union - Tannu Tuva
-vassal = {
-	first = SOV
-	second = TAN
-	start_date = 1936.1.1
-	end_date = 1944.10.11
-}
-
-# Soviet Union - Mongolia
-vassal = {
-	first = SOV
-	second = MON
-	start_date = 1936.1.1
-	end_date = 1945.9.2
-}
-
 # USA - Philippines
 vassal = {
 	first = USA

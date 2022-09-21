@@ -14,7 +14,7 @@ chief_of_air = 4010
 join_faction = comintern
 alignment = { x = -200 y = 200.0 }
 neutrality = 80
-national_unity = 55
+national_unity = 80
 
 oob = "SOV_1936.txt"
 

@@ -1,0 +1,22 @@
+country_event = {
+	id = 9914
+
+	trigger = {
+		tag = SOV
+		date = 1936.1.1
+	}
+
+	fire_only_once = yes
+
+	title = "EVTNAME9914" #Soviet Estonian Non-Aggression Pact
+	desc = "EVTDESC9914" #The Soviet–Estonian Non-Aggression Pact was signed on May 4, 1932. The pact was prolonged until 31 December 1945 on 4 April 1934 and was again reaffirmed on 28 September 1939. The terms of the treaty were: Article 1. Each party guarantees the borders of each other, set by the Treaty of Tartu, and must not infringe upon each other's borders. Article 2. Each party agrees not to form a coalition against one another, form an alliance against one another, or politically or economically embargo each other.
+	picture = ""
+
+	option = {
+		name = "EVTOPTA9908" #Ok.
+
+		ai_chance = { factor = 100 }
+
+		non_aggression_pact = EST
+	}
+}

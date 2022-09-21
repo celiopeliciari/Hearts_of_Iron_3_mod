@@ -1,0 +1,153 @@
+###########################
+# Molotov-Ribbentrop Pact #
+###########################
+diplomatic_decisions = {
+	
+	# Soviet approach
+	molotov_approach = {
+		major = yes
+		potential = {
+			tag = SOV
+			not = { has_country_flag = molotov_approach_flag }
+			not = { alliance_with = GER }
+			not = { alliance_with = ENG }
+			not = { alliance_with = FRA }
+			exists = GER
+			year = 1939
+			not = { year = 1940 }
+			not = { war_with = GER }
+			not = { exists = AUS } # Anschluss of Austria
+			not = { exists = CZE } # Munich Teatry
+			GER = { is_subject = no }
+			SOV = { is_subject = no }
+		}
+		allow = {			
+		}
+		effect = {
+			set_country_flag = molotov_approach_flag
+			GER = { set_country_flag = molotov_approach_flag }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	# Germany answer
+	ribbentrop_answer = {
+		major = yes
+		potential = {
+			tag = GER
+			has_country_flag = molotov_approach_flag
+			not = { alliance_with = SOV }
+			not = { alliance_with = ENG }
+			not = { alliance_with = FRA }
+			exists = SOV
+			year = 1939	# Initial talks
+			not = { year = 1940 }
+			not = { war_with = SOV }
+			not = { exists = AUS } # Anschluss of Austria
+			not = { exists = CZE } # Munich Teatry
+		}
+		allow = {
+			POL = {
+				not = { faction = axis }
+				not = { alliance_with = GER }
+			}
+			GER = { is_subject = no }
+			SOV = { is_subject = no }
+			POL = { is_subject = no }
+		}
+		effect = {
+			
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	# Pact in Effect, Soviet puts forward its claims to Bessarabia
+	claim_bessarabia = {
+		potential = {
+			tag = SOV
+			exists = GER
+			exists = ROM
+			not = { year = 1942 }
+			or = {
+				GER = { has_country_flag = soviet_accepts_mol_rib_pact }
+				has_country_flag = mol_rib_pact	# Game started at a later date
+			}
+			not = { has_country_flag = claims_on_bessarabia }
+			not = { war_with = GER }
+			bessarabia = { controlled_by = ROM }
+			GER = { controls = 1928 } # Warszawa
+		}
+		allow = {
+			not = { war_with = ROM }
+			or = {
+				and = {
+					year = 1940
+					month = 5	# June
+				}
+				year = 1941		# regardless of month
+			}
+		}
+		effect = {
+			set_country_flag = claims_on_bessarabia
+			relation = { who = ROM value = -10 }
+			ROM = { country_event = 1509 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Pact in Effect, Ultimatum to Estonia, Latvia and Lithuania
+	ultimatum_to_the_baltic_states = {
+		potential = {
+			tag = SOV
+			not = { has_country_flag = ultimatum_to_baltic_states }
+			or = {
+				AND = {
+					GER = { has_country_flag = soviet_accepts_mol_rib_pact }
+					GER = { has_country_flag = germany_honors_the_pact }
+				}	
+				has_country_flag = mol_rib_pact	# Game started at a later date
+			}
+			exists = GER
+			exists = EST
+			exists = LAT
+			exists = LIT
+			GER = { controls = 1928 } # Warszawa
+		}
+		allow = {
+			not = { war_with = EST }
+			not = { war_with = LAT }
+			not = { war_with = LIT }
+			not = { war_with = GER }
+			date = 1939.6.16
+		}
+		effect = {
+			set_country_flag = ultimatum_to_baltic_states
+			EST = { country_event = 1512 }
+			LAT = { country_event = 1515 }
+			LIT = { country_event = 1518 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
